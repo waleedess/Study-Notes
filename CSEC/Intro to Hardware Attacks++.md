@@ -1,7 +1,7 @@
 
 Tier: Tier 0
 Finished: No
-Source: HTB
+Source: HTB+AI+YT+Research
 Status: Learning
 
 # **Introduction to Bluetooth**
@@ -21,6 +21,7 @@ Status: Learning
         From a security perspective, this hopping makes capturing Bluetooth traffic mid-air incredibly difficult without specialized, expensive hardware that can sniff all 79 channels simultaneously.
     - The transition between frequencies is called Frequency Shift Keying to 0 and 1
         - Also there is a Carrier wave undergo Frequency modulation which that is shifted to a higher frequency when it wants to send a 1, and to lower for a zero
+---
 
 ### Pairing
 
@@ -42,6 +43,8 @@ Master enters the `INQUIRY` state. It rapidly blasts out inquiries across those 
 
 Once the devices are paired, they remember each other's details and can automatically connect in the future without needing to go through the pairing process again.
 
+---
+
 ### Piconet
 
 A **Piconet** is the fundamental building block of Bluetooth networking. The moment a connection is established, an automatic hierarchy is created.
@@ -50,6 +53,8 @@ A **Piconet** is the fundamental building block of Bluetooth networking. The mom
     - Clients never talk directly to each other; they only talk to the Main device. If Client A wants to send data to Client B, it must send it to the Main device first, which then routes it to Client B
     - In the Bluetooth packet header, there is a 3-bit field reserved for the "Active Member Address" (Logical Transport Address or LT_ADDR). Mathematically, 3 bits give you 2^3 = 8 possible combinations. Since address `000` is reserved for broadcasting messages to the entire network, that leaves exactly 7 unique addresses (`001` through `111`) to assign to active clients.
 - A piconet can actually have up to 255 additional devices connected, but they must be placed in a **"Parked" or "Idle" state**. They give up their active 3-bit address, stop transmitting, and simply listen to the Main device's clock beacon until the Main device tells them to wake up and swap places with an active client.
+
+---
 
 ### Scatternet
 
@@ -63,6 +68,8 @@ This configuration relies entirely on **Bridge Devices**. A bridge is a single p
     - **Allowed Configurations:**
         - Client / Client Bridge: A device can be a client in Piconet A and a client in Piconet B
         - Main / Client Bridge: A device can be the Main coordinator of Piconet A, but only a client in Piconet B
+
+---
 
 ### Linking Types
 
@@ -85,6 +92,8 @@ These links cater to transmitting all other types of data. Unlike SCO links, ACL
 - Unlike SCO, ACL links use the **retransmission system (ARQ)** we talked about earlier. If a packet of a file gets lost or corrupted, the receiver yells, the sender keeps retrying until it lands perfectly.
 - Low Priority
 - Dynamic Packet Size
+
+---
 
 # Risks of Bluetooth
 
@@ -110,6 +119,8 @@ Overwhelming with an excessive volume of requests or by exploiting vulnerabiliti
 
 Bluetooth technology relies on radio signals to establish connections between devices. Attackers can exploit this characteristic to track the physical location of Bluetooth-enabled devices
 
+---
+
 # **Bluetooth Attacks**
 
 Bluetooth attacks have been identified, each with its unique characteristics and potential risks.
@@ -122,6 +133,8 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
     1. **The Scan:** The attacker goes to a crowded public space (like an airport or a university campus) and sets their phone to search for nearby Bluetooth devices. They are looking for any device currently in the `INQUIRY SCAN` (discoverable) state.
     2. **The Tricked Contact:** Instead of creating a regular contact file with their real name, the attacker creates a new contact on their phone and types a message into the "Name" field (for example: *"Look behind you, you've been bluejacked!"* or *"Your shoes are untied"*).
     3. **The Push:** The attacker selects that contact and hits "Send via Bluetooth" to a discovered device.
+
+---
 
 #### Bluesnarfing
 
@@ -136,6 +149,8 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
 		  - RFCOMM and SDP are **"bound to L2CAP"**(Logical link control and adaptation protocol) In the Bluetooth family tree, **L2CAP** is the parent layer that handles the raw data multiplexing and segmentation. Think of L2CAP as the main highway. RFCOMM and SDP are just two different types of delivery trucks driving on that same highway, each carrying their own specific types of cargo to the final application layer.
     3. **Bypassing the Lock:** Instead of initiating a standard pairing request (which would trigger a PIN popup on your screen), the attacker forces a raw connection directly to that specific unauthenticated channel.
     4. **The Data Pull:** Once connected, the attacker sends standard **OBEX GET requests** or legacy AT commands (the same commands used to control old modems). The vulnerable Bluetooth chip simply obeys the command, treating the hacker like a trusted backup software.
+
+---
 
 #### Blue bugging
 
@@ -156,6 +171,8 @@ Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in a
 	2. Call forwarding from victim to attacker
 	3. Intercept and send SMS including 2FA codes
 	4. Data Exfileration as attacker have the ability to read, download, alter contacts, call history, calendar events and media files
+
+---
 
 #### Car Whisperer
 
@@ -186,3 +203,7 @@ exchanged between the counterparts of the communication.
 	   
 		- The Controller Area Network (CAN) is a serial communication bus designed for robust and flexible performance in harsh environments, and particularly for industrial and automotive applications.
 		- CAN defines the data link and physical layer of the Open Systems Interconnection (OSI) model, providing a low-level networking solution for high-speed in-vehicle communications. In particular, CAN was developed to reduce cable wiring, so the separate electronic control units (ECUs) inside a vehicle could communicate with only a single pair of wires.![[CAN.webp]]
+		- Onboard diagnostics (OBD) is your vehicle's diagnostic and reporting system that allows you or a technician to troubleshoot problems via diagnostic trouble codes (DTCs). When the “check engine” light comes on, a technician will often use a handheld device to read the engine codes off of the vehicle. At the lowest level, this data is transmitted via a signaling protocol, which in most cases is CAN.
+		
+		[[https://www.allaboutcircuits.com/technical-articles/introduction-to-can-controller-area-network/]] 
+
