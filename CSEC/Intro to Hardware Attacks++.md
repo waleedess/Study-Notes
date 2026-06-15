@@ -138,3 +138,7 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
     4. **The Data Pull:** Once connected, the attacker sends standard **OBEX GET requests** or legacy AT commands (the same commands used to control old modems). The vulnerable Bluetooth chip simply obeys the command, treating the hacker like a trusted backup software.
 
 #### Blue bugging
+
+Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in an older device's **Bluetooth firmware** or protocol stack.
+
+- 
