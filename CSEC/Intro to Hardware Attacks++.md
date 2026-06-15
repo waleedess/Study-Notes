@@ -151,6 +151,8 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
     3. **Bypassing the Lock:** Instead of initiating a standard pairing request (which would trigger a PIN popup on your screen), the attacker forces a raw connection directly to that specific unauthenticated channel.
     4. **The Data Pull:** Once connected, the attacker sends standard **OBEX GET requests** or legacy AT commands (the same commands used to control old modems). The vulnerable Bluetooth chip simply obeys the command, treating the hacker like a trusted backup software.
 
+![[Pasted image 20260616014854.png]]
+
 ---
 
 #### Blue bugging
@@ -216,3 +218,4 @@ exchanged between the counterparts of the communication.
 #### Bluesmacking & Denial of Service
 
 Bluesmacking is a technique to DoS a Bluetooth device, it is possible by flooding the device with big L2CAP payloads.
+![[Pasted image 20260616014931.png]]
