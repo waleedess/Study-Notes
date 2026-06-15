@@ -159,6 +159,8 @@ Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in a
 
 #### Car Whisperer
 
+[[https://github.com/yesimxev/carwhisperer-0.2/blob/master/README]]
+
 In the early 2000s, manufacturers wanted them to be as seamless and easy to set up as possible. Because these car kits lacked screens and keyboards, manufacturers hardcoded a single, static **Default Passkey** (PIN code) into every single unit they manufactured—typically `0000` or `1234`
 
 - A Bluetooth passkey is used within the pairing process that takes place, when 
