@@ -141,4 +141,20 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
 
 Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in an older device's **Bluetooth firmware** or protocol stack.
 
-- 
+- to create a backdoor attack before returning control of the phone to its owner. Once control of a phone has been established, it is used to call back the hacker who is then able to listen in to conversations, It achieves this by pretending to be the headset and thereby "tricking" the phone into obeying call commands. Not only can a hacker receive calls intended for the target phone, they can send messages, read phonebooks, and examine calendars. but is limited by the transmitting power of class 2 Bluetooth radios, normally capping its range at 10–15 meters. However, the operational range can be increased with the use of a directional antenn
+  
+- Bluebugging primarily targeted older feature phones and early smartphones but, remains a severe threat today under new names, such as **BlueBorne** or **BLEedingBit**
+  
+- **Workflow**:
+	1. **Target Scan**: Using scanning software
+	2. **Exploitation**: Identifying a vulnerability in handling incoming connections and bypassing the *Pairing authentication mechanism* entirely with no PIN request or any type of notification
+	3. **Link**: Once authenticated, establishing hidden connection to RFCOMM channels is possible
+
+- **Impact**:
+	As it is a ==Zero-Click Exploitation== and happens at a ==Deep Protocol Level== the victims' screen do not show up any notification and can remain off
+	1. Initiating a phone call to attacker and mute attacker side to hear surrounding victim's audio
+	2. Call forwarding from victim to attacker
+	3. Intercept and send SMS including 2FA codes
+	4. Data Exfileration as attacker have the ability to read, download, alter contacts, call history, calendar events and media files
+
+####
