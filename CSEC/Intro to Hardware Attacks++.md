@@ -53,7 +53,7 @@ A **Piconet** is the fundamental building block of Bluetooth networking. The mom
     - Clients never talk directly to each other; they only talk to the Main device. If Client A wants to send data to Client B, it must send it to the Main device first, which then routes it to Client B
     - In the Bluetooth packet header, there is a 3-bit field reserved for the "Active Member Address" (Logical Transport Address or LT_ADDR). Mathematically, 3 bits give you 2^3 = 8 possible combinations. Since address `000` is reserved for broadcasting messages to the entire network, that leaves exactly 7 unique addresses (`001` through `111`) to assign to active clients.
 - A piconet can actually have up to 255 additional devices connected, but they must be placed in a **"Parked" or "Idle" state**. They give up their active 3-bit address, stop transmitting, and simply listen to the Main device's clock beacon until the Main device tells them to wake up and swap places with an active client.
-
+![[Pasted image 20260616015126.png]]
 ---
 
 ### Scatternet
