@@ -175,5 +175,9 @@ exchanged between the counterparts of the communication.
 
 - **Impact**
   
-	While the original 2005 Car Whisperer couldn't do this, **modern Bluetooth exploits can.** Modern cars are essentially networks of mini-computers (Electronic Control Units, or ECUs) that communicate over a central highway called the **CAN bus (Controller Area Network)**
-	1. 
+	While the original 2005 Car Whisperer couldn't do this, **modern Bluetooth exploits can.** Modern cars are essentially networks of mini-computers (Electronic Control Units, or ECUs) that communicate over a central highway called the **CAN bus (Controller Area Network)** If an attacker finds a critical remote code execution (RCE) vulnerability in the vehicle's Bluetooth stack (such as the recent **PerfektBlue** vulnerabilities discovered in common embedded software) it Can leads to: 
+	1. **GPS tracking**
+	2. **Eavesdropping**
+	3. **Altering and Viewing contacts' info**
+	4. **Lateral Move to more critical subsystems**
+	5. **Achieve Persistence without Distance Closure**: by planting RCE malware that 
