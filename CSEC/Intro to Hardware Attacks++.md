@@ -161,5 +161,19 @@ Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in a
 
 In the early 2000s, manufacturers wanted them to be as seamless and easy to set up as possible. Because these car kits lacked screens and keyboards, manufacturers hardcoded a single, static **Default Passkey** (PIN code) into every single unit they manufactured—typically `0000` or `1234`
 
+- A Bluetooth passkey is used within the pairing process that takes place, when 
+two Bluetooth enabled devices connect for the first time. Besides other public 
+data, the passkey is a secret parameter used in the process that generates and 
+exchanges the so-called link key. In Bluetooth communication scenarios the link
+key is used for authentication and encryption of the information that is 
+exchanged between the counterparts of the communication.
+
 - **Workflow**:
-	  1. 
+	1. **Scan**: The cw_scanner script is repeatedly performing a device inquiry for visible Bluetooth devices of which the class matches the one of Bluetooth Headsets and Hands-Free Units.
+	2. **Pairing**: cw_scanner script executes the carwhisperer binary that connects to the found device (on RFCOMM channel 1) and opens a control connection and connects the SCO links. Then the passkey that is required for the initial connection to the device is provided by the cw_pin.pl script that replaces the official Bluez PIN helper (graphical application that usually prompts for the passkey). The cw_pin.pl script provides the passkey depending on the Bluetooth address that requests it. Depending on the first three bytes of the address, which references the manufacturer, different passkeys are returned by the cw_pin.sh script. In quite a few cases the preset standard passkey on headsets and handsfree units is ‘0000’ or ‘1234’.
+	3. **Audio Hijacking**: Attacker could then record everything spoken into the car's cabin microphone (eavesdropping on private phone calls or conversations) or inject their own audio to blast audio or speak directly to the terrified driver through the car's speakers.
+
+- **Impact**
+  
+	While the original 2005 Car Whisperer couldn't do this, **modern Bluetooth exploits can.** Modern cars are essentially networks of mini-computers (Electronic Control Units, or ECUs) that communicate over a central highway called the **CAN bus (Controller Area Network)**
+	1. 
