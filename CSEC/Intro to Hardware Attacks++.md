@@ -285,3 +285,11 @@ A Bluetooth MitM attack occurs when an attacker **secretly inserts themselves be
 		   - Manipulating industrial sensor readings
 		   - Injecting false GPS data into navigation systems
 	3. **Persistence**: As the ==Pairing== is a one-time event, once trusted it is rarely re-verify
+
+- **Techniques**
+	1. **Pairing Exploitation (Most Common)**: targets the ==Secure Simple Pairing (SSP) process==
+	2. **BIAS Attack (Bluetooth Impersonation Attack)**: Exploit the ==legacy authentication procedure== in Bluetooth Classic to impersonate already-paired devices to bypass mutual authentication entirely.
+	3. **BLUR Attack**: Targets ==cross-transport key derivation== between Bluetooth Classic and Bluetooth low energy BLE, allowing an attacker to impersonate a device across both transport types.
+	4. **BLE MitM via Forced Downgrade**: Force Bluetooth Low Energy devices to negotiate ==weaker security parameters ==during connection setup, then exploit the reduced protection.
+	5. **Reflection Attacks**: 
+   
