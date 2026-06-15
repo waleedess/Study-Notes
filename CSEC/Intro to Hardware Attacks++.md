@@ -217,9 +217,34 @@ exchanged between the counterparts of the communication.
 
 #### Bluesmacking & Denial of Service
 
-Bluesmacking is a technique to DoS a Bluetooth device, it is possible by flooding the device with big L2CAP payloads.
+Bluesmacking is a technique to DoS a Bluetooth device, it is possible by flooding the device with big L2CAP ping packets to a target device, overwhelming its ability to process them.
 ![[Pasted image 20260616014931.png]]
 
+- **Workflow**:
+	1. **Scan**: Identifying nearby devices' MAC addresses and device types.
+	2. **Packet flooding**: Sending massive volume of L2CAP echo requests (similar to an ICMP ping flood in traditional networking) to the target device. These packets are often crafted to be oversized — beyond the expected MTU (Maximum Transmission Unit).
 
+- **Impact**:
+	- Bluetooth was originally designed with **convenience over security** in mind. Several factors make devices vulnerable: 
+		  1. **Limited processing power** on embedded/IoT devices
+		  2. **No rate-limiting**
+		  3. **Short-range proximity**
+		  4. **Always-on discoverability**
+	  
+	1. **Device Disruption**: The target device's Bluetooth stack becomes overwhelmed trying to process or respond to the flood of requests, consuming CPU, memory, and battery resources. The result ranges from sluggish performance and dropped connections to a complete freeze or crash of the device.
+
+- **Related Bluetooth Dos Techniques**:
+
+| Attack<br>              | Method                                                |
+| ----------------------- | ----------------------------------------------------- |
+| Bluesmacking            | L2CAP packet flooding with oversized pings            |
+| HCI Flooding            | Flooding at the Host Controller Interface level       |
+| SCO Exhaustion          | Exhausting synchronous connection slots (audio links) |
+| ACL Slot Starvation     | Consuming all asynchronous connection slots           |
+| Bluetooth Battery Drain | Forcing constant radio activity to deplete battery    |
 
 [[https://www.geeksforgeeks.org/ethical-hacking/bluesmack-attack-in-wireless-networks/]]
+
+---
+
+#### Man-in-the-Middle
