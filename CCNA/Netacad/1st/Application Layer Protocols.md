@@ -1,5 +1,3 @@
-![[Screenshot From 2026-06-02 22-45-08.png]]
-
 #### Application Layer Protocols
 
 1. **Name System**
