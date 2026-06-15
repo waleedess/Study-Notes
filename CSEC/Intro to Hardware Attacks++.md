@@ -257,4 +257,5 @@ A Bluetooth MitM attack occurs when an attacker **secretly inserts themselves be
 	  [Device A] ←——→ [Attacker] ←——→ [Device B]
 	              (invisible relay)
 
-- 
+- **Workflow**:
+	1. **Interception**: The attacker must position themselves during the **pairing/bonding phase
