@@ -158,3 +158,8 @@ Bluebugging relies on exploiting bugs or unpatched security vulnerabilities in a
 	4. Data Exfileration as attacker have the ability to read, download, alter contacts, call history, calendar events and media files
 
 #### Car Whisperer
+
+In the early 2000s, manufacturers wanted them to be as seamless and easy to set up as possible. Because these car kits lacked screens and keyboards, manufacturers hardcoded a single, static **Default Passkey** (PIN code) into every single unit they manufactured—typically `0000` or `1234`
+
+- **Workflow**:
+	  1. 
