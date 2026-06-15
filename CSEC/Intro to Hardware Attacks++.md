@@ -211,7 +211,7 @@ exchanged between the counterparts of the communication.
 			- CAN defines the data link and physical layer of the Open Systems Interconnection (OSI) model, providing a low-level networking solution for high-speed in-vehicle communications. In particular, CAN was developed to reduce cable wiring, so the separate electronic control units (ECUs) inside a vehicle could communicate with only a single pair of wires.![[CAN.webp]]
 			- Onboard diagnostics (OBD) is your vehicle's diagnostic and reporting system that allows you or a technician to troubleshoot problems via diagnostic trouble codes (DTCs). When the “check engine” light comes on, a technician will often use a handheld device to read the engine codes off of the vehicle. At the lowest level, this data is transmitted via a signaling protocol, which in most cases is CAN.
 		
-			[[https://www.allaboutcircuits.com/technical-articles/introduction-to-can-controller-area-network/]] 
+			[[https://www.allaboutcircuits.com/technical-articles/introduction-to-can-controller-ar[]()ea-network/]]
 
 ---
 
@@ -219,3 +219,7 @@ exchanged between the counterparts of the communication.
 
 Bluesmacking is a technique to DoS a Bluetooth device, it is possible by flooding the device with big L2CAP payloads.
 ![[Pasted image 20260616014931.png]]
+
+
+
+[[https://www.geeksforgeeks.org/ethical-hacking/bluesmack-attack-in-wireless-networks/]]
