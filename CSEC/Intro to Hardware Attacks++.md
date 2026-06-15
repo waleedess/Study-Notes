@@ -125,7 +125,7 @@ Relatively harmless type of Bluetooth hacking where an attacker `sends unsolici
 
 #### Bluesnarfing
 
- Entails `unauthorised access to a Bluetooth-enabled device's data`, such as contacts, messages, or calendar entries. Attackers exploit vulnerabilities to retrieve sensitive information without the device owner's knowledge or consent. This could lead to privacy violations and potential misuse of personal data.
+ Entails *unauthorized access to a Bluetooth-enabled device's data*, such as contacts, messages, or calendar entries. Attackers exploit vulnerabilities to retrieve sensitive information without the device owner's knowledge or consent. This could lead to privacy violations and potential misuse of personal data.
 
 - Just like Bluejacking, Bluesnarfing exploits the **OBEX (Object Exchange)** protocol. However, it specifically targets a massive oversight in how older Bluetooth firmware implemented the **IrMC (Infrared Mobile Communications)** synchronization service. IrMC service port is completely open and accessible *before* the device required any authentication or pairing to sync calendars and contact lists with mobile phones easily in **Old Bluetooth versions**. Bluesnarfing attack follows this workflow:
     1. **Targeting an Open Port:** The attacker uses a specialized Bluetooth scanning tool (like `hciconfig` and `hcitool` in Kali Linux) to find a target device.
