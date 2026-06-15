@@ -194,16 +194,19 @@ exchanged between the counterparts of the communication.
 
 - **Impact**
   
-	While the original 2005 Car Whisperer couldn't do this, **modern Bluetooth exploits can.** Modern cars are essentially networks of mini-computers (Electronic Control Units, or ECUs) that communicate over a central highway called the **CAN bus (Controller Area Network)** If an attacker finds a critical remote code execution (RCE) vulnerability in the vehicle's Bluetooth stack (such as the recent **PerfektBlue** vulnerabilities discovered in common embedded software) it Can leads to: 
-	1. **GPS tracking**
-	2. **Eavesdropping**
-	3. **Altering and Viewing contacts' info**
-	4. **Lateral Move to more critical subsystems**
-	5. **Achieve Persistence without Distance Closure**: by planting RCE malware that  
+	- The classic Car Whisperer attack was stopped when automakers abandoned default PIN codes and implemented dynamic pairing protocols (like Secure Simple Pairing, or SSP) requiring random numbers or explicit human confirmation on the dashboard screen before allowing any new RFCOMM connections.
+	  
+	- While the original 2005 Car Whisperer couldn't do this, **modern Bluetooth exploits can.** Modern cars are essentially networks of mini-computers (Electronic Control Units, or ECUs) that communicate over a central highway called the **CAN bus (Controller Area Network)** If an attacker finds a critical remote code execution (RCE) vulnerability in the vehicle's Bluetooth stack (such as the recent **PerfektBlue** vulnerabilities discovered in common embedded software) it Can leads to: 
+		1. **GPS tracking**
+		2. **Eavesdropping**
+		3. **Altering and Viewing contacts' info**
+		4. **Lateral Move to more critical subsystems**
+		5. **Achieve Persistence without Distance Closure**: by planting RCE malware that  
 	   
-		- The Controller Area Network (CAN) is a serial communication bus designed for robust and flexible performance in harsh environments, and particularly for industrial and automotive applications.
-		- CAN defines the data link and physical layer of the Open Systems Interconnection (OSI) model, providing a low-level networking solution for high-speed in-vehicle communications. In particular, CAN was developed to reduce cable wiring, so the separate electronic control units (ECUs) inside a vehicle could communicate with only a single pair of wires.![[CAN.webp]]
-		- Onboard diagnostics (OBD) is your vehicle's diagnostic and reporting system that allows you or a technician to troubleshoot problems via diagnostic trouble codes (DTCs). When the “check engine” light comes on, a technician will often use a handheld device to read the engine codes off of the vehicle. At the lowest level, this data is transmitted via a signaling protocol, which in most cases is CAN.
+	   
+			- The Controller Area Network (CAN) is a serial communication bus designed for robust and flexible performance in harsh environments, and particularly for industrial and automotive applications.
+			- CAN defines the data link and physical layer of the Open Systems Interconnection (OSI) model, providing a low-level networking solution for high-speed in-vehicle communications. In particular, CAN was developed to reduce cable wiring, so the separate electronic control units (ECUs) inside a vehicle could communicate with only a single pair of wires.![[CAN.webp]]
+			- Onboard diagnostics (OBD) is your vehicle's diagnostic and reporting system that allows you or a technician to troubleshoot problems via diagnostic trouble codes (DTCs). When the “check engine” light comes on, a technician will often use a handheld device to read the engine codes off of the vehicle. At the lowest level, this data is transmitted via a signaling protocol, which in most cases is CAN.
 		
-		[[https://www.allaboutcircuits.com/technical-articles/introduction-to-can-controller-area-network/]] 
+			[[https://www.allaboutcircuits.com/technical-articles/introduction-to-can-controller-area-network/]] 
 
