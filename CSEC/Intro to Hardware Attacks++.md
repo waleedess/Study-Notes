@@ -248,3 +248,13 @@ Bluesmacking is a technique to DoS a Bluetooth device, it is possible by floodin
 ---
 
 #### Man-in-the-Middle
+
+A Bluetooth MitM attack occurs when an attacker **secretly inserts themselves between two communicating Bluetooth devices**, relaying and potentially altering the data exchanged — while both devices believe they are communicating directly and securely with each other.
+
+- Unlike passive eavesdropping, MitM is **active** — the attacker doesn't just listen, they can read, modify, inject, or drop data in transit.
+  
+  - Both Device A and Device B think they have a direct, legitimate connection. In reality, all traffic flows through the attacker's device.
+	  [Device A] ←——→ [Attacker] ←——→ [Device B]
+	              (invisible relay)
+
+- 
