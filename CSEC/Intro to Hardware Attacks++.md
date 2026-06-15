@@ -182,4 +182,7 @@ exchanged between the counterparts of the communication.
 	2. **Eavesdropping**
 	3. **Altering and Viewing contacts' info**
 	4. **Lateral Move to more critical subsystems**
-	5. **Achieve Persistence without Distance Closure**: by planting RCE malware that 
+	5. **Achieve Persistence without Distance Closure**: by planting RCE malware that  
+	   
+		- The Controller Area Network (CAN) is a serial communication bus designed for robust and flexible performance in harsh environments, and particularly for industrial and automotive applications.
+		- CAN defines the data link and physical layer of the Open Systems Interconnection (OSI) model, providing a low-level networking solution for high-speed in-vehicle communications. In particular, CAN was developed to reduce cable wiring, so the separate electronic control units (ECUs) inside a vehicle could communicate with only a single pair of wires.![[CAN.webp]]
