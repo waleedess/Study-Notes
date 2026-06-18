@@ -7,6 +7,17 @@
 
 #### NetBIOS
 
+
+
+###### Ports and Usages
+
+| Port   | Usage                                                                   |
+| ------ | ----------------------------------------------------------------------- |
+| U: 137 | Name Service Resolution                                                 |
+| U: 138 | Datagram Derivce Broadcasting                                           |
+| T: 139 | Session Service (Leagcy SMB) for data transfer between 2 specific hosts |
+
+
 ---
 #### SMB
 
@@ -17,7 +28,7 @@
 #### LDAP
 
 ---
-###### Comparison 
+### Comparison 
 
 ---
 # Enumeration Tools
