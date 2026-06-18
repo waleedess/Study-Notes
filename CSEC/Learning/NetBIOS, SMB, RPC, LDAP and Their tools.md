@@ -9,7 +9,7 @@
 
 - Allows applications on separate computers to communicate and share resources within a LAN. 
 - Operating Primarily at the Session Layer of OSI = Application Layer of TCP/IP -> NBT *NetBIOS over TCP/IP*
-- Superseded by more ==secure & scalable== protocols like DNS & SMB
+- Superseded by more **secure & scalable** protocols like DNS & SMB
   
 ###### Ports and Usages
 
