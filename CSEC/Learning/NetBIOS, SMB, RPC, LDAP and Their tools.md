@@ -56,7 +56,7 @@
 - **Due to RPC's dynamic nature it is difficult to firewall due to Dynamic worker ephemeral ports** -> To have some security force RPC to use tightly controlled, static range of ports and restrict the port 135 **TCP & UDP**
 
 ---
-#### LDAP
+#### LDAP: Lightweight Directory Access Protocol
 
 ---
 ###### Comparison 
