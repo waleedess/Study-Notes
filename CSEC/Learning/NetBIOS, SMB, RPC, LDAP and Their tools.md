@@ -43,7 +43,7 @@
 #### RPC: Remote Procedure Call
 
 - Allows programs to execute a subroutine or procedure on another computer over network as if it was a local function call
-- Client-Server Communication
+- Client-Server Inter-Process Communication
   
   
 ---
