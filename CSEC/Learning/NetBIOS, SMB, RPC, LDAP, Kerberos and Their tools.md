@@ -74,7 +74,7 @@
 
 
 ---
-#### Kerberos Protocol
+#### Kerberos Protoco l
 
 ---
 ###### Comparison 
