@@ -58,6 +58,22 @@
 ---
 #### LDAP: Lightweight Directory Access Protocol
 
+- Used for Querying and managing distributed directory information services over an IP network
+- Organizes data such as user credentials, groups, accounts, organizational units into tree-like structure called **Directory Information Tree - DIT** 
+- LDAP servers are engine for centralized identity and access management (IAM) as it utilizes **read-heavy** architecture that allows clients applications to rapidly search, authenticate and authorize users across enterprise networks
+- Operates at the Application layer of Both OSI & TCP/IP
+
+###### Ports and Usages
+
+| Port     | Name                           | OSI Layers | TCP/IP Layers | Usage                                                                     | Notes                                                                                                               |
+| -------- | ------------------------------ | ---------- | ------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| T/U: 389 | Standard LDAP                  |            |               | - Standard directory queries, modifications, and authentication requests. | - **Cleartext** *(unencrypted)* by default<br>- Frequently upgraded to an encrypted TLS session using **StartTLS**. |
+| T: 636   | LDAPS<br>*(LDAP over SSL/TLS)* |            |               |                                                                           |                                                                                                                     |
+
+
+---
+#### Kerberos Protocol
+
 ---
 ###### Comparison 
 
