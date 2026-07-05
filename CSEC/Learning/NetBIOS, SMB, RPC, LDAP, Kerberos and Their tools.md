@@ -90,6 +90,7 @@
 | T: 123 | NTP - Network Time Protocol | Prevent replay attacks                                         | - Kerberos tickets are cryptographically bound to timestamp, If the local machine clock and the KDC clock differ by more than **5 minutes** (the default skew), Kerberos packets are completely rejected by the network.                                                                                                                                                                                                                                            |
 
 **DNS SRV Records**
+
 - It doesn't just tell a computer _where_ a server is *-by mapping host name to IP-* it tells the computer ==which specific service== it runs and ==which port== it is listening on.
 - An SRV record uses a highly structured format so that protocols (like Kerberos or LDAP) can read them programmatically. A typical record looks like this:
 	  `_service._proto.name. TTL class type priority weight port target.` 
