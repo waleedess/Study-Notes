@@ -76,7 +76,10 @@
 ---
 #### Kerberos Protocol
 
+- Kerberos is a ticket-based authentication protocol designed to establish secure identity verification over an unsecure, packet-sniffed network fabric
+- Relies on a centralized network service called the **Key Distribution Center (KDC)** to issue time-stamped, cryptographically sealed tokens known as Tickets. These tickets are embedded into the payloads of network packets, allowing distributed client-server applications to achieve mutual authentication ==without exposing passwords to interception, replay attacks, or man-in-the-middle exploits==
 
+###### Ports & Usages
 ---
 ###### Comparison 
 
