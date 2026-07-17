@@ -37,7 +37,8 @@
 | SMBv3   | 8               | T: 445            | 7->4<br>- Hands requests straight down to TCP Layer, **Completely Skipping** the middle layers | 4,3        |                                                                 |
 | SMBv3.1 | 10              | T: 445            | 7->4<br>- Hands requests straight down to TCP Layer, **Completely Skipping** the middle layers | 4,3        |                                                                 |
 
-
+###### Anonymous Login Vuln.
+- To not ask for ex. printer for a password
 
 ---
 #### RPC: Remote Procedure Call
