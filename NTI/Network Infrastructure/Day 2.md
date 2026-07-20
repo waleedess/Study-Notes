@@ -1,0 +1,2 @@
+- ISPs do not NAT as it has Security flaws unless they have to like in a very populated area to reduce IPs
+- 
