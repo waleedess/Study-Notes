@@ -1,2 +1,2 @@
 - ISPs do not NAT as it has Security flaws unless they have to like in a very populated area to reduce IPs
-- 
+- Public IP at WE is roughly 70 L.E monthly
