@@ -41,16 +41,16 @@ Data is transmitted on copeer cables as electrical pulses.
 
 #### Copper wire types
 ###### Unshielded twisted-pair *UTP*
-- Consists of ==4 pairs== of color-coded wires twisted together  ==*+varying the number of twits per pair, each color has a different number*== then encased in a flexible ==plastic sheath== that protects minor physical damage
-- The most common networkin media
-- Terminated with RJ-35 connectors
+- Consists of ==4 pairs== of color-coded wires twisted together  - ==*+varying the number of twits per pair, each color has a different number*== - then encased in a flexible ==plastic sheath== that protects minor physical damage
+- The most common networking media
+- Terminated with RJ-45 connectors
 - Used betn. hosts and intermediary networking devices *switches & routers*
 ---
 ###### shielded twisted-pair *STP*
 - Consists of ==4 pairs== of color-coded wires, each pair twisted and wrapped in a ==foil== shield then the 4 pairs combined are wrapped in an overall metallic ==foil== braid
 - That ==shield can backfire== may act as an antenna to pick up unwanted signals if grounded improperly 
 - The most common networkin media
-- Terminated with RJ-35 connectors
+- Terminated with RJ-45 connectors
 - Used betn. hosts and intermediary networking devices *switches & routers*
 - ==More expensive and difficult to install==
 ---
