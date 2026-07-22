@@ -2,7 +2,7 @@
 - Digital = Analog Translation
 - Uses RJ45/Antennas
 - Contain the MAC address
-- Access Methods:
+- Network Access Methods:
 	1. **Token Ring (Legacy)**: Only 1 device sends 
 	2. **Ethernet**: Any device can attempt to send at any time (no token needed)
 		- But if two transmit at once, a **collision** occurs and both back off and retry. Collisions are handled via CSMA/CD on shared media, or avoided entirely on modern switched networks
