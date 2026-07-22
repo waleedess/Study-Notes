@@ -45,6 +45,10 @@
 - Provides connections between LANs
 - Perform a check on data to determine it should cross the bridge or not
 
+###### Switch
+- Add more intelligence to data transfer management
+- Can determine whether data should remain on LAN or not
+
 ###### Router
 - Have all capabilities of devices as they can
 	1. Regenerate signals
@@ -52,3 +56,17 @@
 	3. Convert data transmission formats
 	4. Manage data transfers
 	5. Connect to WANs
+
+--- 
+###  Network Physical Topologies 
+
+###### Bus Topology
+- All devices connect to single **central cable** -*backbone*-
+- If backbone breaks the whole segment goes down
+  
+###### Ring Topology 
+- Devices connect in a closed loop and each connected to exactly 2 neighbors like ==Token Ring NIC's Access Method==
+
+###### Star Topology
+- All devices connect to one **central device**
+- Most common topology today
