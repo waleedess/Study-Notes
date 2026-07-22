@@ -33,5 +33,9 @@
 - Can be replaced by old DSL routers by closing DHCP and using WDS (Wireless Distribution System) service open on **both** intermediate (old) and Destination (main) router
 
 ###### Hub 
-- Concentrate connections as the take a group of hosts and allow the network to see them as a single unit *Done passively without any other effect on data transmission*
+- Concentrate connections as the take a group of hosts and allow the network to see them as a single unit as all physical ports are connected to the same wire inside the device
+  *Done passively without any other effect on data transmission*
 - Can regenerate signals
+- Slow due to Broadcasting
+- Not all devices receive the broadcasted message if the Mac was not a broadcast (**FF:FF:FF:FF:FF:FF** (12 F's))
+  any other mac address -> only that mac address' device receive it and other devices **drop the packet**
