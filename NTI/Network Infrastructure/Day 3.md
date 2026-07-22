@@ -91,3 +91,7 @@
 - Highest in cost due to cabling
 
 --- 
+### Bandwidth
+- Limited by physics and technology but has rapid growing rate
+- Is ==not free==
+- Critical to network performance
