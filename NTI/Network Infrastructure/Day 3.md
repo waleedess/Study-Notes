@@ -15,4 +15,4 @@
 	5. Beyond that: 40G, 100G, and even 400G Ethernet exist today, mainly used in data centers and backbone infrastructure rather than typical desktop connections
 	- **Note That** NIC speed do not determine network speed as network speed is tied to other speed like
 		1. NIC speed
-		2. Switch
+		2. Switch 
