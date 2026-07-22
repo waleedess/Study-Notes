@@ -29,5 +29,9 @@
 ###### Repeater / Extender 
 - Network device used to regenerate a signal - *analog or digital -* that was distorted by transmission loss due to attenuation or distance whether connected wired or wireless
 - Does **Not** perform intelligent routing
-- Not used anymore and replaced by small switches 
-- Can be replaced by old DSL routers by closing DHCP and using WDS service open on intermediate (old) and Destination (main) router
+- Largely replaced by switches in modern wired LANs, but still commonly used in wireless networks and long-distance links
+- Can be replaced by old DSL routers by closing DHCP and using WDS (Wireless Distribution System) service open on **both** intermediate (old) and Destination (main) router
+
+###### Hub 
+- Concentrate connections as the take a group of hosts and allow the network to see them as a single unit *Done passively without any other effect on data transmission*
+- Can regenerate signals
