@@ -22,3 +22,10 @@
 		- NIC is only used for network communication _after_ the OS has already loaded
 	2. **(Super) Remote Boot NIC**
 		- This is commonly used with **PXE (Preboot Execution Environment)** for diskless workstations, imaging labs, or thin-client setups
+
+---
+### Network Devices
+
+###### Repeater
+- Network device used to regenerate a signal - *analog or digital -* that was distorted by transmission loss due to attenuation
+- Does **Not** perform intelligent routing
