@@ -18,5 +18,7 @@
 		2. Switch's Port speed
 		3. Cable speed and Category
 - NIC Types
-	1. Normal
-	2. Super Boot
+	1. **Normal NIC**
+		- NIC is only used for network communication _after_ the OS has already loaded
+	2. **(Super) Remote Boot NIC**
+		- This is commonly used with **PXE (Preboot Execution Environment)** for diskless workstations, imaging labs, or thin-client setups
