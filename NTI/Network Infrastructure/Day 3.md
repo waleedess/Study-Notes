@@ -61,12 +61,33 @@
 ###  Network Physical Topologies 
 
 ###### Bus Topology
+![[Pasted image 20260722061625.png]]
 - All devices connect to single **central cable** -*backbone*-
 - If backbone breaks the whole segment goes down
   
 ###### Ring Topology 
+![[Pasted image 20260722061637.png]]
 - Devices connect in a closed loop and each connected to exactly 2 neighbors like ==Token Ring NIC's Access Method==
 
 ###### Star Topology
+![[Pasted image 20260722061656.png]]
 - All devices connect to one **central device**
 - Most common topology today
+
+###### Extended Star Topology
+![[Pasted image 20260722061709.png]]
+- Multiple star topologies linked together through their **central switches** 
+- How most real-world LANs actually look
+
+###### Hierarchical/tree Topology
+![[Pasted image 20260722061726.png]]
+- Layered structured with top-level switch branching to down lower-level switches 
+- Common in larger enterprise networks
+
+###### Mesh Topology
+![[Pasted image 20260722061742.png]]
+- Every device connects directly to every other device 
+- Highest Redundancy and Fault Tolerance
+- Highest in cost due to cabling
+
+--- 
