@@ -39,3 +39,5 @@
 - Slow due to Broadcasting
 - Not all devices receive the broadcasted message if the Mac was not a broadcast (**FF:FF:FF:FF:FF:FF** (12 F's))
   any other mac address -> only that mac address' device receive it and other devices **drop the packet**
+
+###### Bridge 
