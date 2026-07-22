@@ -30,3 +30,4 @@
 - Network device used to regenerate a signal - *analog or digital -* that was distorted by transmission loss due to attenuation or distance whether connected wired or wireless
 - Does **Not** perform intelligent routing
 - Not used anymore and replaced by small switches 
+- Can be replaced by old DSL routers by closing DHCP and using WDS service open on intermediate (old) and Destination (main) router
