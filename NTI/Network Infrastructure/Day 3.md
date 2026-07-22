@@ -41,3 +41,14 @@
   any other mac address -> only that mac address' device receive it and other devices **drop the packet**
 
 ###### Bridge 
+- Converts network transmission data formats as well as perform basic data transmission management
+- Provides connections between LANs
+- Perform a check on data to determine it should cross the bridge or not
+
+###### Router
+- Have all capabilities of devices as they can
+	1. Regenerate signals
+	2. Concentrate multiple connections
+	3. Convert data transmission formats
+	4. Manage data transfers
+	5. Connect to WANs
