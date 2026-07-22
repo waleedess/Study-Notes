@@ -13,4 +13,6 @@
 	3. Gigabit Ethernet -> 1000 Mbps / 1 Gbps
 	4. 10 Gigabit Ethernet → 10,000 Mbps / 10 Gbps
 	5. Beyond that: 40G, 100G, and even 400G Ethernet exist today, mainly used in data centers and backbone infrastructure rather than typical desktop connections
-	- **Note That** NIC speed do not determine network speed as netw
+	- **Note That** NIC speed do not determine network speed as network speed is tied to other speed like
+		1. NIC speed
+		2. Switch
