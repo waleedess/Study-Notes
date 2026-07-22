@@ -16,4 +16,7 @@
 	- **Note that** overall network speed isn't determined by any single component alone. but, it's determined by the **slowest** link in the path, which could be the NIC, the switch port, the cable, or another device along the way.
 		1. NIC speed
 		2. Switch's Port speed
-		3. Cable speed
+		3. Cable speed and Category
+- NIC Types
+	1. Normal
+	2. Super Boot
