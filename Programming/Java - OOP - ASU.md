@@ -11,4 +11,7 @@
 The process of ==combining data and methods== into a single unit called a ==class==
 - Keeps data safe as it exposes only necessary data
 - Can be controlled via ==access modifiers==; `private`, `protected` and `public`
+---
+# 2. Abstraction
 
+Hides unnecessary details from the user to decrease complexity
