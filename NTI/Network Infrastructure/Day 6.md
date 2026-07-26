@@ -1,0 +1,2 @@
+- D class in CIDR (224.0.0.0->239.255.255.255) is assigned to Apps as they use multicast
+- 
