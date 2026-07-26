@@ -5,3 +5,5 @@
 2. Abstraction 
 3. Inheritance
 4. Polymorphism
+
+### 1. Encapsulation
