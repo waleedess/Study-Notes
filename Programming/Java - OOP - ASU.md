@@ -18,3 +18,5 @@ Hides unnecessary details from the user to decrease complexity
 - Achieved by using classes
 ---
 # 3. Inheritance 
+
+Creates hierarchy of related classes and allows code reusability
