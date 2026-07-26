@@ -22,4 +22,5 @@ Hides unnecessary details from the user to decrease complexity
 Creates hierarchy of related classes and allows code re-usability
 
 ---
-# 
+# 4. Polymorphism
+
