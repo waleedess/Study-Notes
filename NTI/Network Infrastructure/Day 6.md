@@ -20,3 +20,4 @@
 - Anycast is the new 'Beroadcast'
 	- Broadcast: will keep sending for all even if it wants to target only one device but is unkown
 	- Anycast: Stops once the destination is found
+- IPv6 is faster as the packet size is bigger and smoother procedures
