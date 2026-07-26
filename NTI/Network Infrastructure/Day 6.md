@@ -13,7 +13,10 @@
 - Last 4 periods -> Interface ID
 	- Can be manually or dynamically configured using EUI-64
 	- EUI-64 uses MAC address and converts it into 64-bits
-	- Network and Broadcast IPs can be assigned to Interfaces 
+	- Network and Network's Broadcast IPs can be assigned to Interfaces 
 
 - Each device and each IP is assigned from the ISP and NAT will no longer be used
 - FFxx: -> at the first hextet -> Multicast address
+- Anycast is the new 'Beroadcast'
+	- Broadcast: will keep sending for all even if it wants to target only one device but is unkown
+	- Anycast: Stops once the destination is found
