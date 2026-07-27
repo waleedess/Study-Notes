@@ -49,3 +49,5 @@ Has 2 forms
 		  `System.out.println(<item>)`
 	  `.}`
 	- Think of `item` as `i` in basic for loops
+- `break` -> Ends the whole loop
+- `continue` -> Ends the current iteration and start a new one keeping the loop going
