@@ -35,5 +35,7 @@ Has 2 forms
 
 - Terminated by `;` 
 - Array size:
-	1. `int[] arr = new int[5];`
-	2. `int[] arr = new int[]{1,2,3,4,5};`
+	1. `int[] arrname = new int[5];`
+	2. `int[] arrname = new int[]{1,2,3,4,5};`
+- Array unassigned elements set as zeros
+- Arrays have `arrname.length` to be used as a call to array size or the size hardcoded
