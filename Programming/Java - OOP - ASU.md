@@ -27,7 +27,7 @@ Creates hierarchy of related classes and allows code re-usability
 Means having many forms of the same concept with different meanings in different context
 
 Has 2 forms
-- Overloading
-- Overriding
+- **Overloading**: same method name with different parameters (number or datatype)
+- **Overriding**: 
  
 ---
