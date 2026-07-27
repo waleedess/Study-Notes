@@ -45,5 +45,7 @@ Has 2 forms
 **Loops**
 - Basic for loop is just the same as C++
 - ==foreach== loop:
-	- `for(<datatype> num : <arrname>){...}`
-	- `num` Catches every element in the array and do for each 
+	- `for(<datatype> <item> : <arrname>){.
+		  `System.out.println(<item>)`
+	  `.}`
+	- Think of `item` as `i` in basic for loops
