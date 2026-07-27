@@ -24,3 +24,10 @@ Creates hierarchy of related classes and allows code re-usability
 ---
 # 4. Polymorphism
 
+Means having many forms of the same concept with different meanings in different context
+
+Has 2 forms
+- Overloading
+- Overriding
+ 
+---
