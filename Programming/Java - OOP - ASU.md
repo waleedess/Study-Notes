@@ -28,6 +28,6 @@ Means having many forms of the same concept with different meanings in different
 
 Has 2 forms
 - **Overloading**: same method name with different parameters (number or datatype)
-- **Overriding**: 
+- **Overriding**: overrides an inherited method by creating new own method that must match the one in super class in terms of (name, parameters and return type)
  
 ---
