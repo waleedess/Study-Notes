@@ -1,6 +1,6 @@
-- Network and Data-Link layers are responsible for felivering data so they have source and destination addresses
+- Network and Data-Link layers are responsible for delivering data so they have source and destination addresses
 ###### Network Layer Addresses
-- Reponsible for IP packet
+- Responsible for IP packet
 - Logical Addressing *-IP-*
 - May be on same or remote network
 ###### Data Link Layer Addresses
@@ -17,7 +17,7 @@
    - **Way**: Sender -> Router -
 1. On remote network
    - **Mac**: Source -> Sending host
-     Destination -> ==Default Gateway== *-the mac of the router's interface it is conected to-* 
+     Destination -> ==Default Gateway== *-the mac of the router's interface it is connected to-* 
    - **IP**: Source -> Sending host
      Destination -> Receiving  host
   
