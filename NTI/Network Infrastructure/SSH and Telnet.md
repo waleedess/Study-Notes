@@ -1,3 +1,4 @@
+### SSH
 - Requires: 
 	- Hostname
 	- Router username and secret: `username a7a privilege 15 secret a7teen` 
@@ -13,3 +14,10 @@
 
 - Connection from CMD on IPed computer 
 	- `ssh -l <username> <ip>`
+  
+### Telnet
+### Notes
+- Specific user login steps 
+	1. `line vty <>`
+	2. create users if were not created
+	3. `login local`
