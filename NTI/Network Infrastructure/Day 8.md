@@ -3,3 +3,5 @@
 	- PC needs a way to communicate using PuTTY/Hyperterminal
 	- Then give the PC an IP
 	- Use SSH or Telnet
+  
+- Authentication, AAA
