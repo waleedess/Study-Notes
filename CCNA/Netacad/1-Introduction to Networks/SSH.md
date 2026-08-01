@@ -10,4 +10,6 @@
 	  `pass a7a`
 	  `transport input ssh`
 	  `login`
-	   
+
+- Connection from CMD on IPed computer 
+	- `ssh -l <username> <ip>`
