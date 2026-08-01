@@ -8,6 +8,8 @@
 		   `copy tftp statup-config`
 		   fill in server's IP
 		   choose file source and destination name
+		   -> startup config and be erased
+		   `erase startup-config`
 	2. Flash that contains the IOS in .bin:
 		   `show flash` to view it 
 		   `copy flash tftp`
