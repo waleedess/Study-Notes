@@ -4,4 +4,5 @@
 	- Then give the PC an IP
 	- Use SSH or Telnet
   
-- Authentication, AAA
+- Authentication, Authorization and Accounting - AAA
+	- Creates a user for all devices on the network with exact name and privilege
