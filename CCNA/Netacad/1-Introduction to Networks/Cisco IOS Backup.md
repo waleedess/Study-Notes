@@ -18,4 +18,4 @@
 		   fill in server's IP
 		   choose file source and destination name
 		   -> to change the booting IOS on flash
-		   `boot system <flash/tft> <sourcefilename`
+		   `boot system <flash/tftp> <sourcefilename>`
