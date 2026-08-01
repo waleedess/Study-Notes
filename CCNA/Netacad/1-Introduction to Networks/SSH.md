@@ -1,0 +1,12 @@
+- Requires: 
+	- Hostname
+	- Username and secret: `username a7a secret a7teen`
+	- Domain name: `ip domain name a7a.com` *-malosh ay lazma bs lazem akhro .com-*
+	- Encryption: `crypto key generate rsa` and choose the bits 512 and multiples.
+		- The higher the bits, the higher security but it counts from the bandwidth
+	- Line password: 
+	  `line vty 0 15` -> number of session 0=1 up to 15=16 
+	  `pass a7a`
+	  `transport input ssh`
+	  `login`
+	   
