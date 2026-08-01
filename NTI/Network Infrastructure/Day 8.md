@@ -9,4 +9,3 @@
 
 - C in IP route => ==Directly connected using Cisco Discovery Protocol - CDP== ![[Pasted image 20260801121822.png]]
 
-- 
