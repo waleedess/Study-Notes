@@ -1,5 +1,7 @@
 1. Add a server, give it an IP and enable `TFTP` from services tab
+   
 2. Choose what to backup:
+   
 	1. Startup: 
 		   `copy startup-config tftp`
 		   fill in server's IP
@@ -10,6 +12,10 @@
 		   choose file source and destination name
 		   -> startup config and be erased
 		   `erase startup-config`
+		   restart the router 
+		   configure interface to connect
+		   call back the config to the ==ram (running-config)==
+
 	2. Flash that contains the IOS in .bin:
 		   `show flash` to view it 
 		   `copy flash tftp`
