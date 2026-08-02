@@ -8,6 +8,10 @@
 - To set route 
 => `ip route <targetnetworkip> <targetnetworksubnetmask> (<sourceInterface> or <destinationrouterIP>)`
 
+- To set any unkown exit ot default gateway route
+=> `ip route 0.0.0.0 0.0.0.0 (<sourceInterface> or <destinationrouterIP>)`
+then `ip classless`
+
 - Pros of Static Routing
 	1. If a specific route is wanted
 	2. VPN does not support dynamic routing
