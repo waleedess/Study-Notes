@@ -151,7 +151,7 @@ attributes like subject : CC, BCC, Body
 `/>`
 
 **Third-party**
-like YT and other -> use embbeding
+like YT and other -> use embedding
 
 ---
 
