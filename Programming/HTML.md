@@ -1,19 +1,19 @@
 # Text
 
 - The website should contain only one h1
-- <font attributes=””>text</font>: size, color(name&hex) and face(font)
-- To get all spaces and break lines <pre>h t m l</pre>, but it is not preferable
-- <b> </b> → bold
-- <i> </i> → italic
-- <u> </u>→ underline
+- `<font attributes=””>text</font>: size, color(name&hex) and face(font)`
+- To get all spaces and break lines `<pre>h t m l</pre>`, but it is not preferable
+- `<b> </b>` → bold
+- `<i> </i>` → italic
+- `<u> </u>`→ underline
 - <br/>(no close), this only → break line
 - <hr/> (no close), this only → horizontal separator
-- &nbsp (nonbreakablespace) → space *breakable ely heya lama tool el satr yekhlas*
+- `&nbsp` (nonbreakablespace) → space *breakable ely heya lama tool el satr yekhlas*
 - &lt - &gt→ less/greater than
-- <center></center> → center text
-- <div attributes=””></div>(Block element) →**accept alignment,** attributes: align
-- <p></p>(Block element) →**accept alignment,** attributes: align
-- <span></span> (Inline element)→ in line text display, **do not accept alignment**
+- `<center></center>` → center text
+- `<div attributes=””></div>(Block element) →**accept alignment,** attributes: align`
+- `<p></p>`(Block element) →**accept alignment,** attributes: align
+- `<span></span>` (Inline element)→ in line text display, **do not accept alignment**
 
 ---
 
@@ -23,24 +23,25 @@ Got 3 types:
 
 #### unordered
 
-<ul></ul> and members in between in list item <li>
+`<ul></ul>` 
+and members in between in list item `<li>`
 
-- <li attributes=””></li> → attributes : type: circle …etc
+- `<li attributes=””></li>` → attributes : type: circle …etc
     - Can have nested just like the ones im using in notion
 
 ---
 
 #### ordered
 
-<or></or> and members in between in list item <li>
+`<or></or>` and members in between in list item `<li>`
 
-- <li attributes=””></li> → attributes : type … a/A/i/I(roman) - start 2,3 same if roman not ii
+- `<li attributes=””></li>` → attributes : type … a/A/i/I(roman) - start 2,3 same if roman not ii
 
 ---
 
 #### definition
 
-<dl></dl> Have title and definitions
+`<dl></dl>` Have title and definitions
 
 <dt></dt> → definition title
 <dd></dd> → definition, displayed under its title
