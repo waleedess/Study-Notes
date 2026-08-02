@@ -65,4 +65,5 @@ then `ip classless`
 	3. OSPF
 	4. IS-IS
 
-#### Administrative 
+#### Administrative Distance
+- If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win
