@@ -32,4 +32,10 @@
 		- Each DIST. connects with 2 CORE
 	=> ==DIST., CORE is better to be L3 switches==
 
+- duplex auto -> send and recive
+- half duplex -> only either way
+- speed auto -> adjusts to wire
+	- if not auto and assigned 10 or 100 -> the other connection should match, if not, no connection
+
+- `ip default gateway <router's IP>` rather than setting the default gateway at each device that is already connected to the switch
 
