@@ -89,9 +89,7 @@ Page 2
 
 `<a name=”sectionname”>...<!--code-->...</a`
 
----
-
-#### to email
+#### To email
 
 `<a href=”mailto:email"> Click here to contact </a>`
 
