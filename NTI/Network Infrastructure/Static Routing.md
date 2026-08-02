@@ -1,6 +1,7 @@
 - To show routes 
 => `show ip route`
 		-> c  => Directly connected
+		-> S => Static/manually routed
 
 - We have to ==set routes -*of the whole networks i want to go to*- for all intermediate routers== not only one
 
