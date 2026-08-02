@@ -62,4 +62,5 @@
 	- `switchport trunk allowed vlan id1,id2,id3 ` -> to make a list of only allowed VLANs over trunk
 
 - **Dynamic Trunking Protocol - DTP** 
+	-> to enable: `switchport mode dynamic`
 	![[Pasted image 20260802123409.png]]
