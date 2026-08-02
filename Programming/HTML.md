@@ -100,6 +100,26 @@ attributes like subject : CC, BCC, Body
     - `<a [href="mailto:one@email.com](mailto:href=%22mailto:one@email.com)[,two@email.com](mailto:,two@email.com)">` →  {`,`} Sends to multiple primary recipients at once
 
 ---
+# Images 
+
+#### Adding
+1. **Using URL**
+   `<img src="URL" />`
+   
+2. **Relative Path**
+	`<img src="/folder/file.ext" />`
+
+#### Formatting 
+`<img src="URL"`
+`width="xxxpx"` -> ==Attribute==
+`height="xxxpx"` -> ==Attribute==
+`alt="text"` -> ==Attribute==
+`/>`
+
+#### Alignment
+`<img src="URL" width="xxxpx" height="xxxpx" alt="text"`
+`align="position"` -> ==Alignment==
+`/>`
 
 ---
 
