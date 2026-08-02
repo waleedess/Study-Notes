@@ -71,5 +71,8 @@ then `ip classless`
 
 - **Default Administrative Distances**:
 	- Dircetly connected -> 0
-	- Static route ->
-	- EIGRP -
+	- Static route -> 1
+	- EIGRP -> 90
+	- IGRP -> 100
+	- OSPF -> 110
+	- RIP -> 120
