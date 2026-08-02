@@ -32,5 +32,4 @@
 		- Each DIST. connects with 2 CORE
 	=> ==DIST., CORE is better to be L3 switches==
 
-- Uncontrolled collision & Broadcast domains
-- 
+
