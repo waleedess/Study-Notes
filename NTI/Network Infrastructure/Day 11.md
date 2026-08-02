@@ -39,4 +39,4 @@
 
 - `ip default gateway <router's IP>` rather than setting the default gateway at each device that is already connected to the switch
 
-- each vlan  
+- Each VLAN should have an IP to enable each VLAN-connected device to connect remotely with the switch
