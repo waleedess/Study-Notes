@@ -6,3 +6,8 @@
 	=> The IP is given to the whole switch to get recognized not to use it in its function
 		`int vlan 1`
 		`ip add <IP> <subnetmask>`
+
+- Layer 2 Devices, that operate and understand MAC
+	1. NIC
+	2. ~~Bridge~~ => Legacy -*used with hubs*-
+	3. Switch
