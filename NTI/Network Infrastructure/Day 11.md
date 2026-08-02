@@ -59,4 +59,5 @@
 			- Open Source
 	- Native VLAN `switchport mode trunk native <vlan id>` -*VLAN 1 by default*- and the native VLAN packet's is untagged
 		- This helps much with unmanagment switch that has no VLANs
+	- `switchport trunk allowed vlan id1,id2,id3 ` -> to make a list of only allowed VLANs over trunk
   
