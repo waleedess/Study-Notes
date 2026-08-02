@@ -22,11 +22,11 @@ then `ip classless`
 
 #### Routing vs Routed Protocols
 
-| Criteria     | Routing                                                                                       | Routed                                                   |
-| ------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Usage**    | Used between routers                                                                          | Assigned to an interface                                 |
-| **Function** | Maintain and share ip routing tables                                                          | Determines method of felivery after determining the path |
-| **Notes**    | Classified into:<br>1. IGPs: Interior Gateway Protocols<br>2.EGPs: Exterior Gateway Protocols |                                                          |
+| Criteria     | Routing                                                                                                                                                                                      | Routed                                                   |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Usage**    | Used between routers                                                                                                                                                                         | Assigned to an interface                                 |
+| **Function** | Maintain and share ip routing tables                                                                                                                                                         | Determines method of felivery after determining the path |
+| **Notes**    | Classified into:<br><br>1. IGPs: Interior Gateway Protocols<br>2.EGPs: Exterior Gateway Protocols<br><br>==And into:==<br><br>1. Classful Routing Protocols<br>2. Classles Routing protocols |                                                          |
 ###### IGPs
 - Used with networks that follow a specific lone autonomous system
 	- Each ISP is assigned an autonomous system by IANA that keeps its passwords recognized
@@ -46,3 +46,8 @@ then `ip classless`
 
 - Examples
 	1. BGP
+
+
+###### Classful 
+- Do not include the subnet mask with route advertisement
+- 
