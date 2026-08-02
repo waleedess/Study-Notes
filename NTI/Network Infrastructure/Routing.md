@@ -47,15 +47,17 @@ then `ip classless`
 - Examples
 	1. BGP
 
-
+---
 ###### Classful 
 - Do not include the subnet mask with route advertisement
 	- Sends only the IP and the subnet mask is concluded
 	- Do not support VLSM subnetting
 
-- Legacy and no longer used, exap
+- Legacy and no longer used, examples:
+	1. RIP v1
+	2. IGRP
   
-
+---
 ###### Classless
 - Sends the Subnet mask with the IP
 
