@@ -50,15 +50,11 @@ and members in between in list item `<li>`
 
 # Linking
 
-Got 3 types:
-
-#### To File
-
-#### External File (URL)
+#### To External File (URL)
 
 `<a href=”https://xyz.com”> Click here </a>`
 
-#### Internal File (Path)
+#### To Internal File (Path)
 
 Whether by:
 
@@ -79,9 +75,9 @@ Notes:
 
 #### To a section on the same page
 
-`<a href=”#sectionname”> Click here </a>
+`<a href=”#sectionname”> Click here </a>`
 …<!--code-->…
-<a name=”sectionname”>...<!--code-->...</a>`
+`<a name=”sectionname”>...<!--code-->...</a>`
 
 #### To a section on Different page
 
