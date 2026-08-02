@@ -50,11 +50,11 @@ and members in between in list item `<li>`
 
 # Linking
 
-#### To External File (URL)
+#### 1. To External File (URL)
 
 `<a href=”https://xyz.com”> Click here </a>`
 
-#### To Internal File (Path)
+#### 2. To Internal File (Path)
 
 Whether by:
 
@@ -69,17 +69,13 @@ Notes:
 1. `../` → to go to the mother folder`../../`is x2
 2. `./` → means in the same folder and can be a mix of absolute *(using”)* and relative *(not full path)* by doing this `href=”./file.html”`
 
----
-
-#### To Anchor
-
-#### To a section on the same page
+#### 3. To a section on the same page
 
 `<a href=”#sectionname”> Click here </a>`
 …<!--code-->…
 `<a name=”sectionname”>...<!--code-->...</a>`
 
-#### To a section on Different page
+#### 4. To a section on Different page
 
 Page 1
 
@@ -89,19 +85,19 @@ Page 2
 
 `<a name=”sectionname”>...<!--code-->...</a`
 
-#### To email
+#### 5. To email
 
 `<a href=”mailto:email"> Click here to contact </a>`
 
-- Can add some attributes by adding `..?..`then the attribute
+- Can add some attributes by adding {`?`} then the attribute
 `<a href=”mailto:email?subject=xyz"> Click here to contact </a>` 
 attributes like subject : CC, BCC, Body
-    - **`BCC/CC`**→ `<a href="mailto:test@email.com?bcc=secret@email.com>`
-    - **`BCC+CC`** *using (&)* → `<a [href="mailto:test@email.com](mailto:href=%22mailto:test@email.com)?cc=copied@email.com**&**bcc=secret@email.com">`
-    - **`&`** → Combines multiple fields together
-    - `body..%20..body..%0A..body..` → `%20`Translates to space, `%0A` Translates to line break. Both work whatever the attribute
+    - **BCC/CC**→ `<a href="mailto:test@email.com?bcc=secret@email.com>`
+    - **BCC+CC** *using {&}* → `<a [href="mailto:test@email.com](mailto:href=%22mailto:test@email.com)?cc=copied@email.com**&**bcc=secret@email.com">`
+    - {`&`} → Combines multiple fields together
+    - `body..%20..body..%0A..body..` → `%20`=> Translates to space, `%0A` => Translates to line break. Both work whatever the attribute
     - `<a href="mailto:?subject=Spontaneous%20Message">` → Blank recipient (removes the assigned mail and let the user input it manually)
-    - `<a [href="mailto:one@email.com](mailto:href=%22mailto:one@email.com)[,two@email.com](mailto:,two@email.com)">` →  ( `,` )Sends to multiple primary recipients at once
+    - `<a [href="mailto:one@email.com](mailto:href=%22mailto:one@email.com)[,two@email.com](mailto:,two@email.com)">` →  {`,`} Sends to multiple primary recipients at once
 
 ---
 
