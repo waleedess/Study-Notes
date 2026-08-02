@@ -1,1 +1,1 @@
-- HDLC 
+- HDLC the one responsible for routers to see each other. But, routing protocols like OSPF only shares ip route tables
