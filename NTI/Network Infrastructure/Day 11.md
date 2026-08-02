@@ -19,7 +19,7 @@
 		- Sends each bit
 
 - Switching is can be
-	1. Symmetric:
+	1. Symmetric
 		- Only liks switches with ports assigned the same bandwidth
 	2. Asymmetric
 		- Free connection but operates as the least bandwidth
