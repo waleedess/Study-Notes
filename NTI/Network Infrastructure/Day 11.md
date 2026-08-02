@@ -38,3 +38,5 @@
 	- if not auto and assigned 10 or 100 -> the other connection should match, if not, no connection
 
 - `ip default gateway <router's IP>` rather than setting the default gateway at each device that is already connected to the switch
+
+- each vlan  
