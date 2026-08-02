@@ -128,7 +128,19 @@ attributes like subject : CC, BCC, Body
 	`<img src="URL" width="xxxpx" height="xxxpx" alt="text" align="position" />`
 `</a>`
 
-2. ****
+2. **Mapping links to parts**
+
+`<img` 
+`src="URL" width="xxxpx" height="xxxpx" alt="text" align="position"` 
+`usemap="mapname"` => ==Inside `<img/>`==
+`/>`
+
+`<map name="mapname">`
+`<area shape="circ/rec/poly" coords="x,y,radius" href="link1">`
+`<area shape="circ/rec/poly" coords="x,y,radius" href="link2">`
+`<area shape="circ/rec/poly" coords="x,y,x,y,..." href="link3">`
+`</map>`
+
 
 ---
 
