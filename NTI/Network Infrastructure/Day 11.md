@@ -46,4 +46,15 @@
   -> As the ports between the switches will be assigned to VLAN 1 as default, if i changed it to VLAN 10, only 10's will communicate
 - Trunking mode `switchport mode trunk` => Passes the packet of all VLANs as `switchport access` mode allows it to pass packets and be assigned to a single VLAN
 	- Should be atleast at one side and the other will compensate, the better to configure it both sides
+	- Trunk links: the source switch adds the trunk number to the frame so when the destination knows which VLAN to pass it to
+	- Trunking Protocols:
+		1. **ISL**:
+			- Encapsulated
+			- Independent
+			- Of Cisco
+		2. 802.**1Q**
+			- Tagged
+			- Dependent
+			- Open Source
+	- Native VLAN `switchport mode trunk native <vlan id>`
   
