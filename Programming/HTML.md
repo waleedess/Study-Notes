@@ -123,7 +123,7 @@ attributes like subject : CC, BCC, Body
 
 #### Mapping
 
-1. **Link as Image**
+1. **1 Link as whole Image**
 `<a href="link">`
 	`<img src="URL" width="xxxpx" height="xxxpx" alt="text" align="position" />`
 `</a>`
