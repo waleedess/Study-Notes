@@ -9,5 +9,5 @@
 => `ip route <targetnetworkip> <targetnetworksubnetmask> (<sourceInterface> or <destinationrouterIP>)`
 
 - Pros of Static Routing
-	1. If a specific route is faster 
+	1. If a specific route is wanted
 	2. VPN does not support dynamic routing
