@@ -66,4 +66,5 @@ then `ip classless`
 	4. IS-IS
 
 #### Administrative Distance
-- If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win
+- ==If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win==
+	- The second or ==higher== administrative distance will only work if the first is un
