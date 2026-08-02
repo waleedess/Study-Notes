@@ -121,6 +121,15 @@ attributes like subject : CC, BCC, Body
 `align="position"` -> ==Alignment==
 `/>`
 
+#### Mapping
+
+1. **Link as Image**
+`<a href="link">`
+	`<img src="URL" width="xxxpx" height="xxxpx" alt="text" align="position" />`
+`</a>`
+
+2. ****
+
 ---
 
 ---
