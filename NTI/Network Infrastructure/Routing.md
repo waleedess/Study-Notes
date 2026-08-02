@@ -47,7 +47,6 @@ then `ip classless`
 - Examples
 	1. BGP
 
----
 ###### Classful 
 - Do not include the subnet mask with route advertisement
 	- Sends only the IP and the subnet mask is concluded
@@ -55,9 +54,8 @@ then `ip classless`
 
 - Legacy and no longer used, examples:
 	1. RIP v1
-	2. IGRP
-  
----
+	2. IGRP  
+
 ###### Classless
 - Sends the Subnet mask with the IP
 
@@ -66,3 +64,5 @@ then `ip classless`
 	2. RIP v2
 	3. OSPF
 	4. IS-IS
+
+#### Administrative 
