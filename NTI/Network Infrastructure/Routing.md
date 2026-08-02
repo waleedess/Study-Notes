@@ -73,6 +73,6 @@ then `ip classless`
 	- Dircetly connected -> 0
 	- Static route -> 1
 	- EIGRP -> 90
-	- IGRP -> 100
+	- ~~IGRP -> 100~~ => Legacy
 	- OSPF -> 110
 	- RIP -> 120
