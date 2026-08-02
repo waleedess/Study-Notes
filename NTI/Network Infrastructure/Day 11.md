@@ -34,7 +34,7 @@
 
 - duplex auto -> send and recive
 - half duplex -> only either way
-- speed auto -> adjusts to wire
+- speed auto -> adjusts to connections
 	- if not auto and assigned 10 or 100 -> the other connection should match, if not, no connection
 
 - `ip default gateway <router's IP>` rather than setting the default gateway at each device that is already connected to the switch
@@ -59,7 +59,8 @@
 			- Open Source
 	- Native VLAN `switchport mode trunk native <vlan id>` -*VLAN 1 by default*- and the native VLAN packet's is untagged
 		- This helps much with unmanagment switch that has no VLANs
-	- `switchport trunk allowed vlan id1,id2,id3 ` -> to make a list of only allowed VLANs over trunk
+	- `switchport trunk allowed vlan id1,id2,id3 ` -> to make a list of only allowed VLANs over trunk. must be after 
+	=> ==Native VLAN or allowed options must be after `switchport mode trunk`==
 
 - **Dynamic Trunking Protocol - DTP** 
 	-> to enable: `switchport mode dynamic`
