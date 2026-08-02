@@ -51,4 +51,16 @@ then `ip classless`
 ###### Classful 
 - Do not include the subnet mask with route advertisement
 	- Sends only the IP and the subnet mask is concluded
-	- Do not support VLSM subnettin
+	- Do not support VLSM subnetting
+
+- Legacy and no longer used, exap
+  
+
+###### Classless
+- Sends the Subnet mask with the IP
+
+- Examples:
+	1. EIGRP
+	2. RIP v2
+	3. OSPF
+	4. IS-IS
