@@ -39,3 +39,4 @@
 
 - `ip default gateway <router's IP>` rather than setting the default gateway at each device that is already connected to the switch
 
+auto
