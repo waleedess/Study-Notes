@@ -25,11 +25,11 @@
 		- Free connection but operates as the least bandwidth
 
 - Hierarchical Network Design
-	1. ACCESS: with end devices
-	2. DISTRIBUTION: with ACCESS switches
+	1. **ACCESS**: with end devices
+	2. **DISTRIBUTION**: with ACCESS switches
 		- Each ACCESS connects with 2 DIST.
-	3. CORE: with DISTRIBUTION switches
+	3. **CORE**: with DISTRIBUTION switches
 		- Each DIST. connects with 2 CORE
-	=> DIST., CORE is better to be L3 switches
+	=> ==DIST., CORE is better to be L3 switches==
 
 - 
