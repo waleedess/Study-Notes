@@ -18,14 +18,31 @@ then `ip classless`
 	1. If a specific route is wanted
 	2. VPN does not support dynamic routing
 ---
+# Dynamic
+
 #### Routing vs Routed Protocols
 
-| Routing                           | Routed                                                                           |
-| --------------------------------- | -------------------------------------------------------------------------------- |
-| Used between routers              | Assigned to an interface                                                         |
-| Maintain and share routing tables | Determines method of felivery after determining the path by the routing protocol |
-|                                   |                                                                                  |
+| Criteria     | Routing                                                                                       | Routed                                                   |
+| ------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Usage**    | Used between routers                                                                          | Assigned to an interface                                 |
+| **Function** | Maintain and share ip routing tables                                                          | Determines method of felivery after determining the path |
+| **Notes**    | Classified into:<br>1. IGPs: Interior Gateway Protocols<br>2.EGPs: Exterior Gateway Protocols |                                                          |
+###### IGPs
+- Used with networks that follow a specific lone autonomous system
+	- Each ISP is assigned an autonomous system by IANA that keeps its passwords recognized
 
+- ==Shares Public and Private IPs==
 
----
-# Dynamic
+- Examples
+	1. RIP
+	2. EIGRP
+	3. OSPF
+
+###### EGPs
+- Used to connect networks with different autonomous systems
+	- Link ISPs/Large companies with each other
+
+- ==Shares Only Public==
+
+- Examples
+	1. BGP
