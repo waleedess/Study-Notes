@@ -125,13 +125,13 @@ attributes like subject : CC, BCC, Body
 
 1. **1 Link as whole Image**
 `<a href="link">`
-	`<img src="URL" width="xxxpx" height="xxxpx" alt="text" align="position" />`
+	`<img src="URL" width="xxx(px/%)" height="xxx(px/%)" alt="text" align="position" />`
 `</a>`
 
 2. **Mapping links to parts**
 
 `<img` 
-`src="URL" width="xxxpx" height="xxxpx" alt="text" align="position"` 
+`src="URL" width="xxx(px/%)" height="xxx(px/%)" alt="text" align="position"` 
 `usemap="mapname"` => ==Inside `<img/>`==
 `/>`
 
@@ -144,11 +144,14 @@ attributes like subject : CC, BCC, Body
 ---
 # iFrame
 
-
+**Other Websites or manual**
 `<iframe `
-`width="" height="" scrolling="yes/no"` => ==Attributes==
+`width="(px/%)" height="(px/%)" scrolling="yes/no"` => ==Attributes==
 `src="Path/URL"`
 `/>`
+
+**Third-party**
+like YT and other -> use embbeding
 
 ---
 
