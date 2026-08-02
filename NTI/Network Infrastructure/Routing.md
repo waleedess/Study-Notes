@@ -50,4 +50,5 @@ then `ip classless`
 
 ###### Classful 
 - Do not include the subnet mask with route advertisement
-- 
+	- Sends only the IP and the subnet mask is concluded
+	- Do not support VLSM subnettin
