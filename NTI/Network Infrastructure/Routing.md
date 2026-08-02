@@ -24,6 +24,7 @@ then `ip classless`
 | --------------------------------- | -------------------------------------------------------------------------------- |
 | Used between routers              | Assigned to an interface                                                         |
 | Maintain and share routing tables | Determines method of felivery after determining the path by the routing protocol |
+|                                   |                                                                                  |
 
 
 ---
