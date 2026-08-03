@@ -49,3 +49,11 @@
 ---
 # Port Security
 
+- Secure MAC:
+	1. Static 
+	2. Dynamic
+	3. Stikcy
+
+- Error Disable
+	![[Pasted image 20260803121514.png]]
+
