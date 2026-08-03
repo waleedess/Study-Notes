@@ -71,7 +71,7 @@
 
 - Root Bridge is assigned to the least priorty numbered switch 
 	- If priorities are equal, assigned to the least MAC
-	- Root has all of its conected interfaces are active not shuten down => ==Designated port== 
+	- Root has all of its conected interfaces are active, not shuten down, not half and half(non-designated) => ==Designated port== 
 
 - Other switches(bridges) choose the path between them according to bandwidth cost
 	![[Pasted image 20260803131308.png]]
@@ -82,3 +82,32 @@
 -> Root ID
 -> Bridge(the opened CLI) ID
 -> Interfaces (Designated/non), Cost and etc.
+
+- **Bridge Protocol Data Unit - BPDU**
+	- Passes even through non-designated or closed paths
+	- Determines the topology and it is the packet of STP
+
+- **Port states**
+	1. Disables: no cable or shutdown
+	2. Blocked: LIsten to BPDU but do not transmit it and no data takes 20 sec
+	3. Listening: Process BPDU forwards after 15s, no data
+	4. Learning: Process BPDU forwards again after 15s, no data and drops recivied frames
+	5. Forwarding: Data Transmission
+
+- Ports connected to end devices as PC or server do not need STP so it is better to switch it off on that specific port using:
+  `int f0/10`
+  `spanning-tree portfast`=> Disable STP
+- Rapid PVST => Fast STP mode
+  
+- **PVST+**
+  
+`f0/1`
+`spanning-tree vlan 20 root primary`
+`spanning-tree vlan 10 root secondary`
+`f0/2
+`spanning-tree vlan 10 root primary`
+`spanning-tree vlan 20 root secondary`
+
+Or 
+`spanning-tree vlan 10 priorty xxxx`
+`spanning-tree vlan 20 priorty yyyy`
