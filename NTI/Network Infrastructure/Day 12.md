@@ -1,4 +1,4 @@
-#### Inter-VLAN routing
+# Inter-VLAN routing
 
 - Has to have different networks under the switch
 - Connection between switch and router, is a trunk and using subinterfaces on the router
@@ -46,3 +46,6 @@
 - **Revision number**
 	- It is the number of actions done in the VLAN
 	- The higher it is on a switch the more overwrititng ability that this switch has
+---
+# Port Security
+
