@@ -57,3 +57,12 @@
 - Error Disable
 	![[Pasted image 20260803121514.png]]
 
+- How to enable
+`int f0/0`
+`sw mode access` => Cannot be enabled on trunk 
+`sw port-security`
+`sw port-security maximum 1`
+`sw port-security mac-address xcvbvcx`
+`sw port-securityc violation <rest/prot/shut>`
+
+- if 50 mac => use sticky
