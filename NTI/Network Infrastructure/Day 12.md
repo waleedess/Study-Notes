@@ -42,3 +42,7 @@
 		- Does not sync VLAN configs
 		- Saves configs in NVRAM
 			=> Do not take or give, only passes
+
+- **Revision number**
+	- It is the number of actions done in the VLAN
+	- The higher it is on a switch the more overwrititng ability that this switch has
