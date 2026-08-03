@@ -61,8 +61,8 @@
 `int f0/0`
 `sw mode access` => Cannot be enabled on trunk 
 `sw port-security`
-`sw port-security maximum 1`
+`sw port-security maximum 1->132` => if too much => use sticky MACs taking the first x MACs after the boot as you need to give the whole below command for each MAC 
 `sw port-security mac-address xcvbvcx`
 `sw port-securityc violation <rest/prot/shut>`
 
-- if 50 mac => use sticky
+00D0.BC09.0349
