@@ -9,3 +9,7 @@
 - To stop VLANs from seeing each other again
 	- Shutdown the whole router
 	- Shutdown the whole divided interface f0/0
+
+**Pros:**
+1. Less Broadcast
+2. Having the shutdown option
