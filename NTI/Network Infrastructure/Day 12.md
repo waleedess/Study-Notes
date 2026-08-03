@@ -55,7 +55,7 @@
 	3. Stikcy
 
 - Error Disable
-	![[Pasted image 20260803121514.png]]
+	 => Restart the interface to reset![[Pasted image 20260803121514.png]]
 
 - How to enable
 `int f0/0`
