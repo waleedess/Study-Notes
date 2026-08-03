@@ -79,4 +79,4 @@
 `show spanning-tree`
 -> Root ID
 -> Bridge(the opened CLI) ID
--> Interfaces
+-> Interfaces (Designated/non), Cost and etc.
