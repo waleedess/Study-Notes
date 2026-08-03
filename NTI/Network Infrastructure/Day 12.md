@@ -16,6 +16,8 @@
    
 #### VLAN Trunking Protocol - VTP
 
+- Configure on 1 'server' switch
+  
 - Switches share a VTP domain, VTP advertises that change to all other switches in the domain over trunk links
 	- Each advertisement carries a revision number — switches only accept updates with a higher revision number than what they already have
 
