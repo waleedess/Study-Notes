@@ -5,3 +5,4 @@
 	`int f0/0.<VLANID>`
 	`encapsulation dot1q <ID>`
 	`ip add`
+- No need to routing as all vlans are networks connected directly and if only one router
