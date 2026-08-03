@@ -6,3 +6,6 @@
 	`encapsulation dot1q <ID>`
 	`ip add`
 - No need to routing as all vlans are networks connected directly and if only one router
+- To stop VLANs from seeing each other again
+	- Shutdown the whole router
+	- Shutdown the whole divided interface f0/0
