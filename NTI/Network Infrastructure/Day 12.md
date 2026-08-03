@@ -74,6 +74,7 @@
 	- Root has all of its conected interfaces are active not shuten down => ==Designated port== 
 
 - Other switches(bridges) choose the path between them according to bandwidth cost
+	![[Pasted image 20260803131308.png]]
 	- 100mbps, 2 hops => X
 	- 100mbps, 1 hop => Chosen path even if the same bandwidth
 
