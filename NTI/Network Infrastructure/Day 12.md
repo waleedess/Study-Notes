@@ -13,3 +13,7 @@
 **Pros:**
 1. Less Broadcast
 2. Having the shutdown option
+   
+#### VLAN Trunking Protocol - VTP
+
+- 
