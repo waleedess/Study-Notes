@@ -66,3 +66,5 @@
 `sw port-securityc violation <rest/prot/shut>`
 
 - `show port-security` or `show port-security interface f0/0`
+---
+# Spannig Tree Protocol - STP
