@@ -72,7 +72,8 @@
 - Root Bridge is assigned to the least priorty numbered switch 
 	- If priorities are equal, assigned to the least MAC
 	- Root has all of its conected interfaces are active not shuten down => ==Designated port== 
-- Other switches choose the path between them according to bandwidth cost
+
+- Other switches(bridges) choose the path between them according to bandwidth cost
 	- 100mbps, 2 hops => X
 	- 100mbps, 1 hop => Chosen path even if the same bandwidth
 
