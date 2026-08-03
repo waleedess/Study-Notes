@@ -25,7 +25,7 @@
 
 - VTP has a known weakness — a rogue switch with a higher revision number can join the domain and wipe out the VLAN database, causing a network-wide outage. This is why many networks either disable VTP or run it in transparent mode, and use VTP passwords
 
-- VTP devices
+- VTP Modes: `vtp <mode>`
 	1. **Server**
 		- Create, modify and delete
 		- Sends and forwards advertisment
