@@ -65,4 +65,4 @@
 `sw port-security mac-address xcvbvcx`
 `sw port-securityc violation <rest/prot/shut>`
 
-00D0.BC09.0349
+- `show port-security` or `show port-security interface f0/0`
