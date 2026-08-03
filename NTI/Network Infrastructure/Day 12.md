@@ -16,4 +16,7 @@
    
 #### VLAN Trunking Protocol - VTP
 
-- 
+- Switches share a VTP domain, VTP advertises that change to all other switches in the domain over trunk links
+	- Each advertisement carries a revision number — switches only accept updates with a higher revision number than what they already have
+
+- VTP has a known weakness — a rogue switch with a higher revision number can join the domain and wipe out the VLAN database, causing a network-wide outage. This is why many networks either disable VTP or run it in transparent mode, and use VTP passwords.
