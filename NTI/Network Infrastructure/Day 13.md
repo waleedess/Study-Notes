@@ -2,6 +2,7 @@
 
 Is having multiple cables between 2 switches having these cables bundled to ==enhance bandwidth== and stop looping also stopping STP
 - Switches use this bundle as one connection and one interface
+- If one wire disconnects the bandwidth is lowered but no total disconnection and no spear (one falls the other starts), they are all working from the beginning
 
 `int range f0/x - y`
 `channel-group <1:6> <mode>`
