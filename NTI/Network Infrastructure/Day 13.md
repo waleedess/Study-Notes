@@ -63,3 +63,4 @@ Works on L3 switch
 	- **Gateway Load Balancing - GLBP**
 		- same commands but but replace `'standby'` -> `'glbp'`
 	6. Default gateway of end devices => Virtual IP
+	![[Pasted image 20260804125341.png]]
