@@ -21,4 +21,10 @@ Is having multiple cables between 2 switches having these cables bundled to ==en
 			- Auto - Auto => X, No EtherChannel
 	3. **Manual**
 
+# PVST
 
+`spanning-tree mode pvst`
+
+# Rapid-PVST
+
+`spanning-tree mode rapid-pvst`
