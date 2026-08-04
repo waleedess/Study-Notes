@@ -52,8 +52,9 @@ Works on L3 switch
 	- **HSRP** a redundancy protocol that can be ==applied on L3 switch or a router==
 		- Creates Virtual MAC and IP address compining 2 devices indicated by HSRP group
 		- The 2 devices are divided to Active and Standby
-			`standby 1 ip < the virtual IP>`
-			`standby 1 priority xxx` (100 is Default)
+		  ==On VLAN interfaces AND on Both Active and Standby== 
+			`standby <id> ip < the virtual IP>`
+			`standby <id> priority xxx` (100 is Default)
 			- Higher Priority => Active
-			`standby 1 timers 5 15` => Hello packet timer
+			`standby <id> timers 5 15` => Hello packet timer
 		- The 2 devices keeps sending hello msgs to each other, once the Active stops the Standby starts and keeps sendinh hellos even have no reply, once the Active replies the hello the Standby stops but, keeps sending hellos
