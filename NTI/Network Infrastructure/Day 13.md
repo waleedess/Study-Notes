@@ -28,3 +28,9 @@ Is having multiple cables between 2 switches having these cables bundled to ==en
 # Rapid-PVST
 
 `spanning-tree mode rapid-pvst`
+
+# Redundancy
+
+Works on L3 switch
+- L3 Switch act as a LAN router, no WAN
+- Router routes Both
