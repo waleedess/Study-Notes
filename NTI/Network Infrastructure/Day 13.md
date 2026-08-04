@@ -1,6 +1,7 @@
 # Ether Channel 
 
-Is having multiple cables between 2 switches having these cables bundled to enhance bandwidth and stop looping also stopping STP
+Is having multiple cables between 2 switches having these cables bundled to ==enhance bandwidth== and stop looping also stopping STP
+- Switches use this bundle as one connection and one interface
 
 `int range f0/x - y`
 `channel-group <1:6> <mode>`
