@@ -40,9 +40,12 @@ Works on L3 switch
 	`no ip routing` => Back to L2 only
 
 - Steps: 
-  ![[Pasted image 20260804110851.png]]
+	![[Pasted image 20260804110851.png]]
 	1. VLANs and nterfaces on L2 Switches (Distribution or Access)
 	2. Connect them with trunk ports with L3 (Core)
 	3. Create the same VLANs (Do not add interfaces unless needed)
 	   and give each VLAN the assigned default gateway IP of the network -> `int vlan` -> `ip add`
 	4. To set an IP for L3 switch interface we need to turn off switching for that port -> `int f0/0` -> `no sw` -> `ip add`
+	![[Pasted image 20260804120212.png]]
+	5. Use Dynamic Ip protocols like EIGRP with the same name and specific networks each routers and L3s
+	   are found in => ==All can communicate==
