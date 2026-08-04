@@ -58,3 +58,4 @@ Works on L3 switch
 			- Higher Priority => Active
 			`standby <id> timers 5 15` => Hello packet timer
 		- The 2 devices keeps sending hello msgs to each other, once the Active stops the Standby starts and keeps sendinh hellos even have no reply, once the Active replies the hello the Standby stops but, keeps sending hellos
+	1. Default gateway of end devices => Virtual IP
