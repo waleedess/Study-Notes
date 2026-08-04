@@ -35,4 +35,7 @@ Works on L3 switch
 - L3 Switch act as a LAN router, no WAN
 - Router routes Both
 - L3 is given its IP on the int VLAN not on the physical interface
+- L3 is a Multilayer that works on layer 2 by default
+	`ip routing` => Multilayer(L2 by Default) => L3
+	`no ip routing` => Back to L2 only
 
