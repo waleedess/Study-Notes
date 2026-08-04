@@ -44,4 +44,5 @@ Works on L3 switch
 	1. VLANs and nterfaces on L2 Switches (Distribution or Access)
 	2. Connect them with trunk ports with L3 (Core)
 	3. Create the same VLANs (Do not add interfaces unless needed)
-	   and give each VLAN the assigned default gateway IP of the network `int vlan` then `ip add`
+	   and give each VLAN the assigned default gateway IP of the network -> `int vlan` -> `ip add`
+	4. To set an IP for L3 switch interface we need to turn off switching for that port -> `int f0/0` -> `no sw` -> `ip add`
