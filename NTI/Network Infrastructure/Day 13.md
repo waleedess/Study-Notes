@@ -39,3 +39,9 @@ Works on L3 switch
 	`ip routing` => Multilayer(L2 by Default) => L3
 	`no ip routing` => Back to L2 only
 
+- Steps: 
+  ![[Pasted image 20260804110851.png]]
+	1. VLANs and nterfaces on L2 Switches
+	2. Connect them with trunk ports with L3
+	3. Create the same VLANs (Do not add interfaces unless needed)
+	   and give each VLAN the assigned default gateway IP of the network `int vlan` then `ip add`
