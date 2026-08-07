@@ -14,6 +14,9 @@
 => `ip route 0.0.0.0 0.0.0.0 (<sourceInterface> or <destinationrouterIP>)`
 then `ip classless`
 
+- To set Secondary route
+=> `ip route <targetnetworkip> <targetnetworksubnetmask> (<sourceInterface> or <destinationrouterIP> 2` -> ==That 2 or 3 or whatever its rank is the key==
+
 - Pros of Static Routing
 	1. If a specific route is wanted
 	2. VPN does not support dynamic routing
