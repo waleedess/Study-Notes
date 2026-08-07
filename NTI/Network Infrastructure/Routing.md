@@ -124,6 +124,8 @@ to see routing tabels shared every 30 sec
 
 ### Enhanced IGRP - EIGRP
 
+- Chooses path according to Bandwidth and delay
+	- 
 
 
 ---
