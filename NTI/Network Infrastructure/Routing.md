@@ -180,3 +180,5 @@ to see routing tabels shared every 30 sec
 	`int loopback <interface number>`
 	`ip add <networkgateway> <subnetmask>` -> .1 of the needed network to be added
 	`no shut`
+
+**Auto-summary**
