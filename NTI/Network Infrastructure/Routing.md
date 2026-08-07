@@ -122,6 +122,7 @@ then `ip classless`
 =>`undebug all` -> Off
 to see routing tabels shared every 30 sec
 
+---
 ### Enhanced IGRP - EIGRP
 
 - Chooses path according to Bandwidth and delay
@@ -130,6 +131,8 @@ to see routing tabels shared every 30 sec
 - Uses DUAL - Diffused Update Algorithm
 	- Sets primary path and secondary Feasable successor 
 	- Not calculates when the first fails. Tha backup was calculated from the beginning
+	![[Pasted image 20260807193448.png]]
+
 
 - Have Load Balance with max of 6 and default of 4
 	- But can -*with variance config*- ==balance unequal paths==
@@ -140,6 +143,16 @@ to see routing tabels shared every 30 sec
 	- Every 60 sec => WAN
 	- ==Multicasts news also at IP: 224.0.0.10==
   
+###### Activation Steps: 
+1. `router eigrp <autonomous number>` -> autonomous number shoul be the same
+2. `network <classfulnetworkip>` -> Without subnetmask
+	**Hello Packets** configured ==from the 2 interfaces ==connected, tries 3 times totalling 15 holdtime secs before asssuming that the conncection is down by default
+3. `ip hello-interval <autonomous numeber> <secs>`
+4. `ip hold-time eigrp <autonomous number> <secs>`
+
+---
+
+
 ---
 
 **Administrative** **Distance**
@@ -154,3 +167,9 @@ to see routing tabels shared every 30 sec
 	- OSPF -> 110
 	- RIP -> 120
   
+**Show**
+- `show ip <protocol> neighbours`
+- `show ip <protocol> topolgy`
+- `show ip route <protocol>`
+- `show ip protocols`
+- `show ip <protocol> traffic`
