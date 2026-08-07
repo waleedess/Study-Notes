@@ -111,4 +111,6 @@ then `ip classless`
 
 - Sends the routing table to neighbours every 30sec
 
--  
+-  If the hop count metric is equal for paths, the RIP will load balance with maximum of 6 equal paths, default is 4 paths
+
+- 
