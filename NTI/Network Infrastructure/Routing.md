@@ -113,9 +113,21 @@ then `ip classless`
 1. `router rip`
 2.  `v 2` -> after entering RIP config
 3. `network <classfulnetworkip>` -> Attached networks to the router without subnetmasks
+	 **Passive Interface**: to allow router receive but not send updates via specific interface
+ 4. `passive-interface <serial0>`
+	**Split Horizon**: if a router gets new network from interface 1, it will not send it back out of it
    
-   
+   - Debug and verbose
+=> `debug ip rip` -> On
+=>`undebug all` -> Off
+to see routing tabels shared every 30 sec
+
+### Enhanced IGRP - EIGRP
+
+
+
 ---
+
 **Administrative** **Distance**
 - ==If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win==
 	- The second or ==higher== administrative distance will only work if the first is unavailable
@@ -128,4 +140,3 @@ then `ip classless`
 	- OSPF -> 110
 	- RIP -> 120
   
- **Passive Interface**
