@@ -1,0 +1,1 @@
+- Edge routers -> Connects ISPs with each other
