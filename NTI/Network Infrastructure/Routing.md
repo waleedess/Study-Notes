@@ -145,10 +145,11 @@ to see routing tabels shared every 30 sec
   
 ###### Activation Steps: 
 1. `router eigrp <autonomous number>` -> autonomous number shoul be the same
-2. `network <classfulnetworkip>` -> Without subnetmask
+2. `no auto-summary` => **Important**
+3. `network <classfulnetworkip>` -> Without subnetmask
 	**Hello Packets** configured ==from the 2 interfaces ==connected, tries 3 times totalling 15 holdtime secs before asssuming that the conncection is down by default
-3. `ip hello-interval <autonomous numeber> <secs>`
-4. `ip hold-time eigrp <autonomous number> <secs>`
+4. `ip hello-interval <autonomous numeber> <secs>`
+5. `ip hold-time eigrp <autonomous number> <secs>`
 
 ---
 
@@ -181,5 +182,3 @@ to see routing tabels shared every 30 sec
 	`ip add <networkgateway> <subnetmask>` -> .1 of the needed network to be added
 	`no shut`
 
-**Auto-summary**
-`no auto-summary` => Is so important
