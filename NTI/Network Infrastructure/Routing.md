@@ -115,3 +115,12 @@ then `ip classless`
 
 - Keeps sending hello packets to neighbours
 	- V2 multicasts news with IP: 224.0.0.10
+
+
+|     | **Pros**              | **Cons**                                                   |
+| --- | --------------------- | ---------------------------------------------------------- |
+|     | - Light<br>- Standard | - Max hop count is low<br>- Chooses path acc. to hop count |
+
+###### Steps:
+1. `router rip`
+2. `network <classfulnetworkip>` -> Attached networks to the router without subnetmasks as each device should obey the same subnet mask
