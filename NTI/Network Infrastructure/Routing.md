@@ -113,4 +113,5 @@ then `ip classless`
 
 -  If the hop count metric is equal for paths, the RIP will load balance with maximum of 6 equal paths, default is 4 paths
 
-- 
+- Keeps sending hello packets to neighbours
+	- V2 multicasts news with IP: 224.0.0.10
