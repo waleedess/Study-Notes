@@ -182,3 +182,4 @@ to see routing tabels shared every 30 sec
 	`no shut`
 
 **Auto-summary**
+`no auto-summary`
