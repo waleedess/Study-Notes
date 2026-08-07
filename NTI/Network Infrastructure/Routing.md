@@ -173,3 +173,10 @@ to see routing tabels shared every 30 sec
 - `show ip route <protocol>`
 - `show ip protocols`
 - `show ip <protocol> traffic`
+  
+**Routing not assigned networks**
+- Networks that are not assigned to an interface will not be routed using routing protocols
+- The fix is a virtual interface "loopback"
+	`int loopback <interface number>`
+	`ip add <networkgateway> <subnetmask>` -> .1 of the needed network to be added
+	`no shut`
