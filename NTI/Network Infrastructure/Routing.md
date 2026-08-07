@@ -70,18 +70,6 @@ then `ip classless`
 	3. OSPF
 	4. IS-IS
 
-**Administrative** **Distance**
-- ==If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win==
-	- The second or ==higher== administrative distance will only work if the first is unavailable
-
-- **Default Administrative Distances**:
-	- Dircetly connected -> 0
-	- Static route -> 1
-	- EIGRP -> 90
-	- ~~IGRP -> 100~~ => Legacy
-	- OSPF -> 110
-	- RIP -> 120
-
 ##### Distance Vector
 - Exchange routing tables with neighbour, the neighbour exchange with its neighbour, and so on
 
@@ -125,3 +113,19 @@ then `ip classless`
 1. `router rip`
 2.  `v 2` -> after entering RIP config
 3. `network <classfulnetworkip>` -> Attached networks to the router without subnetmasks
+   
+   
+---
+**Administrative** **Distance**
+- ==If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win==
+	- The second or ==higher== administrative distance will only work if the first is unavailable
+
+- **Default Administrative Distances**:
+	- Dircetly connected -> 0
+	- Static route -> 1
+	- EIGRP -> 90
+	- ~~IGRP -> 100~~ => Legacy
+	- OSPF -> 110
+	- RIP -> 120
+  
+ **Passive Interface**
