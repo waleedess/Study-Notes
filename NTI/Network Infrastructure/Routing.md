@@ -131,6 +131,12 @@ to see routing tabels shared every 30 sec
 	- Sets primary path and secondary Feasable successor 
 	- Not calculates when the first fails. Tha backup was calculated from the beginning
 
+- Have Load Balance with max of 6 and default of 4
+	- But can -*with variance config*- ==balance unequal paths==
+
+- Max hop count = 255, default is 100
+  
+  
 ---
 
 **Administrative** **Distance**
