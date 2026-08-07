@@ -92,6 +92,23 @@ then `ip classless`
 ##### Link State
 - Routers choose a designated router router
 	- Then if a router gets new network it shares it with onlt the DR
-		- The DR multicasts 
+		- The DR multicasts with OSPF's 
 
 - Faster than Distance Vector
+
+- Examples 
+	1. OSPF
+   
+   ****
+# Dynamic Routing Protocols
+
+### RIP 
+
+- Has 2 versions: Legacy ~~v1~~ , v2
+  
+- Chooses path according to the least hop count
+	- Max hop count is 15, the 16 is unreachable
+
+- Sends the routing table to neighbours every 30sec
+
+-  
