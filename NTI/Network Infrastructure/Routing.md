@@ -25,12 +25,14 @@ then `ip classless`
 
 #### Routing vs Routed Protocols
 
-| Criteria     | Routing                                                                                                                                                                                      | Routed                                                   |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Usage**    | Used between routers                                                                                                                                                                         | Assigned to an interface                                 |
-| **Function** | Maintain and share ip routing tables                                                                                                                                                         | Determines method of felivery after determining the path |
-| **Notes**    | Classified into:<br><br>1. IGPs: Interior Gateway Protocols<br>2.EGPs: Exterior Gateway Protocols<br><br>==And into:==<br><br>1. Classful Routing Protocols<br>2. Classles Routing protocols |                                                          |
-###### IGPs
+| Criteria     | Routing                                                                                                                                                                                                                                                    | Routed                                                   |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Usage**    | Used between routers                                                                                                                                                                                                                                       | Assigned to an interface                                 |
+| **Function** | Maintain and share ip routing tables                                                                                                                                                                                                                       | Determines method of felivery after determining the path |
+| **Notes**    | Classified into:<br><br>1. IGPs: Interior Gateway Protocols<br>2.EGPs: Exterior Gateway Protocols<br><br>==And into:==<br><br>1. Classful Routing Protocols<br>2. Classles Routing protocols<br><br>==And into==<br><br>1. Distance vector<br>2. Linkstate |                                                          |
+
+
+##### IGPs
 - Used with networks that follow a specific lone autonomous system
 	- Each ISP is assigned an autonomous system by IANA that keeps its passwords recognized
 
@@ -41,7 +43,7 @@ then `ip classless`
 	2. EIGRP
 	3. OSPF
 
-###### EGPs
+##### EGPs
 - Used to connect networks with different autonomous systems
 	- Link ISPs/Large companies with each other
 
@@ -50,7 +52,7 @@ then `ip classless`
 - Examples
 	1. BGP
 
-###### Classful 
+##### Classful 
 - Do not include the subnet mask with route advertisement
 	- Sends only the IP and the subnet mask is concluded
 	- Do not support VLSM subnetting
@@ -59,7 +61,7 @@ then `ip classless`
 	1. RIP v1
 	2. IGRP  
 
-###### Classless
+##### Classless
 - Sends the Subnet mask with the IP
 
 - Examples:
@@ -68,7 +70,7 @@ then `ip classless`
 	3. OSPF
 	4. IS-IS
 
-#### Administrative Distance
+**Administrative** **Distance**
 - ==If a router is set up to work with 2 different routing protocols, the one with lower administrative distance will win==
 	- The second or ==higher== administrative distance will only work if the first is unavailable
 
@@ -79,3 +81,17 @@ then `ip classless`
 	- ~~IGRP -> 100~~ => Legacy
 	- OSPF -> 110
 	- RIP -> 120
+
+##### Distance Vector
+- Exchange routing tables with neighbour, the neighbour exchange with its neighbour, and so on
+
+- Examples
+	1. RIP
+	2. EIGRP - Advanced Distance Vector
+
+##### Link State
+- Routers choose a designated router router
+	- Then if a router gets new network it shares it with onlt the DR
+		- The DR multicasts 
+
+- Faster than Distance Vector
