@@ -102,7 +102,7 @@ then `ip classless`
 -  If the hop count metric is equal for paths, the RIP will load balance with maximum of 6 equal paths, default is 4 paths
 
 - Keeps sending hello packets to neighbours
-	- V2 multicasts news with IP: 224.0.0.10
+	- ==V2 multicasts news with IP: 224.0.0.10==
 
 
 |     | **Pros**              | **Cons**                                                   |
@@ -136,6 +136,9 @@ to see routing tabels shared every 30 sec
 
 - Max hop count = 255, default is 100
   
+- Hello packets are sent every 5sec => LAN
+	- Every 60 sec => WAN
+	- ==Multicasts news also at IP: 224.0.0.10==
   
 ---
 
