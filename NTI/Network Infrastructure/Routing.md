@@ -34,7 +34,7 @@ then `ip classless`
 - Used with networks that follow a specific lone autonomous system
 	- Each ISP is assigned an autonomous system by IANA that keeps its passwords recognized
 
-- ==Shares Public and Private IPs==
+- ==Shares Public and Private IPs== from the routing table  
 
 - Examples
 	1. RIP
@@ -45,7 +45,7 @@ then `ip classless`
 - Used to connect networks with different autonomous systems
 	- Link ISPs/Large companies with each other
 
-- ==Shares Only Public==
+- ==Shares Only Public IPs== from the routing table  
 
 - Examples
 	1. BGP
