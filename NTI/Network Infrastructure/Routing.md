@@ -127,6 +127,9 @@ to see routing tabels shared every 30 sec
 - Chooses path according to Bandwidth and delay
 	- Delay is hop count's time
 
+- Uses DUAL - Diffused Update Algorithm
+	- Sets primary path and secondary Feasable successor 
+	- Not calculates when the first fails. Tha backup was calculated from the beginning
 
 ---
 
