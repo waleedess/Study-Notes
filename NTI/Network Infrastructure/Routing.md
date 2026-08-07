@@ -121,6 +121,7 @@ then `ip classless`
 | --- | --------------------- | ---------------------------------------------------------- |
 |     | - Light<br>- Standard | - Max hop count is low<br>- Chooses path acc. to hop count |
 
-###### Steps:
+###### Activation Steps:
 1. `router rip`
-2. `network <classfulnetworkip>` -> Attached networks to the router without subnetmasks as each device should obey the same subnet mask
+2.  `v 2` -> after entering RIP config
+3. `network <classfulnetworkip>` -> Attached networks to the router without subnetmasks
