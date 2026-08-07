@@ -154,6 +154,28 @@ to see routing tabels shared every 30 sec
 ---
 # OSPF
 
+##### MSG Encaspulation
+
+- OSPF packets have 5 types
+	1. **Hello**
+		- From all active interfaces, if it got a reply it knows that there is a neighbour in that path from that specific interface
+	2. **Data Base Description - DBD:*
+		- Checks for database sync -*routing tables*-
+	3. **Link-state Requset - LSR**
+		- If different database/tables -> requests exchange of routing tables
+	4. **Link-state Update - LSU**
+		- Sends specifically reuested link-state records
+	5. **Link-state Ack. - LSAck**
+		- Acknowledges the other packet types
+ 
+- OSPF packets header contain:
+	1. Router ID
+	2. Area ID
+	3. Type Code for OSPF packet type
+	4. IP packet
+		- OSPF uses port 89
+
+
 
 ---
 
