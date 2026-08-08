@@ -177,7 +177,10 @@ to see routing tabels shared every 30 sec
 		- Acknowledges the other packet types
  
 - OSPF packets header contain:
-	1. Router ID: 
+	1. **Router ID**:
+		- Main IP for the router, to ease communication as the same router could be identified by all IPs of its interfaces
+		- That Main IP is set to the highest IP of loopback interfaces
+		- If no loopback interface, the highest active interface IP will be used
 	2. Area ID
 	3. Type Code for OSPF packet type
 	4. IP packet
