@@ -194,10 +194,16 @@ to see routing tabels shared every 30 sec
 
 - Bandwidth Command
 `(config-if)bandwidth <speed by megabyte>`
+
 - Cost Command
 `(config-if)ip ospf cost <cost>`
 => Calculated by default by this formula `10^8 / <bandwidth in KBPS>`
 
+- Hello Interval
+`(config-if)ip ospf hello-interval <secs>`
+`(config-if)ip ospf dead-interval <secs>`
+  
+  
 ---
 
 **Administrative** **Distance**
