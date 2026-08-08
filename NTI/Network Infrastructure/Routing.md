@@ -191,7 +191,8 @@ to see routing tabels shared every 30 sec
 ###### Activation Steps
 1. `router ospf <process number>` -> Not an autonomous system. Can be same or different 
 2.  Network adding
-	`net <192.168.0.0> <wildcard:0.0.255.255>`
+	- `net <192.168.0.0> <wildcard:0.0.255.255>`
+	- `net <192.168.0.0> <wildcard:0.0.255.255>`
 
 - Bandwidth Command
 `(config-if)bandwidth <speed by megabyte>`
