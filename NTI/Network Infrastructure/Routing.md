@@ -163,6 +163,10 @@ to see routing tabels shared every 30 sec
 		- From all active interfaces, if it got a reply it knows that there is a neighbour in that path from that specific interface
 		- Discover OSPF neighbours & establish agencies -> Advertivse guidlines on routers must agree to become neighbours -> ==elects by multicast nature of Hello the DR and BDR==
 			- Election is for the ==highest IP==
+		- Multicasts
+			1. DR-All => 224.0.0.5
+			2. DR-BDR => 224.0.0.6
+		- Sent every 30sec and has a dead interval of 4 times totalling 2min
 	2. **Data Base Description - DBD:*
 		- Checks for database sync -*routing tables*-
 	3. **Link-state Requset - LSR**
@@ -173,15 +177,16 @@ to see routing tabels shared every 30 sec
 		- Acknowledges the other packet types
  
 - OSPF packets header contain:
-	1. Router ID
+	1. Router ID: 
 	2. Area ID
 	3. Type Code for OSPF packet type
 	4. IP packet
 		- OSPF uses port 89
 
-- Multicasts
-	1. New networks DR-All => 224.0.0.5
-	2. DR-BDR => 224.0.0.6
+- If we can't change the IP (ex. Public IP form ISP) -> Create a loopback interface with the highest IP to make it the DR
+
+###### Activation Steps
+1. ``
 
 ---
 
@@ -196,6 +201,7 @@ to see routing tabels shared every 30 sec
 	- ~~IGRP -> 100~~ => Legacy
 	- OSPF -> 110
 	- RIP -> 120
+	![[Pasted image 20260808094134.png]]
   
 **Show**
 - `show ip <protocol> neighbours`
@@ -211,3 +217,7 @@ to see routing tabels shared every 30 sec
 	`ip add <networkgateway> <subnetmask>` -> .1 of the needed network to be added
 	`no shut`
 
+**Protcols Algortihms**
+- OSPF -> DikstraSPF
+- RIP -> Bellman-Ford
+- EIGRP -> DUAL
