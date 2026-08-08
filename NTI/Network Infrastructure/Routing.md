@@ -163,7 +163,6 @@ to see routing tabels shared every 30 sec
 		- From all active interfaces, if it got a reply it knows that there is a neighbour in that path from that specific interface
 		- Discover OSPF neighbours & establish agencies -> Advertivse guidlines on routers must agree to become neighbours -> ==elects by multicast nature of Hello the DR and BDR==
 			- Election is for the ==highest IP==
-		- 
 	2. **Data Base Description - DBD:*
 		- Checks for database sync -*routing tables*-
 	3. **Link-state Requset - LSR**
@@ -180,7 +179,9 @@ to see routing tabels shared every 30 sec
 	4. IP packet
 		- OSPF uses port 89
 
-
+- Multicasts
+	1. New networks DR-All => 224.0.0.5
+	2. DR-BDR => 224.0.0.6
 
 ---
 
