@@ -249,3 +249,6 @@ to see routing tabels shared every 30 sec
 - OSPF -> DikstraSPF
 - RIP -> Bellman-Ford
 - EIGRP -> DUAL
+  
+**Stopping protocols**
+`no router <protocol>`
