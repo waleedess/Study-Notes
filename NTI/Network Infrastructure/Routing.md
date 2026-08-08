@@ -189,7 +189,14 @@ to see routing tabels shared every 30 sec
 - If we can't change the IP (ex. Public IP form ISP) -> Create a loopback interface with the highest IP to make it the DR
 
 ###### Activation Steps
-1. ``
+1. `router ospf <process number>` -> Not an autonomous system. Can be same or different 
+2. 
+
+- Bandwidth Command
+`(config-if)bandwidth <speed by megabyte>`
+- Cost Command
+`(config-if)ip ospf cost <cost>`
+=> Calculated by default by this formula `10^8 / <bandwidth in KBPS>`
 
 ---
 
