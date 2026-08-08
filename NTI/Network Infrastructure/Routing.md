@@ -191,12 +191,15 @@ to see routing tabels shared every 30 sec
 ###### Activation Steps
 1. `router ospf <process number>` -> Not an autonomous system. Can be same or different 
 2. Network adding
+	- ==Adding my all loopback and active interfaces not the  networks i am connected to==
 	- `net <192.168.0.0> <wildcard:0.0.255.255>`
 	  => Wild card is like a reverse of subnet mask
 	  => Searches for all networks starting with 192.168.
-	- `net <192.168.0.1> <wildcard:0.0.0.0>`
+	- `net <192.168.10.1> <wildcard:0.0.0.0>`
 	  => Gets the specific network
-3. Areas
+	  => ==Not adding the network ip, but adding the interface ones==
+3. Areas 
+	- Areas are chnuks of routers 
 	- Area 0 => The backbone
 	- Each area got a DR and all other than 0 will have routers that connects with area 0 => **ABR**
 	- **ABR** Advertises news between areas -> each **DR** multicasts among its network
