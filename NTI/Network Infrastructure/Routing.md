@@ -252,3 +252,11 @@ to see routing tabels shared every 30 sec
   
 **Stopping protocols**
 `no router <protocol>`
+
+**Autonomous sytstems**
+Can be 1 - 65,535
+- 1-64,512 -> For use with RIP for example
+- 64,512 - 65,535 -> Reserved for Companies
+  
+**Redundancy**
+![[Pasted image 20260808112616.png]]
