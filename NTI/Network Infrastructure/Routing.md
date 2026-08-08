@@ -163,6 +163,7 @@ to see routing tabels shared every 30 sec
 		- From all active interfaces, if it got a reply it knows that there is a neighbour in that path from that specific interface
 		- Discover OSPF neighbours & establish agencies -> Advertivse guidlines on routers must agree to become neighbours -> ==elects by multicast nature of Hello the DR and BDR==
 			- Election is for the ==highest IP==
+		- 
 	2. **Data Base Description - DBD:*
 		- Checks for database sync -*routing tables*-
 	3. **Link-state Requset - LSR**
