@@ -190,7 +190,7 @@ to see routing tabels shared every 30 sec
 
 ###### Activation Steps
 1. `router ospf <process number>` -> Not an autonomous system. Can be same or different 
-2. 
+2. `network <networkip> <> <>`
 
 - Bandwidth Command
 `(config-if)bandwidth <speed by megabyte>`
