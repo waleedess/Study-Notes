@@ -7,6 +7,7 @@
 	- Bash usually does not display the line number with error, and so this makes it difficult to find errors
 	- Bash is a bit slower in terms of performance compared to other languages
 	- Does not have advanced features
+- Note that bash scripts will often run smoothly under shells like “zsh”, and etc.
 ---
 ###### Unix Terminology
 
@@ -34,4 +35,10 @@
 8. Exec. Permissions
 	- These permissions can be changed with the `chmod` command
 ---
-# Getting Started
+###### Bash for Win
+
+**Installing Bash got many methods, mentioned below:**
+1. Windows Subsystem for Linux - **WSL**
+	- Steps:
+		1. `wsl --install` from Adminstrator PowerShell
+2. 
