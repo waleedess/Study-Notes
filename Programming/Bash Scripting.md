@@ -41,4 +41,5 @@
 1. Windows Subsystem for Linux - **WSL**
 	- Steps:
 		1. `wsl --install` from Adminstrator PowerShell
-2. 
+2. **CygWIN**
+	- Translates POSIX APIs to Windows APIs
