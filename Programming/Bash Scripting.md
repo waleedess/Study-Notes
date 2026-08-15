@@ -56,7 +56,7 @@
 	`<varname>=<value>`
 2. Recall:
 	`$<varname>` 
-	- $PATH -> Prints
+	- $PATH -> ==An Enviromental Variable== displays the list of directories where your operating system searches for executable programs
 
 **Environmental Variable**
 - To create or modify an environmental variable, use `export` command:
