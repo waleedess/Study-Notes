@@ -156,8 +156,30 @@ like YT and other -> use embedding
 ---
 # Tables
 
+![[Pasted image 20260815025721.png]]
 
----
+`<table width="xxxpx" border="xxxpx">`
+	`<caption>txt</caption>`
+	`<thead>`
+		`<tr>`
+			`<th></th>`
+			`<td></td>`
+			- both makes headers, th -> Bold and centered but td is not
+		`</tr>` 
+	`</thead>`
+	`<tbody>`
+		`<tr>`
+			`<th></th>`
+			`<td></td>`
+		`</tr>`
+	`</tbody>`
+	`<tfoot>`
+		`<tr>`
+			`<th></th>`
+			`<td></td>`
+		`</tr>`
+	`</tfoot>`
+`</table>`
 
 ---
 
