@@ -44,3 +44,15 @@
 	- Setup a virtual Ubuntu
 2. **CygWIN**
 	- Translates POSIX APIs to Windows APIs
+---
+# BASH
+
+### Variables
+
+- Data containers for later use
+  
+**Normal Variable**
+1. Definition
+	`<varname>=<value>`
+2. Recall
+	`$<varname>` 
