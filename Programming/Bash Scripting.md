@@ -52,12 +52,19 @@
 - Data containers for later use
   
 **Normal Variable**
+
+- Global by default
+
 1. Definition:
-	`<varname>=<value>`
+	- Global (Default) `<varname> = <value>`
+	- Local (Inside a function only) `local <varname> = <value>`
+	- Super Global (Environmental) `export <varname> = <value>`
 2. Recall:
 	`$<varname>` 
 	- $PATH -> ==An Enviromental Variable== displays the list of directories where your operating system searches for executable programs
 
-**Environmental Variable**
-- To create or modify an environmental variable, use `export` command:
-	`export NEW_VARIABLE="Hello World, Again…"`
+- **Environmental** Variable
+	- Environmental Variables are ==Super Global== , as they are Global and also inherited by child processes
+	- To create or modify an environmental variable, use `export` command:
+
+![[Pasted image 20260815062459.png]]
