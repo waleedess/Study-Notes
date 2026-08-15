@@ -162,8 +162,8 @@ like YT and other -> use embedding
 	`<caption>txt</caption>`
 	`<thead>`
 		`<tr>`
-			`<th colspan="2" ></th>`
-			`<th  rowspan="2" width="50%"></th>`
+			`<th colspan="2" > </th>`
+			`<th  rowspan="2" width="50%"> </th>`
 			- both makes headers, th -> Bold and centered but td is not
 		`</tr>` 
 	`</thead>`
