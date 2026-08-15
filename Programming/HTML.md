@@ -194,8 +194,8 @@ like YT and other -> use embedding
 		- Alignment
 			- Vertical: `<td valign="Top/middle/Bottom">`
 			- Horizontal: `<td align="Right/Centre/Left">`
-		- Badding & Spacing
-			- Badding: `<table cellbadding="xxpx">`
+		- Padding & Spacing
+			- Padding: `<table cellbadding="xxpx">`
 			  -> Space between cell border and text
 			- Spacing `<table cellspaceing="yypx">`
 			  -> Space between Cells
