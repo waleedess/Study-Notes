@@ -52,7 +52,12 @@
 - Data containers for later use
   
 **Normal Variable**
-1. Definition
+1. Definition:
 	`<varname>=<value>`
-2. Recall
+2. Recall:
 	`$<varname>` 
+	- $PATH -> Prints
+
+**Environmental Variable**
+- To create or modify an environmental variable, use `export` command:
+	`export NEW_VARIABLE="Hello World, Again…"`
