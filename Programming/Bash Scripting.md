@@ -33,3 +33,5 @@
 		- `STDERR` represents erroneous output
 8. Exec. Permissions
 	- These permissions can be changed with the `chmod` command
+---
+# Getting Started
