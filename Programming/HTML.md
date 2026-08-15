@@ -158,6 +158,7 @@ like YT and other -> use embedding
 
 ![[Pasted image 20260815025721.png]]
 
+- **Main** **Structure**
 `<table width="xxxpx" border="xxxpx">`
 	`<caption>txt</caption>`
 	`<thead>`
@@ -181,6 +182,25 @@ like YT and other -> use embedding
 	`</tfoot>`
 `</table>`
 
+- **Attributes**
+	- Text:
+		- Font
+		  `<td> <font color="xyz" >text</font> <th>`
+	- Cell:
+		- Background
+		  `<body bgcolor="zyx">`
+		  `<tr bgcolor="zyx">`
+		  `<table bgcolor="zyx">`
+		- Alignment
+			- Vertical: `<td valign="Top/middle/Bottom">`
+			- Horizontal: `<td align="Right/Centre/Left">`
+		- Badding & Spacing
+			- Badding: `<table cellbadding="xxpx">`
+			  -> Space between cell border and text
+			- Spacing `<table cellspaceing="yypx">`
+			  -> Space between Cells
+			- Both can be used only affecting the whole tabel i.e. in the `<table>`
+  
 ---
 
 ---
