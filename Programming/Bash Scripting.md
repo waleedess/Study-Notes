@@ -68,3 +68,18 @@
 	- To create or modify an environmental variable, use `export` command:
 
 ![[Pasted image 20260815062459.png]]
+
+---
+# IF & Loop Structures
+
+# If-elseif-else
+
+`if ["$<varname>" -<situation> "const"]`
+`then`
+	`echo "xyz"`
+`elif ["$<varname>" -<situation> "const"]`
+`then`
+	`echo "zyx"`
+`else`
+	`echo "xxx"`
+`fi` => 
