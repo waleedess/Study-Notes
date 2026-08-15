@@ -19,8 +19,17 @@
 3. Command
 	- Instruction given to the operating system to perform a certain action
 4. Script 
-	- |An 
+	- An automated set of commands stored in a file `.sh` then interpreted and executed by the shell
 5. Pipelining
+	- The ability to use the output of one command as the input of other
+		`ls | grep `
 6. Environment Variables
+	- Environment variables allow the shell and the programs it runs to store and access certain values
+		- `PATH` environment variable specifies which directories the shell will check for commands. These environment variables can be set system-wide or for a specific user
 7. STDIN/OUT/ERR
+	- These terms refer to standard channels for the input and output of the shell and programs
+		- `STDIN` usually represents input from the keyboard
+		- `STDOUT` represents correct output
+		- `STDERR` represents erroneous output
 8. Exec. Permissions
+	- These permissions can be changed with the `chmod` command
