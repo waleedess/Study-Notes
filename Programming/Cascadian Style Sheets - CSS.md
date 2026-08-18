@@ -6,5 +6,8 @@
 
 # Simple Selectors
 
-- Have elements:
-	1. 
+- Have 4 elements:
+	1. Inline
+	2. ID
+	3. Class
+	4. Elements
