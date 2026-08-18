@@ -139,3 +139,6 @@
 
 ---
 # Complex Selectors
+
+- Complex Selectors are :
+	1. Universal selector 
