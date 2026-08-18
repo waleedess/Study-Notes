@@ -147,10 +147,37 @@
 
 ### Universal Selector
 
-- `* {` => 
+- `* {` 
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
 - Have less specifity, more neglected than all of Simple Selectors
 ---
-# Multiple & Combinator Selectors
+### Multiple & Combinator Selectors
+
+###### 1
+- `x,y,z {` => Selects all of x,y and z
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+
+###### 2
+- `x z {` => Each z that is inside *-i.e. Child of-* a x (Even if as a **Grand Child**) 
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+
+###### 3
+- `x > z {` => Each z inside *-i.e. Child of-* x (Only if as a **Direct Child**)
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+
+###### 4 
+- ` x + y {` => Each y after *-i.e. Sibling of-* x (Only if as a **Direct**)
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+
+###### 5 
+- ` x ~ y {` => Each y after *-i.e. Sibling of-* x (Even if as a **Not Direct**)
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+---
+### 
