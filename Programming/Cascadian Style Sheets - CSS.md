@@ -7,10 +7,10 @@
 # Simple Selectors
 
 - Have 4 Types:
-	1. Element
+	1. Element (Lowest Specifity - Most Negligible)
 	2. Class
 	3. ID
-	4. Inline   
+	4. Inline   (Highest Specifity - Least Negligible)
 
 ### Element Selector 
 
@@ -86,3 +86,5 @@
 - `#id {` => ex. body *-selected HTML id-*
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
+
+- ID is unique for tags
