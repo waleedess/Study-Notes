@@ -45,7 +45,7 @@
 
 --- 
 
-# Class Selector
+### Class Selector
 
 - .class {` => ex. body *-selected HTML class-*
 	`PROPERTY: VALUE` => ex. color: navy
@@ -81,7 +81,7 @@
   All with `class="niggas"` => black
   
 --- 
-# ID Selector
+### ID Selector
 
 - `#id {` => ex. body *-selected HTML id-*
 	`PROPERTY: VALUE` => ex. color: navy
@@ -123,8 +123,13 @@
   Tag with `id="whiteboi1"` => whitesmoke
   
   ---
-# Inline 
+### Inline 
 
-- In eah HTML tag as an attribute 
+- In eah HTML tag as an attribute not under style tag
 	`<h1 style="color:red"> <h1>`
+
+---
+# External CSS
+
+- File.css
 
