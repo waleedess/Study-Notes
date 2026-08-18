@@ -88,3 +88,36 @@
 `}`
 
 - ID is unique for tags
+  
+`<style>`
+`h2 {` 
+`color:khaki;`
+`}`
+`h3{` 
+`color:hotpink`
+`}`
+`.niggas{`  
+`color:black`
+`}`
+`#whiteboi1{` => Selects only the tag that have `id="whiteboi1"`
+`color:whitesmoke`
+`}`
+`body {`
+`background-color: aqua;`
+`}`
+`</style>`
+
+- - **Body HTML**
+	`<body>`
+	`<h2 id="whiteboi1"> Hi Ana Waleed </h2>`
+	`<h2> Msh baaraf akhtar alwan </h2>`
+	`<h2 class="niggas"> Da bgd </h2>
+	`<h3 class="niggas">Bas msh moshkela </h3>`
+	`<h3> Msh lazem aady< /h3>`
+	`</body>`
+
+- **Output**
+  All H2 => khaki, except the first and the last
+  All H3 => hotpink, except the first
+  All with `class="niggas"` => black
+  Tag with `id="whiteboi1"` => whitesmoke
