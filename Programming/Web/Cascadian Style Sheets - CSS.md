@@ -142,3 +142,12 @@
 
 - Complex Selectors are :
 	1. Universal selector 
+	   
+
+### Universal Selector
+
+- `* {` => 
+	`PROPERTY: VALUE` => ex. color: navy
+`}`
+
+- Have less specifity, more neglected than all of Simple Selectors
