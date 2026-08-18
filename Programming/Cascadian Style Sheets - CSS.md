@@ -6,8 +6,20 @@
 
 # Simple Selectors
 
-- Have 4 elements:
-	1. Inline
-	2. ID
-	3. Class
-	4. Elements
+- Have 4 Types:
+	1. Element
+	2. Class
+	3. ID
+	4. Inline   
+
+### Element Selector 
+
+`<style>`
+`h2 {` => Selects all H2
+`color:khaki;`
+`}`
+`body {`
+`background-color: aqua;`
+`}`
+`</style>`
+
