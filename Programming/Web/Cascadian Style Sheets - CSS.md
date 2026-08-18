@@ -141,8 +141,9 @@
 # Complex Selectors
 
 - Complex Selectors are :
-	1. Universal selector 
-	   
+	1. Universal Selector 
+	2. Multiple & Compinator Selector
+	3. 
 
 ### Universal Selector
 
@@ -151,3 +152,4 @@
 `}`
 
 - Have less specifity, more neglected than all of Simple Selectors
+---
