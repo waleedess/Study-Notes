@@ -121,3 +121,10 @@
   All H3 => hotpink, except the first
   All with `class="niggas"` => black
   Tag with `id="whiteboi1"` => whitesmoke
+  
+  ---
+# Inline 
+
+- In eah HTML tag as an attribute 
+	`<h1 style="color:red"> <h1>`
+
