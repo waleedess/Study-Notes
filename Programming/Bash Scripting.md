@@ -15,7 +15,7 @@
 	- Allows user to text-based communicate with OS 
 	- Bash is the default for Linux and macOS
 2. CLI
-	- An interface where users enter commands to the chell 
+	- An interface where users enter commands to the shell 
 	- Accessed via a terminal or console application
 3. Command
 	- Instruction given to the operating system to perform a certain action
@@ -67,19 +67,122 @@
 	- Environmental Variables are ==Super Global== , as they are Global and also inherited by child processes
 	- To create or modify an environmental variable, use `export` command:
 
-![[Pasted image 20260815062459.png]]
+	![[Pasted image 20260815062459.png]]
+
+###### Reading Input into a variable
+
+`read <varname>`
 
 ---
 # IF & Loop Structures
 
-# If-elseif-else
+#### If-elseif-else
 
-`if ["$<varname>" -<situation> "const"]`
+`if ["$<varname>" -<operator> "const"]`
 `then`
 	`echo "xyz"`
-`elif ["$<varname>" -<situation> "const"]`
+`elif ["$<varname>" -<operator> "const"]`
 `then`
 	`echo "zyx"`
 `else`
 	`echo "xxx"`
-`fi` => 
+`fi` => Closes the `if` statement block
+
+- Bash operators and their Values 
+	![[Pasted image 20260816020534.png]]
+
+
+#### For Loops
+
+`for <varname> in <val1> <val2> <val3>`
+`do` => To start commanding for each iteration
+    `<commands using "$<varname>">`
+`done`=> To end each iteration command
+
+- `val1, 2, 3` Can be other things rather than integers only like:
+	1. Integers
+	2. Strings
+
+	3. * with files 
+	   `for filesystem_variable in /home/letsdefend/ex*`
+		`do`
+		    `echo "Example File: $filesystem_variable"`
+		`done`
+		- expands to every file/folder in `/home/letsdefend/` starting with "ex". The loop prints "Example File: PATH" for each match
+
+	4. Command substitution
+	   `for output_variable in $(cut -d: -f1 /etc/passwd)`
+		`do`
+		    `echo "User in Passwd File: $output_variable"`
+		`done`
+		- `$(cut -d: -f1 /etc/passwd)` runs the `cut` command first, which reads `/etc/passwd` then using `:` as the delimiter (`-d:`) splits **every line** by `:` into fields, then (`-f1`) keeps and extracts only field 1 (the first chunk before the first `:`)  that's the username field. The `for` loop then iterates over each username printed by that command, echoing "User in Passwd File: NAME" for each one
+
+#### While Loops
+
+`our_variable=1`
+`while [ $our_variable -le 5 ]`
+`do`
+    `echo "Value: $our_variable"`
+    `((our_variable++))`
+`done`
+
+- While loop runs certain commands as long as a certain condition is true
+
+#### Case Structure 
+
+`echo "Please input value"`
+`read our_variable`
+
+`case $our_variable in`
+    `1 )`
+        `echo "our_variable value is Equal To 1"`
+        `;;` => To end the 1st situation commands
+    `2 )`
+        `echo "our_variable value is Equal To 2"`
+        `;;` => To end the 2nd situation commands
+    `* )` => ~ **else**
+        `echo "our_variable value is NOT Equal To 1 or 2"`
+        `;;` => To end the ~else situation commands
+`esac` => To end the case structure
+
+#### Until Loop
+
+
+#### Select Loop
+
+---
+# Functions
+
+###### Function Definition
+
+`functionname() {`
+    `Commands`
+`}`
+
+###### Function Call
+
+ `functionname`
+
+
+--- 
+# Notes 
+
+1. `echo "zyx $var zyx "` or `echo "zyx" "$var"` => Both works for mentioning a variable in this command
+2. `sleep 10` => Sleeps 10 secs
+3. `while [ -f /folde/file.ext ]` => Checks file existence
+	- That file test operator can work **Standalone**, In Scripts with **&&** or **||**, **Until Loop**, **While Loop** and **If Statement**
+	- Other related operators
+		`-d` -> for dir
+		`-e` -> for paths, file/dir/symlink or else
+		`-x` -> for **executability** 
+		`-r` / `-w` -> for read/**write**
+		`-s` -> file exists and is **not** **empty**
+4. While, For doesnot have whole block closer like if -> fi, case -> esac
+   -> But, they got do...done for each iteration
+   -> But, IF got then before each situation command except for **else**
+5. `bash -n` in the terminal will check the syntax of bash script
+6. Prompts: `read -p 'Enter your name: ; ' name`=> With the exact syntax 
+	- can be used instead of 
+	   `echo "Enter your name"`
+	   `read varinput`
+   

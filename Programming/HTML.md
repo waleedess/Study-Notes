@@ -203,10 +203,96 @@ like YT and other -> use embedding
   
 ---
 # Forms 
+![[Pasted image 20260817214522.png]]
+- All of the blue highlighted uses input tag
+
+# Form Tag  
+
+`<form>`
+`method="POST/GET"` -> GET is the defauly
+`action=""` -> When to go after submission
+`<input>1`
+`<input>2`
+`<input>3`
+`<textarea> </textarea>`
+`</form>`
+
+### Input Tag
+
+`<input` 
+`type="One of the blue highlighted"
+`id=""` => As it inputs data that will be retrived, ID is unique
+`name""` => Just like ID but may be repeated
+	- Same name groups things, all radio for example is clickable. but when 2 have the same i.e. have group only one will be clickable
+`value=""` =>  The input Variable that will be retrived. Intially written before user input
+*`src=""` => with Image Button
+`/>`
+
+### TextArea 
+
+`<textarea
+`cols="xxx"`
+`rows="yyy"` => When text is longer -> Scroll appears
+`id=""`
+`name=""`
+`>
+`</textarea>`
+
+# Dropdown list/Select Tag
+
+`<select
+`size="x"` => Default = 1
+`multiple` => Can select multi-values using ctrl from keyboard
+`>`
+	`<option>` option1`</option>1`
+	`<option>` option2 `</option>2`
+`</select>`
+
+---
+# Body Attributes
+
+`<body>`
+`bgcolor=""`
+`background="image from file"`
+`link=""` => idle, el tabe3y
+`alink=""` => Active, lama el cursor yegy aleha bs no click
+`vlink=""`=> visited, lama y-click
+`<script> </script>` => JS code or JS file path
+`</body>`
 
 ---
 
----
+# Head and Doctype
+
+### Doctype
+
+- Info for browser, can be neglected now, but it was essential at legacy.
+- `<!Doctype html>` => HTML5
+
+### Head tag
+
+`<head>`
+	`<title></title>` => The only visible 
+	`<base href="relativepath"/>` => Folder containing all added sources like imgs in the website
+	`<meta`
+		`name="Author"`
+		`description=""`
+	`/>`
+	`<meta`
+		`name="Author"`
+		`content="Authorcontent"`
+	`/>` => Meta can be multiple
+	`<script> </script>` => JS code or JS file path
+	`<style>` `<style>` => ==CSS code only==
+	`<link`
+		`rel="icon"`
+		`href="path"`
+	`>` => Link can be multiple
+	`<link`
+		`rel="stylesheet"`
+		`href="path"`
+	`>` => To add CSS file 
+`/head`
 
 ---
 
