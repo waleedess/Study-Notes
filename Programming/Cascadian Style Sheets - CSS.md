@@ -4,4 +4,7 @@
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
-# Simple Sel
+# Simple Selectors
+
+- Have elements:
+	1. 
