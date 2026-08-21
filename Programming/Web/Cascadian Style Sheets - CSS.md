@@ -293,3 +293,11 @@
 	`margin: VALUE;`
 	`padding: VALUE;`
 `}`
+
+
+###### 2. Height and width 
+
+1. Default behaviour
+	- **Block**-**level** elements (like `div`) default to `width: auto` -> automatically **fills 100%** of the parent's available width.
+	- **All** elements default to `height: auto` → shrinks to fit content, does **not** fill the parent's height.
+2. fa
