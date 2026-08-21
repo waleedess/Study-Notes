@@ -1,7 +1,7 @@
 # CSS Syntax 
 
 `SELECTOR {` => ex. body *-selected HTML tag-*
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE;` => ex. color: navy
 `}`
 
 # Simple Selectors
@@ -100,7 +100,7 @@
 `color:black`
 `}`
 `#whiteboi1{` => Selects only the tag that have `id="whiteboi1"`
-`color:whitesmoke`
+`color:whitesmoke;`
 `}`
 `body {`
 `background-color: aqua;`
@@ -144,11 +144,13 @@
 	1. Universal Selector 
 	2. Multiple & Compinator Selector
 	3. Attribute Selectors
+	4. Pseudo Elements
+	5. Pseudo Class
 
 ### Universal Selector
 
 - `* {` 
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 - Have less specifity, more neglected than all of Simple Selectors
@@ -157,73 +159,115 @@
 
 ###### 1
 - `x,y,z {` => Selects all of x,y and z
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 2
 - `x z {` => Each z that is inside *-i.e. Child of-* a x (**Even** if as a **Grand Child**) 
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 ###### 3
 - `x > z {` => Each z inside *-i.e. Child of-* x (**Only** if as a **Direct Child**)
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 4 
 - ` x + y {` => Each y after *-i.e. Sibling of-* x (**Only** if as a **Direct**)
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 ###### 5 
 - ` x ~ y {` => Each y after *-i.e. Sibling of-* x (**Even** if as a **Not Direct**)
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 ---
-### Attribute Selectors
+### Attribute Selectors `[]`
 
 ###### 1
 - ` [att] {` => Selects each HTML tag that includes that attribute
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 ###### 2
 - ` [att = "VALUE"] {` => Selects each HTML tag that includes that attribute with the exact mentioned value
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 3
 - ` [att ^= "VALUESTART"] {` => Selects each HTML tag that includes that attribute with the value starting with the mentioned input
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 ###### 4
 - ` [att $= "VALUEEND"] {` => Selects each HTML tag that includes that attribute with the value ending with the mentioned input
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 5
 - ` [att *= "VALUEInculded"] {` => Selects each HTML tag that includes that attribute with the value including with the mentioned input
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 6
 - ` [att |= input] {` => Selects each HTML tag that includes that attribute with the value is the **input first and alone or `input-xxxx`** 
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 7
  - ` [att ~= input] {` => Selects each HTML tag that includes that attribute with the value includes that **input alone or spaced**
-	`PROPERTY: VALUE` 
+	`PROPERTY: VALUE;` 
 `}`
 
 ###### 8
 - ` <tag>[att] {` => Selects the selected HTML tag that includes that attribute and **all the operators apply**
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 
 ###### 9 
 - ` <tag> [att] {` => Selects the **childs** of the selected HTML tag that includes that attribute and **all the operators apply**
-	`PROPERTY: VALUE`
+	`PROPERTY: VALUE;`
 `}`
 ---
+# Pseudo Elements (::)
+
+###### 1. After
+- `TAG::after {` => Puts the content after the tag
+	`content="";`
+	`PROPERTY: VALUE;` 
+`}`
+
+###### 2. Before
+- `TAG::before {` => Puts the content before the tag
+	`content="";`
+	`PROPERTY: VALUE;` 
+`}`
+
+###### 3. First-line
+- ` TAG::first-line {` => Selects the first letter
+	`PROPERTY: VALUE;` 
+`}`
+
+###### 4. First-letter
+- `TAG::first-letter {` => Selects the first line
+	`PROPERTY: VALUE;` 
+`}`
+
+###### 5. Selection
+- `TAG::selection {` => Selects what happens to the user's run-time selection on the specified tag
+	`PROPERTY: VALUE;` 
+`}`
+
+---
+# Pseudo Class (:)
+
+###### 1. Hover
+- `TAG:hover {` => Selects what happens to the user's run-time hover on the specified tag
+	`PROPERTY: VALUE;` 
+`}`
+
+
+
+
+
+
