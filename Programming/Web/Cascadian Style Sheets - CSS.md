@@ -269,7 +269,9 @@
 # CSS Properties 
 
 ![[Pasted image 20260821180148.png]]
+![[Pasted image 20260821180322.png]]
 
+---
 
 
 
