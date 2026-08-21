@@ -229,7 +229,7 @@
 	`PROPERTY: VALUE;`
 `}`
 ---
-# Pseudo Elements (::)
+### Pseudo Elements (::)
 
 ###### 1. After
 - `TAG::after {` => Puts the content after the tag
@@ -259,14 +259,16 @@
 `}`
 
 ---
-# Pseudo Class (:)
+### Pseudo Class (:)
 
 ###### 1. Hover
 - `TAG:hover {` => Selects what happens to the user's run-time hover on the specified tag
 	`PROPERTY: VALUE;` 
 `}`
+---
+# CSS Properties 
 
-
+![[Pasted image 20260821180148.png]]
 
 
 
