@@ -211,3 +211,19 @@
 - ` [att |= input] {` => Selects each HTML tag that includes that attribute with the value is the `input` only or `input-xxxx` 
 	`PROPERTY: VALUE` 
 `}`
+
+###### 7
+ - ` [att ~= input] {` => Selects each HTML tag that includes that attribute with the value includes that input
+	`PROPERTY: VALUE` 
+`}`
+
+###### 8
+- ` <tag>[att] {` => Selects the selected HTML tag that includes that attribute and **all the operators apply**
+	`PROPERTY: VALUE`
+`}`
+
+###### 9 
+- ` <tag> [att] {` => Selects the **childs** of the selected HTML tag that includes that attribute and **all the operators apply**
+	`PROPERTY: VALUE`
+`}`
+---
