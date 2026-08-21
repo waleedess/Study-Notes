@@ -47,7 +47,7 @@
 
 ### Class Selector
 
-- .class {` => ex. body *-selected HTML class-*
+- `.<class> {` => ex. body *-selected HTML class-*
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
@@ -66,7 +66,7 @@
 `}`
 `</style>`
 
-- - **Body HTML**
+- **Body HTML**
 	`<body>`
 	`<h2> Hi Ana Waleed </h2>`
 	`<h2> Msh baaraf akhtar alwan </h2>`
@@ -83,7 +83,7 @@
 --- 
 ### ID Selector
 
-- `#id {` => ex. body *-selected HTML id-*
+- `#<id> {` => ex. body *-selected HTML id-*
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
@@ -161,22 +161,22 @@
 `}`
 
 ###### 2
-- `x z {` => Each z that is inside *-i.e. Child of-* a x (Even if as a **Grand Child**) 
+- `x z {` => Each z that is inside *-i.e. Child of-* a x (**Even** if as a **Grand Child**) 
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
 ###### 3
-- `x > z {` => Each z inside *-i.e. Child of-* x (Only if as a **Direct Child**)
+- `x > z {` => Each z inside *-i.e. Child of-* x (**Only** if as a **Direct Child**)
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
 ###### 4 
-- ` x + y {` => Each y after *-i.e. Sibling of-* x (Only if as a **Direct**)
+- ` x + y {` => Each y after *-i.e. Sibling of-* x (**Only** if as a **Direct**)
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 
 ###### 5 
-- ` x ~ y {` => Each y after *-i.e. Sibling of-* x (Even if as a **Not Direct**)
+- ` x ~ y {` => Each y after *-i.e. Sibling of-* x (**Even** if as a **Not Direct**)
 	`PROPERTY: VALUE` => ex. color: navy
 `}`
 ---
