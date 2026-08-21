@@ -208,12 +208,12 @@
 `}`
 
 ###### 6
-- ` [att |= input] {` => Selects each HTML tag that includes that attribute with the value is the `input` only or `input-xxxx` 
+- ` [att |= input] {` => Selects each HTML tag that includes that attribute with the value is the **input first and alone or `input-xxxx`** 
 	`PROPERTY: VALUE` 
 `}`
 
 ###### 7
- - ` [att ~= input] {` => Selects each HTML tag that includes that attribute with the value includes that input
+ - ` [att ~= input] {` => Selects each HTML tag that includes that attribute with the value includes that **input alone or spaced**
 	`PROPERTY: VALUE` 
 `}`
 
