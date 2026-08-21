@@ -272,6 +272,11 @@
 ![[Pasted image 20260821180322.png]]
 
 ---
+# CSS Reset
 
+1. Add `<link rel="stylesheet" href="reset.css">` to the HTML file. **Make it the first**
+2. Paste the code in here `https://meyerweb.com/eric/tools/css/reset/` in a file named `reset.css` at the **same directory of the HTML file**
 
+=> Resets Browser CSS tweaks to the srandard 
 
+---
