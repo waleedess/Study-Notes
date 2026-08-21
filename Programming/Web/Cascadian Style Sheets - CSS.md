@@ -280,3 +280,16 @@
 => Resets Browser CSS tweaks to the srandard 
 
 ---
+
+# CSS Box model
+
+![[Pasted image 20260822001636.png]]
+
+###### 1. Border 
+- `TAG{` 
+	`border-width: VALUE ;`=> **Mandatory**
+	`border-style: VALUE;` => **Mandatory**
+	`border-color: VALUE;`
+	`margin: VALUE;`
+	`padding: VALUE;`
+`}`
