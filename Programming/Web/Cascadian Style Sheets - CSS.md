@@ -193,17 +193,17 @@
 `}`
 
 ###### 3
-- ` [att ^= VALUESTART] {` => Selects each HTML tag that includes that attribute with the value starting with the mentioned input
+- ` [att ^= "VALUESTART"] {` => Selects each HTML tag that includes that attribute with the value starting with the mentioned input
 	`PROPERTY: VALUE`
 `}`
 
 ###### 4
-- ` [att $= VALUEEND] {` => Selects each HTML tag that includes that attribute with the value ending with the mentioned input
+- ` [att $= "VALUEEND"] {` => Selects each HTML tag that includes that attribute with the value ending with the mentioned input
 	`PROPERTY: VALUE` 
 `}`
 
 ###### 5
-- ` [att *= VALUEInculded] {` => Selects each HTML tag that includes that attribute with the value including with the mentioned input
+- ` [att *= "VALUEInculded"] {` => Selects each HTML tag that includes that attribute with the value including with the mentioned input
 	`PROPERTY: VALUE` 
 `}`
 
