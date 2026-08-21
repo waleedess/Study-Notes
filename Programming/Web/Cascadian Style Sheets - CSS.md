@@ -188,7 +188,7 @@
 `}`
 
 ###### 2
-- ` [att = VALUE] {` => Selects each HTML tag that includes that attribute with the exact mentioned value
+- ` [att = "VALUE"] {` => Selects each HTML tag that includes that attribute with the exact mentioned value
 	`PROPERTY: VALUE` 
 `}`
 
