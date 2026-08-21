@@ -15,7 +15,7 @@
 ### Element Selector 
 
 - `<Tag> {` => ex. body *-selected HTML tag-*
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE`
 `}`
 
 `<style>`
@@ -48,7 +48,7 @@
 ### Class Selector
 
 - `.<class> {` => ex. body *-selected HTML class-*
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE`
 `}`
 
 `<style>`
@@ -84,7 +84,7 @@
 ### ID Selector
 
 - `#<id> {` => ex. body *-selected HTML id-*
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE` 
 `}`
 
 - ID is unique for tags
@@ -148,7 +148,7 @@
 ### Universal Selector
 
 - `* {` 
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE`
 `}`
 
 - Have less specifity, more neglected than all of Simple Selectors
@@ -157,29 +157,57 @@
 
 ###### 1
 - `x,y,z {` => Selects all of x,y and z
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE` 
 `}`
 
 ###### 2
 - `x z {` => Each z that is inside *-i.e. Child of-* a x (**Even** if as a **Grand Child**) 
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE`
 `}`
 
 ###### 3
 - `x > z {` => Each z inside *-i.e. Child of-* x (**Only** if as a **Direct Child**)
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE` 
 `}`
 
 ###### 4 
 - ` x + y {` => Each y after *-i.e. Sibling of-* x (**Only** if as a **Direct**)
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE`
 `}`
 
 ###### 5 
 - ` x ~ y {` => Each y after *-i.e. Sibling of-* x (**Even** if as a **Not Direct**)
-	`PROPERTY: VALUE` => ex. color: navy
+	`PROPERTY: VALUE` 
 `}`
 ---
 ### Attribute Selectors
 
-- 
+###### 1
+- ` [att] {` => Selects each HTML tag that includes that attribute
+	`PROPERTY: VALUE`
+`}`
+
+###### 2
+- ` [att = VALUE] {` => Selects each HTML tag that includes that attribute with the exact mentioned value
+	`PROPERTY: VALUE` 
+`}`
+
+###### 3
+- ` [att ^= VALUESTART] {` => Selects each HTML tag that includes that attribute with the value starting with the mentioned input
+	`PROPERTY: VALUE`
+`}`
+
+###### 4
+- ` [att $= VALUEEND] {` => Selects each HTML tag that includes that attribute with the value ending with the mentioned input
+	`PROPERTY: VALUE` 
+`}`
+
+###### 5
+- ` [att *= VALUEInculded] {` => Selects each HTML tag that includes that attribute with the value including with the mentioned input
+	`PROPERTY: VALUE` 
+`}`
+
+###### 6
+- ` [att |= input] {` => Selects each HTML tag that includes that attribute with the value is the `input` only or `input-xxxx` 
+	`PROPERTY: VALUE` 
+`}`
