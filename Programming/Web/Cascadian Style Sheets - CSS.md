@@ -283,6 +283,15 @@
 
 # CSS Box model
 
+**Box model**
+- Default is `content-box`: `width`/`height` set only the content area. `padding` + `border` are added **on top**, making the element bigger than the declared size.
+- `box-sizing: border-box`: `width`/`height` now include padding and border — the element stays exactly the size you declared.
+
+**Margain is always separate**
+- No `box-sizing` value pulls `margin` inside the box. Margin always adds extra space **outside** the declared width/height.
+- To account for it, use `calc(100% - <margin*2>)` (e.g., `calc(100% - 10px)` for 5px top + 5px bottom).
+
+
 ![[Pasted image 20260822001636.png]]
 
 ###### 1. Border 
@@ -300,4 +309,11 @@
 1. Default behaviour
 	- **Block**-**level** elements (like `div`) default to `width: auto` -> automatically **fills 100%** of the parent's available width.
 	- **All** elements default to `height: auto` → shrinks to fit content, does **not** fill the parent's height.
-2. fa
+2. Setting
+	**Width**
+	- usually fine by default (block elements auto-fill). and works well with 100%
+	**Height**: 
+	- On a block element → shrinks to content, does **not** fill parent, must be set explicitly, and every ancestor up the chain needs a real height too, or the percentage has nothing to resolve against
+	- Chain : `html { height: 100%; }` → `body { height: 100%; }` → `.parent { height: 100%; }`, etc.
+
+
