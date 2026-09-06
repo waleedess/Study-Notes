@@ -301,6 +301,7 @@
 	`border-color: VALUE;`
 	`margin: VALUE;`
 	`padding: VALUE;`
+	`box-sizing: (content/border`
 `}`
 
 
@@ -315,5 +316,4 @@
 	**Height**: 
 	- On a block element → shrinks to content, does **not** fill parent, must be set explicitly, and every ancestor up the chain needs a real height too, or the percentage has nothing to resolve against
 	- Chain : `html { height: 100%; }` → `body { height: 100%; }` → `.parent { height: 100%; }`, etc.
-
 
