@@ -63,3 +63,7 @@
 	- Multiline comments start with `/*` and closed with `*/`
 	- Statments do not run inside comments
 	- Nested comments are not supported 
+
+-  To keep the old code working, most such modifications are off by default. You need to explicitly enable them with a special directive: `"use strict"` or `'use strict'`
+	- When it is located at the top of a script, the whole script works the “modern” way.
+	- Can be put at the beginning of a function. Doing that enables strict mode in that function only. But usually people use it for the whole script.
