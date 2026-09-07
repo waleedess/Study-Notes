@@ -70,3 +70,4 @@
 	- There is no directive like `"no use strict"` that reverts the engine to old behavior. Once we enter strict mode, there’s no going back
 	- It works in most browsers, namely Firefox and Chrome. If it doesn’t, e.g. in an old browser, there’s an ugly, but reliable way to ensure `use strict`. Put it inside this kind of wrapper:
 	  `(function(){'use strict';// ...your code here... })()`
+	- Modern JavaScript supports “classes” and “modules” – advanced language structures, that enable `use strict` automatically. So we don’t need to add the `"use strict"` directive, if we use them.
