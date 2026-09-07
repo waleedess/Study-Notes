@@ -39,8 +39,12 @@
 	- Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only once
 	- That reduces traffic and makes pages faster
 
-- If `src` is set, the script content is ignored
-	- `<script src="/path/to/script.js"`
-	  `alert(x); // the content is ignored, because src is set`
-	  `</script>
+---
+# Syntax Wise
+
+1. If `src` is set, the script content is ignored
+	`<script src="/path/to/script.js"`
+	`alert(x); // the content is ignored, because src is set`
+	`</script>
 	- The example above can be split into two scripts to work
+2. Semicolon is can be omitted
