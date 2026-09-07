@@ -32,9 +32,15 @@
 	- `<script src="/path/to/script.js"></script >` 
 	  Here, `/path/to/script.js` is an absolute path to the script from the site root. One can also provide a relative path from the current page. For instance, `src="script.js"`, just like `src="./script.js"`, would mean a file `"script.js"` in the current folder
 	- We can give a full URL as well and can attach several scripts, use multiple tags
-	  `<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script >`
-	  `<script src="/path/to/script.js"></script >` 
+	  `<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>`
+	  `<script src="/path/to/script.js"></script>` 
 - **As a rule**, only the simplest scripts are put into HTML. More complex ones reside in separate files 
 	- The benefit of a separate file is that the browser will download it and store it in its cache
 	- Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only once
 	- That reduces traffic and makes pages faster
+
+- If `src` is set, the script content is ignored
+	- `<script src="/path/to/script.js"`
+	  `alert(x); // the content is ignored, because src is set`
+	  `</script>
+	- The example above can be split into two scripts to work
