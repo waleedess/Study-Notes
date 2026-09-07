@@ -48,12 +48,15 @@
   - Semicolons Can be omitted in most cases
   - Newline implies a semicolon in most cases
 	  - There are cases when a newline does not mean a semicolon. For example:
-	    `alert(3 +`
-	    `1`
-	    `+ 2);`
-		- The code outputs `6` because JavaScript does not insert semicolons here. It is intuitively obvious that if the line ends with a plus `"+"`, then it is an “incomplete expression”, so a semicolon there would be incorrect. And in this case, that works as intended
-	- 
-  - Having 2 statements in the same line; both won't run
+	    1. `alert(3 +`
+		    `1`
+		    `+ 2);`
+			- The code outputs `6` because JavaScript does not insert semicolons here. It is intuitively obvious that if the line ends with a plus `"+"`, then it is an “incomplete expression”, so a semicolon there would be incorrect. And in this case, that works as intended
+		2. `alert("Hello")`
+		    `[1,2].foreach(alert);`
+		    - If we run this code, only the first `Hello` shows (and there’s an error, you may need to open the console to see it). There are no numbers any more.
+		    - That’s because JavaScript does not assume a semicolon before square brackets `[...]`. So, the code in the last example is treated as a single statement.
+  - Having 2 statements in the same line wothout a semicolon; both won't run
 ---
 # Syntax Wise
 
