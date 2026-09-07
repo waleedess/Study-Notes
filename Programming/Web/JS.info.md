@@ -45,8 +45,8 @@
 	- That reduces traffic and makes pages faster
 
 - **Syntax-Wise**: 
-  - Semicolons Can be omitted in most cases
-  - Newline implies a semicolon in most cases
+	-  Semicolons Can be omitted in most cases
+	  - Newline implies a semicolon in most cases
 	  - There are cases when a newline does not mean a semicolon. For example:
 	    1. `alert(3 +`
 		    `1`
@@ -57,9 +57,9 @@
 		    - If we run this code, only the first `Hello` shows (and there’s an error, you may need to open the console to see it). There are no numbers any more.
 		    - That’s because JavaScript does not assume a semicolon before square brackets `[...]`. So, the code in the last example is treated as a single statement.
   - Having 2 statements in the same line wothout a semicolon; both won't run
----
-# Syntax Wise
 
-
- Semicolon is can be omitted in most cases, It is **mandatory** in some:
-	- Having 2 statements in the same line; both won't run
+- **Syntax-Wise**: 
+	- One-line comments start with `//` 
+	- Multiline comments start with `/*` and closed with `*/`
+	- Statments do not run inside comments
+	- Nested comments are not supported 
