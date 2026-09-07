@@ -47,4 +47,5 @@
 	`alert(x); // the content is ignored, because src is set`
 	`</script>
 	- The example above can be split into two scripts to work
-2. Semicolon is can be omitted
+2. Semicolon is can be omitted in most cases, It is **mandatory** in some:
+	- Having 2 statements in the same line; both won't run
