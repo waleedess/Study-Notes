@@ -77,3 +77,24 @@
 ### Variables
 
 - A [variable](https://en.wikipedia.org/wiki/Variable_\(computer_science\)) is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+- Is Uniquely named and **case matters**
+- To create a variable in JavaScript, use the `let/var VARNAME;` keyword.
+- Can put some data into it by using the assignment operator `VARNAME=VARVALUE;`
+- Can combine the variable declaration and assignment into a single line
+- Can access it using the variable name
+- Can also declare multiple variables in one line by either ways
+	1. `let VAR1 , VAR2 , VAR3;`
+	2. `let VAR1,` 
+	    `VAR2,`  
+	    `VAR3;`
+	3. `let VAR1;` 
+	    `let VAR2;`  
+	    `let VAR3;`
+- Can also change it as many times as we want using `VARNAME=VARVALUE;`
+- Can also declare two variables and copy data from one into the other using `VAR1=VAR2;`
+- Declaring twice triggers an error
+- There are two limitations on variable names in JavaScript
+	1. The name must contain only letters, digits, or the symbols `$` and `_`. **no hyphens**
+	2. The first character must not be a digit.
+	- Non-Latin letters are allowed, but not recommended
+	- There is list of reserved words -ones used by the language itself- that cannot be used as `let, class, return, function, etc.`
