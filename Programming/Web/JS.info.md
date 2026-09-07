@@ -68,3 +68,5 @@
 	- When it is located at the top of a script, the whole script works the “modern” way.
 	- Can be put at the **beginning** of a function. Doing that enables strict mode in that function only. But usually people use it for the whole script.
 	- There is no directive like `"no use strict"` that reverts the engine to old behavior. Once we enter strict mode, there’s no going back
+	- It works in most browsers, namely Firefox and Chrome. If it doesn’t, e.g. in an old browser, there’s an ugly, but reliable way to ensure `use strict`. Put it inside this kind of wrapper:
+	  `(function(){'use strict';// ...your code here... })()`
