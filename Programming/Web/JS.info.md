@@ -34,18 +34,29 @@
 	- We can give a full URL as well and can attach several scripts, use multiple tags
 	  `<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>`
 	  `<script src="/path/to/script.js"></script>` 
+	- **Syntax**-**Wise**: If `src` is set, the script content is ignored
+		`<script src="/path/to/script.js"`
+		`alert(x); // the content is ignored, because src is set`
+		`</script>
+		- The example above can be split into two scripts to work
 - **As a rule**, only the simplest scripts are put into HTML. More complex ones reside in separate files 
 	- The benefit of a separate file is that the browser will download it and store it in its cache
 	- Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only once
 	- That reduces traffic and makes pages faster
 
+- **Syntax-Wise**: 
+  - Semicolons Can be omitted in most cases
+  - Newline implies a semicolon in most cases
+	  - There are cases when a newline does not mean a semicolon. For example:
+	    `alert(3 +`
+	    `1`
+	    `+ 2);`
+		- The code outputs `6` because JavaScript does not insert semicolons here. It is intuitively obvious that if the line ends with a plus `"+"`, then it is an “incomplete expression”, so a semicolon there would be incorrect. And in this case, that works as intended
+	- 
+  - Having 2 statements in the same line; both won't run
 ---
 # Syntax Wise
 
-1. If `src` is set, the script content is ignored
-	`<script src="/path/to/script.js"`
-	`alert(x); // the content is ignored, because src is set`
-	`</script>
-	- The example above can be split into two scripts to work
-2. Semicolon is can be omitted in most cases, It is **mandatory** in some:
+
+ Semicolon is can be omitted in most cases, It is **mandatory** in some:
 	- Having 2 statements in the same line; both won't run
