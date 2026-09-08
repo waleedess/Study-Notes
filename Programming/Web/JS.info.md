@@ -111,6 +111,15 @@
 ### Data types
 
 - There are 8 data types in JS (`number, bigint, string, boolean, null, undefined, symbol, object`)
+	1. `number` 
+		- has a safe interval: {9007199254740991, -9007199254740991} *+/- 2^53 -1*
+		-  But can store more outside the safe range leading to precision errors
+	2. `bigint` 
+		-  can store any large number but ad `xxxn` after the number
+	3. `string`
+	   -  can be using `` '' "" 
+	   - The first (hidden) backtricks allow to embed variables and expressions into a string wrapping them in `${}` 
+		   - `alert(``Hello,_${name}!)``; // Hello, John!`
 - We can put any type in a variable. For example, a variable can at one moment be a string and then store a number
 - There are many operations for numbers, e.g. multiplication `*`, division `/`, addition `+`, subtraction `-`, and so on
 - There are so-called “special numeric values” which also belong to this data type: `Infinity`, `-Infinity` and `NaN` 
