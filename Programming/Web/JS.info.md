@@ -168,13 +168,14 @@
    
 ### Conversions 
 
-| String Conversion          | Numeric Conversion                                                      | Boolean Conversion            |
-| -------------------------- | ----------------------------------------------------------------------- | ----------------------------- |
-| `newvalue = string(value)` | `newvalue = number(value)`                                              | `newvalue = boolean(value)`   |
-| True of bool => "True"     | True of bool => 1                                                       | nonzero => True<br>0 => False |
-| null => "null"             | null => 0                                                               | null => False                 |
-| undefined => "undefined"   | undefined => `NaN`                                                      | undefined => False            |
-|                            |                                                                         | `NaN` => False                |
-|                            | empty string => 0                                                       | empty string => False         |
-|                            | numstring => numstring without whitespaces (tabs, newline,spaces, etc.) | nonempty string / => True     |
-- `Boolean("0"/"false")` → `True` (non-empty string)
+| String Conversion          | Numeric Conversion                                                      | Boolean Conversion                            |
+| -------------------------- | ----------------------------------------------------------------------- | --------------------------------------------- |
+| `newvalue = string(value)` | `newvalue = number(value)`                                              | `newvalue = boolean(value)`                   |
+| True of bool => "True"     | True of bool => 1                                                       |                                               |
+| null => "null"             | null => 0                                                               | null => False                                 |
+| undefined => "undefined"   | undefined => `NaN`                                                      | undefined => False                            |
+| `NaN` => "NaN"             |                                                                         | `NaN` => False                                |
+|                            | empty string => 0                                                       | empty string => False                         |
+|                            | numstring => numstring without whitespaces (tabs, newline,spaces, etc.) | numstring => True if zero / False if non zero |
+|                            | nonempty string => NaN                                                  | nonempty string / => True                     |
+- `Boolean("0"/"false"/" ")` → `True` (non-empty string)
