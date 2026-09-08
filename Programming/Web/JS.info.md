@@ -138,3 +138,17 @@
 - **Syntax-Wise**: Doing maths is “safe” in JavaScript. We can do anything, The script will never stop with a fatal error (“die”). At worst, we’ll get `NaN` as the result
 - There is no a character only data type like `char` in C++, **only a string** that may consist of zero characters (be empty), one character or many of them
 - `typeof xxxx` / `type of (xxxx)` operator is used to tell whats the type of that entry
+  
+### Alert
+
+- Mini window AKA modal
+- Visitor cannot interact with the rest of the page until dealing with the modal *i.e. pressing OK*
+
+### Prompt
+
+`prompt( TITLE, default/xxx/'leftempty' )`
+- Title: Text shown to the visitor
+- Default: **Opptional -But good to use-** second parameter, the intial value for the input field
+- Prompt can be exited by user without inputting by pressing ESC and the result will be `null`
+
+### Confirm
