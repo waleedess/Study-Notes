@@ -111,3 +111,9 @@
 ### Data types
 
 - There are 8 data types in JS (`number, bigint, string, boolean, null, undefined, symbol, object`)
+- We can put any type in a variable. For example, a variable can at one moment be a string and then store a number
+- There are many operations for numbers, e.g. multiplication `*`, division `/`, addition `+`, subtraction `-`, and so on
+- There are so-called “special numeric values” which also belong to this data type: `Infinity`, `-Infinity` and `NaN` 
+	 - `NaN`represents a computational error. It is a result of an incorrect or an undefined mathematical operation *(number / letter)*
+	 - `NaN` is sticky. Any further mathematical operation on `NaN` returns `NaN`, it propagates to the whole result (there’s only one exception to that: `NaN ** 0` is `1`
+- **Syntax-Wise**: Doing maths is “safe” in JavaScript. We can do anything, The script will never stop with a fatal error (“die”). At worst, we’ll get `NaN` as the result
