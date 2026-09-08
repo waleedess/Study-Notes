@@ -143,11 +143,8 @@
 
 - Mini window AKA modal
 - Visitor cannot interact with the rest of the page until dealing with the modal *i.e. pressing OK*
-- Converts any value to a string to show it. using 
-  `newvalue = string(value)` & `newvalue = number(value)` 
-	- False of bool => "False" for string / 0 for number
-	- null => "Null" for string / 0 for number
-	- undefined => "undefined" for string / `NaN` for number
+- Converts any value to a string to show it
+
 ### Prompt
 
 `result = prompt( TITLE, default/xxx/'leftempty' )`
@@ -167,4 +164,17 @@
 
 - There are 2 limitations 
 	1. The exact location of the modal window is determined by the browser, usually the center
-	2. The exact look of the modal window is determined by the browser 
+	2. The exact look of the modal window is determined by the browser
+   
+### Conversions 
+
+| String Conversion          | Numeric Conversion                                                      | Boolean Conversion            |
+| -------------------------- | ----------------------------------------------------------------------- | ----------------------------- |
+| `newvalue = string(value)` | `newvalue = number(value)`                                              | `newvalue = boolean(value)`   |
+| True of bool => "True"     | True of bool => 1                                                       | nonzero => True<br>0 => False |
+| null => "null"             | null => 0                                                               | null => False                 |
+| undefined => "undefined"   | undefined => `NaN`                                                      | undefined => False            |
+|                            |                                                                         | `NaN` => False                |
+|                            | empty string => 0                                                       | empty string => False         |
+|                            | numstring => numstring without whitespaces (tabs, newline,spaces, etc.) | nonempty string / => True     |
+- `Boolean("0"/"false")` → `True` (non-empty string)
