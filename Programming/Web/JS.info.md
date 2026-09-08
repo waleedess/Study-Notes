@@ -126,3 +126,4 @@
 	 - `NaN`represents a computational error. It is a result of an incorrect or an undefined mathematical operation *(number / letter)*
 	 - `NaN` is sticky. Any further mathematical operation on `NaN` returns `NaN`, it propagates to the whole result (there’s only one exception to that: `NaN ** 0` is `1`
 - **Syntax-Wise**: Doing maths is “safe” in JavaScript. We can do anything, The script will never stop with a fatal error (“die”). At worst, we’ll get `NaN` as the result
+- There is no a character only data type like `char` in C++, **only a string** that may consist of zero characters (be empty), one character or many of them
