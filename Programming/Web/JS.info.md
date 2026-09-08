@@ -146,9 +146,21 @@
 
 ### Prompt
 
-`prompt( TITLE, default/xxx/'leftempty' )`
-- Title: Text shown to the visitor
-- Default: **Opptional -But good to use-** second parameter, the intial value for the input field
+`result = prompt( TITLE, default/xxx/'leftempty' )`
+- Modal window that takes 2 inputs (one from code, the other from user)
+	1. Title: Text shown to the visitor
+	2. Default: **Opptional -But good to use-** second parameter, the intial value for the input field
 - Prompt can be exited by user without inputting by pressing ESC and the result will be `null`
 
 ### Confirm
+
+`result = confirm ("question")`
+- Modal window that have 2 choices as a result or answer for the asked question
+	1. OK => True
+	2. Cancel / pressing ESC => False
+
+## For all Interactions Alert, Prompt & Confirm  
+
+- There are 2 limitations 
+	1. The exact location of the modal window is determined by the browser, usually the center
+	2. The exact look of the modal window is determined by the browser 
