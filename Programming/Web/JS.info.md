@@ -143,7 +143,8 @@
 
 - Mini window AKA modal
 - Visitor cannot interact with the rest of the page until dealing with the modal *i.e. pressing OK*
-- Converts any value to a string to show it. using `value = string(value)`
+- Converts any value to a string to show it. using 
+  `value = string(value)` & `value = number(value)`
 	- False of bool => "False"
 	- null => "Null"
 
