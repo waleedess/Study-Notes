@@ -107,3 +107,7 @@
 - Constants cannot be reassigned, and an attempt to do so will cause an error
 - There is a widespread practice to use constants as aliases for difficult-to-remember values that are known before execution. like colors selected in hex
 - Some constants are known before execution and some are calculated during runtime. Both as constants, once assigned; they will never change
+
+### Data types
+
+- There are 8 data types in JS (`number, bigint, string, boolean, null, undefined, symbol, object`)
