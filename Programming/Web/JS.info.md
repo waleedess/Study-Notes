@@ -110,16 +110,26 @@
 
 ### Data types
 
-- There are 8 data types in JS (`number, bigint, string, boolean, null, undefined, symbol, object`)
+- There are 8 data types in JS which are:
 	1. `number` 
 		- has a safe interval: {9007199254740991, -9007199254740991} *+/- 2^53 -1*
 		-  But can store more outside the safe range leading to precision errors
 	2. `bigint` 
 		-  can store any large number but ad `xxxn` after the number
 	3. `string`
-	   -  can be using `` '' "" 
-	   - The first (hidden) backtricks allow to embed variables and expressions into a string wrapping them in `${}` 
-		   - `alert(``Hello,_${name}!)``; // Hello, John!`
+		-   can be using `` '' "" 
+		- The first (hidden) backtricks allow to embed variables and expressions into a string wrapping them in `${}` 
+		- `alert(``Hello,_${name}!)``; // Hello, John!`
+	4. `boolean` 
+		- Yes / No situations
+	5. `null`
+		- Referencing to non-existing 
+	6. `undefined`
+		- Differenet from null as it inicates no assignation *i.e. no declaration*
+	7. `object`
+		- Used to store collections of data and more complex entities
+	8. `symbol`
+		- Used to create unique identifiers for objects
 - We can put any type in a variable. For example, a variable can at one moment be a string and then store a number
 - There are many operations for numbers, e.g. multiplication `*`, division `/`, addition `+`, subtraction `-`, and so on
 - There are so-called “special numeric values” which also belong to this data type: `Infinity`, `-Infinity` and `NaN` 
@@ -127,3 +137,4 @@
 	 - `NaN` is sticky. Any further mathematical operation on `NaN` returns `NaN`, it propagates to the whole result (there’s only one exception to that: `NaN ** 0` is `1`
 - **Syntax-Wise**: Doing maths is “safe” in JavaScript. We can do anything, The script will never stop with a fatal error (“die”). At worst, we’ll get `NaN` as the result
 - There is no a character only data type like `char` in C++, **only a string** that may consist of zero characters (be empty), one character or many of them
+- `typeof xxxx` operator is used to tell whats the type of that entry
