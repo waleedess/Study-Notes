@@ -98,3 +98,12 @@
 	2. The first character must not be a digit.
 	- Non-Latin letters are allowed, but not recommended
 	- There is list of reserved words -ones used by the language itself- that cannot be used as `let, class, return, function, etc.`
+- **Without using `use strict`** we can assign a value without using `let` /  `var` with only `VARNAME = VARVALUE` as declaration and assignment 
+	- `'use strict;'` `VARNAME = VARVALUE` => variable is not definied 
+
+### Constants
+
+- To declare a constant use `const` instead of `let` or `var`
+- Constants cannot be reassigned, and an attempt to do so will cause an error
+- There is a widespread practice to use constants as aliases for difficult-to-remember values that are known before execution. like colors selected in hex
+- Some constants are known before execution and some are calculated during runtime. Both as constants, once assigned; they will never change
