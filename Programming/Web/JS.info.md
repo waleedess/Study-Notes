@@ -190,9 +190,11 @@
 		- `OPERAND - OPERAND` -> Minus
 - Maths Operators supported:
 	1. Addition `+`
+		- Can concate
 	2. subtraction `-`
 	3. Multiplication `*`
 	4. Division `/`
 	5. Remainder `%`
 	6. Exponentiation
-		- `**`
+		- `BASEOPERAND ** POWEROPERAND`
+		- Can use non-integers as well
