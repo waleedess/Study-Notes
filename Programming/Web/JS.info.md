@@ -237,6 +237,7 @@
 2. `>=/<=` : Greater/less than or equal
 3. `==` : Equals, `=` means assignment 
 4. `!=` : Not equal
+5. **`===`** : **Strict equality operator**; checks the equality withot type conversion 
 
 ###### Boolean 
 
@@ -256,5 +257,6 @@
 ###### Comparison of different types
 
 - JavaScript converts the values to numbers
-- `==` cannot differentiate `0` & `""` from `false`
-- 
+- `==` cannot differentiate `0` from `""` from `false` & `null` form `undefined`
+	- **`===`** **can differentiate them**
+
