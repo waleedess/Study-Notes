@@ -182,7 +182,7 @@
 
 ### Operators & Maths
 
-- Integers are saved internally as 64-bit floats 
+- Integers are saved internally as 64-bit floats with percision issues for decimals 
 - Operators are classified into:
 	1. unary -> Needs single operand (term/argument)
 		- `- OPERAND` -> `-` **resverses** the sign of a number 
@@ -212,5 +212,12 @@
 - Operator precedence ![[Pasted image 20260913084457.png]]
 	- If equal precedence => Leftmost first
 	- `++/--` are considered unary plus/negation so they have top precedence
-- Bitwise Operators
-	- Bitwise operators converts integer numbers from 64 to 32-bit and does the operation on the actual 01s, then converts the result back to a 64-bit integer 
+- Bitwise Operators:
+	1. AND ( `&` )
+	2. OR ( `|` )
+	3. XOR ( `^` )
+	4. NOT ( `~` )
+	5. LEFT SHIFT ( `<<` )
+	6. RIGHT SHIFT ( `>>` )
+	7. ZERO-FILL RIGHT SHIFT ( `>>>` )
+	- Bitwise operators converts integer numbers from 64 to 32-bit with truncating decimals and does the operation on the actual 01s, then converts the result back to a 64-bit integer 
