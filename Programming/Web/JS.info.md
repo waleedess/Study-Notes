@@ -253,3 +253,5 @@
 			*IF ELSE (all letters are equal)*
 			4. If both strings end at the same length, then they are equal. Otherwise, the longer string is greater
 
+###### Comparison of different types
+
