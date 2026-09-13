@@ -184,8 +184,9 @@
 
 - Operators are classified into:
 	1. unary -> Needs single operand (term/argument)
-		- `- OPERAND` -> `-` resverses the sign of a number 
-		- `--OPERAND/ OPERAND--` -> In/decerements operand by 1
+		- `- OPERAND` -> `-` **resverses** the sign of a number 
+		- `+ OPERAND` -> `+` has no effect on numbers, **but converts non numbers -> numbers** *i.e. `+true => 1`*
+		- `--OPERAND/ OPERAND--` -> In/decerements **only variable** operand by 1
 	2. Binary -> Needs 2 operands 
 		- `OPERAND - OPERAND` -> Minus
 - Maths Operators supported:
@@ -207,3 +208,5 @@
 	6. Exponentiation
 		- `BASEOPERAND ** POWEROPERAND`
 		- Can use non-integers as well
+- Operator precedence ![[Pasted image 20260913084457.png]]
+	- If equal precedence => Leftmost first
