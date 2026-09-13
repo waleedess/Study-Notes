@@ -211,4 +211,4 @@
 - Operator precedence ![[Pasted image 20260913084457.png]]
 	- If equal precedence => Leftmost first
 	- `++/--` are considered unary plus/negation so they have top precedence
-- Bitwise
+- Bitwise Operators
