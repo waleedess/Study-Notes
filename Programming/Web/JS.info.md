@@ -221,3 +221,5 @@
 	6. RIGHT SHIFT ( `>>` )
 	7. ZERO-FILL RIGHT SHIFT ( `>>>` )
 	- Bitwise operators converts integer numbers from 64 to 32-bit with truncating decimals and does the operation on the actual 01s, then converts the result back to a 64-bit integer 
+	- **Sec-Wise** `<<`, `>>`, `>>>`, and XOR (`^`) show up constantly in obfuscated JS — attackers use bitwise math to hide string/character manipulation (e.g. building charcodes, XOR-based string decoding routines) from casual reading and from simple regex-based filters. `~` is also used as a compact truthy/falsy trick (`~str.indexOf(x)`)
+	- **Sec-Wise** Obfuscated payloads sometimes exploit float precision quirks (e.g. `0.1+0.2 !== 0.3` used as a "browser fingerprint" or anti-tampering check) — worth keeping on your radar even though it's a small corner case.
