@@ -225,4 +225,4 @@
 	- **Sec-Wise** Obfuscated payloads sometimes exploit float precision quirks (e.g. `0.1+0.2 !== 0.3` used as a "browser fingerprint" or anti-tampering check) — worth keeping on your radar even though it's a small corner case.
 - Comma
 	- Comma operator allows us to evaluate several expressions, dividing them with a comma `,`. Each of them is evaluated but **only the result of the last one is returned** 
-	  `let a= ( 1 + 2 , 3 + 4 ); //a= the last only = 3+4 = 7` 
+	  `let a = ( 1 + 2 , 3 + 4 ); // a = the last operation only = 3 + 4 = 7` 
