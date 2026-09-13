@@ -182,6 +182,7 @@
 
 ### Operators & Maths
 
+- Integers are saved internally as 64-bit floats 
 - Operators are classified into:
 	1. unary -> Needs single operand (term/argument)
 		- `- OPERAND` -> `-` **resverses** the sign of a number 
@@ -212,5 +213,4 @@
 	- If equal precedence => Leftmost first
 	- `++/--` are considered unary plus/negation so they have top precedence
 - Bitwise Operators
-	- Integers are saved as 64-bit floats internally
 	- Bitwise operators converts integer numbers from 64 to 32-bit and does the operation on the actual 01s, then converts the result back to a 64-bit integer 
