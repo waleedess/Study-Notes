@@ -185,5 +185,6 @@
 - Operators are classified into:
 	1. unary -> Needs single operand (term/argument)
 		- `- OPERAND` -> `-` resverses the sign of a number 
+		- `--OPERAND/ OPERAND--` -> In/decerements operand by 1
 	2. Binary -> Needs 2 operands 
 		- `OPERAND - OPERAND` -> Minus
