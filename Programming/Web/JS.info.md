@@ -257,6 +257,8 @@
 ###### Comparison of different types
 
 - JavaScript converts the values to numbers
+- Null is converted to 0, but undefined should not
 - `==` cannot differentiate `0` from `""` from `false` & `null` form `undefined`
 	- **`===`** **can differentiate them**
+
 
