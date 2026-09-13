@@ -237,3 +237,19 @@
 2. `>=/<=` : Greater/less than or equal
 3. `==` : Equals, `=` means assignment 
 4. `!=` : Not equal
+
+###### Boolean 
+
+1. True
+2. False
+
+###### String
+
+- JavaScript uses the so-called “dictionary” or “lexicographical” of **unicode** order to compare letter-by-letter using an algorithim with these steps:
+	1. Compare the first character of both strings
+	2. If the first character from the first string is greater/less than the other string’s, then the first string is greater/less than the second. We’re done
+		*IF ELSE (equal)*
+		3. Compare the next characters the same way till a letter is greater/less at any side 
+			*IF ELSE (all letters are equal)*
+			4. If both strings end at the same length, then they are equal. Otherwise, the longer string is greater
+
