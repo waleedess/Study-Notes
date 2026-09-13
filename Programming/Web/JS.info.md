@@ -188,3 +188,11 @@
 		- `--OPERAND/ OPERAND--` -> In/decerements operand by 1
 	2. Binary -> Needs 2 operands 
 		- `OPERAND - OPERAND` -> Minus
+- Maths Operators supported:
+	1. Addition `+`
+	2. subtraction `-`
+	3. Multiplication `*`
+	4. Division `/`
+	5. Remainder `%`
+	6. Exponentiation
+		- `**`
