@@ -255,3 +255,6 @@
 
 ###### Comparison of different types
 
+- JavaScript converts the values to numbers
+- `==` cannot differentiate `0` & `""` from `false`
+- 
