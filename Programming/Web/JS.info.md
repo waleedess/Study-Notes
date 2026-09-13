@@ -229,3 +229,11 @@
 	  `let a = ( 1 + 2 , 3 + 4 ); // a = the last operation only = 3 + 4 = 7` 
 		- Comma has very low percedence *(lower than `=`)* so the parentheses are important. without it `let a = 1 + 2 , 3 + 4; // a = first operation and the rest is ignored = 1 + 2 = 3`
 
+### Comparisons 
+
+###### Mathematical
+
+1. `>/<` : Greater/less than
+2. `>=/<=` : Greater/less than or equal
+3. `==` : Equals, `=` means assignment 
+4. `!=` : Not equal
