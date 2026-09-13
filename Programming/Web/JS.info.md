@@ -191,8 +191,15 @@
 - Maths Operators supported:
 	1. Addition `+`
 		- Can concate/merge strings
-		  `let s = "my" + "string";` 
+		  `let s = "my" + " " + "string"; // my string`
 		- If any of the operands is a string, then the other one is converted to a string too
+			-  `let s = 2 + 2 + "1"; // 41`
+				- leftmost `+` has both operands as numbers `2+2=4`
+				- rightmost `+` has `4` as number operand and `"1"` as string operand => both are converted to strings => `"41"`
+			- `let s = "1" + 2 + 2 ; // 122` 
+				- leftmost `+` has `2` as number operand and `"1"` as string operand => both are converted to strings => `"12"`
+				- rightmost `+` has `2` as number operand and `"12"` as string operand => both are converted to strings => `"122"`
+		- **OTHER OPERATORS CANNOT CONCATEANTE OR DEAL WITH STRINGS AND CONVERTS THEM TO NUMBERS if possible**
 	2. subtraction `-`
 	3. Multiplication `*`
 	4. Division `/`
