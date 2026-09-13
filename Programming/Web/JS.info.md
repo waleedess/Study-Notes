@@ -190,7 +190,9 @@
 		- `OPERAND - OPERAND` -> Minus
 - Maths Operators supported:
 	1. Addition `+`
-		- Can concate
+		- Can concate/merge strings
+		  `let s = "my" + "string";` 
+		- If any of the operands is a string, then the other one is converted to a string too
 	2. subtraction `-`
 	3. Multiplication `*`
 	4. Division `/`
