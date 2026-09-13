@@ -212,7 +212,7 @@
 - Operator precedence ![[Pasted image 20260913084457.png]]
 	- If equal precedence => Leftmost first
 	- `++/--` are considered unary plus/negation so they have top precedence
-- Bitwise Operators:
+- **Bitwise Operators**:
 	1. AND ( `&` )
 	2. OR ( `|` )
 	3. XOR ( `^` )
@@ -223,7 +223,7 @@
 	- Bitwise operators converts integer numbers from 64 to 32-bit with truncating decimals and does the operation on the actual 01s, then converts the result back to a 64-bit integer 
 	- **Sec-Wise** `<<`, `>>`, `>>>`, and XOR (`^`) show up constantly in obfuscated JS — attackers use bitwise math to hide string/character manipulation (e.g. building charcodes, XOR-based string decoding routines) from casual reading and from simple regex-based filters. `~` is also used as a compact truthy/falsy trick (`~str.indexOf(x)`)
 	- **Sec-Wise** Obfuscated payloads sometimes exploit float precision quirks (e.g. `0.1+0.2 !== 0.3` used as a "browser fingerprint" or anti-tampering check) — worth keeping on your radar even though it's a small corner case.
-- Comma
+- **Comma**
 	- Comma operator allows us to evaluate several expressions, dividing them with a comma `,`. Each of them is evaluated but **only the result of the last one is returned** 
 	  `let a = ( 1 + 2 , 3 + 4 ); // a = the last operation only = 3 + 4 = 7` 
 		- Comma has very low percedence *(lower than `=`)* so the parentheses are important. without it `let a = 1 + 2 , 3 + 4; // a = first operation and the rest is ignored = 1 + 2 = 3`
