@@ -202,6 +202,7 @@
 				- leftmost `+` has `2` as number operand and `"1"` as string operand => both are converted to strings => `"12"`
 				- rightmost `+` has `2` as number operand and `"12"` as string operand => both are converted to strings => `"122"`
 		- **OTHER OPERATORS CANNOT CONCATEANTE OR DEAL WITH STRINGS AND CONVERTS THEM TO NUMBERS if possible**
+			- Space characters are trimmed off string start and end when a string is converted to a number. Here the whole string consists of space characters, such as `\t`, `\n` and a “regular” space between them. So, similarly to an empty string, it becomes `0`.
 	2. subtraction `-`
 	3. Multiplication `*`
 	4. Division `/`
