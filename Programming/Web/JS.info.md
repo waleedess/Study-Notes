@@ -263,3 +263,8 @@
 	- **`===`** **can differentiate them**
 
 
+### Conditional Branching
+
+###### IF
+
+- `if(...)` statement evaluates a condition in parentheses and, if the result is `true`, executes a block of code
