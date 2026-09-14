@@ -275,4 +275,4 @@
 
 ###### `?`
 
-
+- A condtional ternary operator: `(condition) ? to be executed if true : to be executed if false`
