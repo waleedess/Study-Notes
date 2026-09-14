@@ -280,3 +280,13 @@
 	- **Can only execute 1 statement** under each condition/branch
 - **Multiple `?`** 
 	`(condition) ? to be executed if true : (condition) ? to be executed if true and previous was false : (condition) ? to be executed if true previous was false : to be executed if all false`
+
+### Logical Operators
+
+- JS Logical Operators are:
+	1. `||` : OR
+	2. `&&` : AND
+	3. `!` : NOT
+	4. `??` : Nullish Coalescing
+- Can be applied to values of any type, not only boolean
+- 
