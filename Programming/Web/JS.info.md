@@ -291,6 +291,11 @@
 		-  Stops and returns the first falsy value, or the last value if all are truthy
 	3. `!` : NOT
 		- Accepts Single operand 
+		- Converts it to boolean `T/F`
+		- Returns the inverse value
+		- Double Not `!!` behaviour: 
+			- The first converts the value to boolean and returns the inverse
+			- The second reverses it without conversions since it is boolean
 	4. `??` : Nullish Coalescing
 		- Stops and returns the first value that isn't `null`/`undefined`
 		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
