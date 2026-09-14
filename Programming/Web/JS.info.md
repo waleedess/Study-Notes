@@ -152,6 +152,7 @@
 	1. Title: Text shown to the visitor
 	2. Default: **Opptional -But good to use-** second parameter, the intial value for the input field
 - Prompt can be exited by user without inputting by pressing ESC and the result will be `null`
+- **Takes the input as a string**
 
 ### Confirm
 
