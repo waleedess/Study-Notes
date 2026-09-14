@@ -289,4 +289,4 @@
 	3. `!` : NOT
 	4. `??` : Nullish Coalescing
 - Can be applied to values of any type, not only boolean
-- 
+- Can pass more not only 1 logical operators
