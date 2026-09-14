@@ -295,10 +295,11 @@
 		- Returns the inverse value
 		- Double Not `!!` behaviour: 
 			- The first converts the value to boolean and returns the inverse
-			- The second reverses it without conversions since it is boolean
+			- The second reverses it to the original boolean equal without further conversions since it is boolean from the first not
+			- So, it equates this funcition `Boolean(...)`
 	4. `??` : Nullish Coalescing
 		- Stops and returns the first value that isn't `null`/`undefined`
 		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
 - Can be applied to values of any type, not only boolean
 - Can put logical operators as much as needed not only 1 logical operators
-- Precedence: `&&` > `||`
+- Precedence: `!` >`&&` > `||` > `??`
