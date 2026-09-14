@@ -286,6 +286,7 @@
 - JS Logical Operators are:
 	1. `||` : OR
 		- Stops and returns the first truthy value, or the last value if all are falsy
+		- **Sec-Wise** Sometimes, people use this feature to **execute commands** only if the condition on the left part is falsy.
 	2. `&&` : AND
 		-  Stops and returns the first falsy value, or the last value if all are truthy
 	3. `!` : NOT
