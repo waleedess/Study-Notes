@@ -267,4 +267,8 @@
 
 ###### IF
 
-- `if(...)` statement evaluates a condition in parentheses and, if the result is `true`, executes a block of code
+- `if(condition) {to be executed;}` statement evaluates a condition in parentheses and, if the result is `true`, executes a block of code
+	- Evaluates the expression in its parentheses and converts the result to a boolean.
+		- A number `0`, an empty string `""`, `null`, `undefined`, and `NaN` all become `false`. Because of that they are called “falsy” values `if(1)`
+		- Other values become `true`, so they are called “truthy” `if(0)`
+- `if(condition) {to be executed;} else if (condition) {to be executed;} else {to be executed;}`
