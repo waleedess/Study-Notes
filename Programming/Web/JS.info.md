@@ -290,8 +290,10 @@
 	2. `&&` : AND
 		-  Stops and returns the first falsy value, or the last value if all are truthy
 	3. `!` : NOT
+		- Accepts Single operand 
 	4. `??` : Nullish Coalescing
 		- Stops and returns the first value that isn't `null`/`undefined`
 		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
 - Can be applied to values of any type, not only boolean
 - Can put logical operators as much as needed not only 1 logical operators
+- Precedence: `&&` > `||`
