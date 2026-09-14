@@ -301,5 +301,6 @@
 		- Stops and returns the first value that isn't `null`/`undefined`
 		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
 - Can be applied to values of any type, not only boolean
+	- Functions or statements when converted to boolean => **`Undefined` and the boolean evaluation will make it execute**
 - Can put logical operators as much as needed not only 1 logical operators
 - Precedence: `!` >`&&` > `||` > `??`
