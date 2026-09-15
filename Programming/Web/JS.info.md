@@ -298,7 +298,8 @@
 			- The second reverses it to the original boolean equal without further conversions since it is boolean from the first not
 			- So, it equates this funcition `Boolean(...)`
 	4. `??` : Nullish Coalescing
-		- Stops and returns the first value that isn't `null`/`undefined`
+		- Stops and returns the first value that isn't `null`/`undefined` *i.e. the first defined value*
+			- Treating `null` & `undefined` similarly
 		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
 - Can be applied to values of any type, not only boolean
 	- Functions or statements when converted to boolean => **`Undefined` and the boolean evaluation will make the left-statement-operand execute**
