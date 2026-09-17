@@ -350,5 +350,12 @@
 
 `switch (to be measured) {`
 `case x: code to be executed; break;` -> Break is written in each one
-`case y: code to be executed; break;`
+`case y+z : code to be executed; break;` -> Can evaluate with expressions
 `default: code to be executed; }` -> No break and only works when all of the previous didn't
+
+- `switch (+a)` can be used to transform a string to a number then start
+- To group cases
+	`case 4: code; break;`
+	`case 3: // (*) grouped two cases (3&5)`
+	`case 5: code; break;`
+- `switch` uses strict equality checks equivalent to `===` so **type matters**
