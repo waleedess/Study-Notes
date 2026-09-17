@@ -313,7 +313,23 @@
 
 ###### While
 
- `While (Condition) {to be executed}`
+- `While (Condition) {to be executed}`
+	- If the condition is true, the loop body is executed
 
-- If the condition is true, the loop body is executed
-- 
+
+###### Do While
+
+- `do {executed} while (conditon)`
+	- Executes the body then check the condition, if ture, executes again
+
+
+###### For 
+
+- `for ( Begin ; Condition ; Counter ) {to be executed}`
+	- Begin executes once then iterates acc. to counter
+	- Like **C++** any part *-or all-* of the `for` can be omitted but do not forget the `;` in between
+
+###### Break 
+
+- Normally, a loop exits when its condition becomes falsy
+	- `break` is used to forcefully exit a loop at the current iteration
