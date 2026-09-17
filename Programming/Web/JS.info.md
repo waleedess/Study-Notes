@@ -337,7 +337,7 @@
 	- The combination “infinite loop + `break` as needed” is great for situations when a loop’s condition must be checked not in the beginning or end of the loop, but in the middle or even in several places of its body
 	- Cannot be used with the ternary **conditional operator `?`**
 - In order to break form all nested loops we use the `labelname`
-	`<labelname>: outloop() {... inloop () {... break <labelname>;} ...} `
+	`LABELNAME: outloop() {... inloop () {... break LABELNAME;} ...} `
 	- This breaks the labled loop that was just called
 	- We can use the `labelname` with any loop not just the outer, but its the most useful way
 
@@ -365,4 +365,8 @@
 
 ###### Function Declaration
 
-`function <functionname> (par1, par2, parn) {function body}`
+`function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside
+
+###### Function Call
+
+`FUNCTIONNAME (PARLIST);`
