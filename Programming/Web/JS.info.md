@@ -370,3 +370,9 @@
 ###### Function Call
 
 `FUNCTIONNAME (PARLIST);`
+
+###### Function Body 
+
+- Local Variables
+	- **Declared inside** the function
+	- Only visible inside
