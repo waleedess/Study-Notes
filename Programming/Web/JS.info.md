@@ -332,4 +332,10 @@
 ###### Break 
 
 - Normally, a loop exits when its condition becomes falsy
-	- `break` is used to forcefully exit a loop at the current iteration
+	- `break` is used to forcefully exit a loop at the current iteration. 
+		- **Stops the whole loop**
+	- The combination “infinite loop + `break` as needed” is great for situations when a loop’s condition must be checked not in the beginning or end of the loop, but in the middle or even in several places of its body
+
+###### Continue 
+
+- Skips the current iteration only
