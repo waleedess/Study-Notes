@@ -338,4 +338,4 @@
 
 ###### Continue 
 
-- Skips the current iteration only
+- Skips the current iteration only and **forces the loop to start a new one**
