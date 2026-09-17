@@ -371,10 +371,20 @@
 
 `FUNCTIONNAME (PARLIST);`
 
+- Parameters
+	- Should be passed respectively according to the parameter list at the declaration
+	- The passed values are copied to local variables (parameters), then the function uses them
+	- Value is passed only when the function is called
+- Default values
+	- If there was parameters (parameter list of declaration) that did not have values passed at the fucntion call, then the **corresponding parameter becomes `undefined`**
+	- `function FUNCTIONNAME (PAR1, PAR2=VALUE) {function body;}`
+		- That is default value will not be assigned or used except if the parameter is not passed
+
 ###### Function Body 
 
 - Local Variables
 	- **Declared inside** the function
 	- Only visible inside
 - Outer Variables
+	- Declared outside of any function
 	- Any function have full access to global variables and **can modify them**
