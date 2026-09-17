@@ -359,3 +359,6 @@
 	`case 3: // (*) grouped two cases (3&5)`
 	`case 5: code; break;`
 - `switch` uses strict equality checks equivalent to `===` so **type matters**
+
+
+### Functions 
