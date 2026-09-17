@@ -307,4 +307,13 @@
 - Can put logical operators as much as needed not only 1 logical operators
 - Precedence: `!` >`&&` > `||` > `??`
 	  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#Table
+
+
+### Loops
+
+###### While
+
+ `While (Condition) {to be executed}`
+
+- If the condition is true, the loop body is executed
 - 
