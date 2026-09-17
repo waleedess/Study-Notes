@@ -376,3 +376,5 @@
 - Local Variables
 	- **Declared inside** the function
 	- Only visible inside
+- Outer Variables
+	- Any function have full access to global variables and **can modify them**
