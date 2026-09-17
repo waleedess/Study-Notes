@@ -306,3 +306,5 @@
 	- Functions or statements when converted to boolean => **`Undefined` and the boolean evaluation will make the left-statement-operand execute**
 - Can put logical operators as much as needed not only 1 logical operators
 - Precedence: `!` >`&&` > `||` > `??`
+	  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#Table
+- 
