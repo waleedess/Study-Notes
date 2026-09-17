@@ -335,7 +335,9 @@
 	- `break` is used to forcefully exit a loop at the current iteration. 
 		- **Stops the whole loop**
 	- The combination “infinite loop + `break` as needed” is great for situations when a loop’s condition must be checked not in the beginning or end of the loop, but in the middle or even in several places of its body
+	- Cannot be used with the ternary **conditional operator `?`**
 
 ###### Continue 
 
 - Skips the current iteration only and **forces the loop to start a new one**
+- Cannot be used with the ternary **conditional operator `?`**
