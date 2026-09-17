@@ -365,3 +365,4 @@
 
 ###### Function Declaration
 
+`function <functionname> (par1, par2, parn) {function body}`
