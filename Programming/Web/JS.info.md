@@ -300,7 +300,7 @@
 	4. `??` : Nullish Coalescing
 		- Stops and returns the first value that isn't `null`/`undefined` *i.e. the first defined value*
 			- Treating `null` & `undefined` similarly
-		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError
+		- **cannot mix `??` with `&&` or `||` directly** without parentheses -> SyntaxError, due to safety reasons
 		- Can Sequence multiple `??`:  `alert(firstName ?? lastName ?? nickName ?? "Anonymous");`
 - Can be applied to values of any type, not only boolean
 	- Functions or statements when converted to boolean => **`Undefined` and the boolean evaluation will make the left-statement-operand execute**
