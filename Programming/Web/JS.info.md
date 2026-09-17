@@ -344,4 +344,11 @@
 ###### Continue 
 
 - Skips the current iteration only and **forces the loop to start a new one**
-- Cannot be used with the ternary **conditional operator `?`**
+- Cannot be used with the ternary **conditional operator `?`** 
+
+###### Switch 
+
+`switch (to be measured) {`
+`case x: code to be executed; break;` -> Break is written in each one
+`case y: code to be executed; break;`
+`default: code to be executed; }` -> No break and only works when all of the previous didn't
