@@ -372,7 +372,8 @@
 `let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **name can be omitted** 
 
 - Creating a new function in the middle of any expression is another syntax for declaring a function and is called **function Expression**
-- Not used at declaration only but can be used with declared funtions 
+- Not used at declaration only but can be used with declared funtions *-Either if it was declared by func. exp. or the standard way-*
+- 
 
 ###### Function Call
 
