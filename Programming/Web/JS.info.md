@@ -398,4 +398,6 @@
 - To use `return` with conditional ternary operator `?`
 	`return CONDTION ? TOBERETURNEDIFTRUE : TOBERETURNEDIFFALSE` 
 	- To be returned here can be whatever and supporting expressions
+	- To use it with any other logical operators also the same 
+	`return CONDITION || TOBERETURNEDIFFALSE`
 
