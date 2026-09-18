@@ -446,3 +446,4 @@
 		- Accessed easily if the name contains no spaces, doesn’t start with a digit and doesn’t include special characters (`$` and `_` are allowed)
 		- Or accessed with whatever the components using square brackets:
 		  `OBJ["KE KEY"]`
+	- To have properties act or be treated as an expression or a variable use the square brackets whether it was a multiword or not: `OBJ[KEY]`
