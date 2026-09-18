@@ -367,8 +367,6 @@
 
 `function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside
 
-- Naming a function
-
 ###### Function Call
 
 `FUNCTIONNAME (PARLIST);`
