@@ -373,7 +373,6 @@
 
 - Creating a new function in the middle of any expression is another syntax for declaring a function and is called **function Expression**
 - Not used at declaration only but can be used with declared funtions *-Either if it was declared by func. exp. or the standard way-*
-- 
 
 ###### Function Call
 
@@ -387,6 +386,8 @@
 	- If there was parameters (parameter list of declaration) that did not have values passed at the fucntion call, then the **corresponding parameter becomes `undefined`**
 	- `function FUNCTIONNAME (PAR1, PAR2=VALUE) {function body;}`
 		- That is default value will not be assigned or used except if the parameter is not passed
+- **Functions can be passed as parameters as they are values** and they will be named: Callback functions
+	- Callback functions can be declared in the main function call -> Passed in the parameter list as local callback and it will not be accessible outside the main function
 
 ###### Function Body 
 
