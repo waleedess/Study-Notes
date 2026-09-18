@@ -371,6 +371,8 @@
 
 `function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside & **must be named**
 
+- Processed before the code block is executed. They are visible everywhere in the block
+
 **OR**
 
 `let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **name can be omitted** 
@@ -394,7 +396,8 @@
 - **Functions can be passed as parameters as they are values** and they will be named: Callback functions
 	- Callback functions can be declared in the main function call -> Passed in the parameter list as local callback and it will not be accessible outside the main function
 - **USING STRICT**: 
-	- Function Declaration is only visible inside the code block in which it resides, so if it was declared inside a loop or a conditional it cannot be used outside
+	- Function Declaration is only **visible inside** the code block in which it resides, so if it was declared inside a **loop or a conditional** it cannot be used outside
+	- **The fix is** assigning that function to a variable using function expression globally
 
 ###### Function Body 
 
@@ -416,4 +419,5 @@
 	- To be returned here can be whatever and supporting expressions
 	- To use it with any other logical operators also the same 
 	`return CONDITION || TOBERETURNEDIFFALSE`
+
 
