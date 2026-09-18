@@ -433,3 +433,5 @@
 	`return CONDITION || TOBERETURNEDIFFALSE`
 
 
+### Objects
+
