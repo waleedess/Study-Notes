@@ -367,6 +367,8 @@
 
 `function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside
 
+- Naming a function
+
 ###### Function Call
 
 `FUNCTIONNAME (PARLIST);`
@@ -391,4 +393,8 @@
 
 ###### Return 
 
-- `return` can be in any place of the function and the function's execution stops when it reaches it 
+- Can be in any place of the function and the function's execution stops when it reaches it 
+- Can be used without a value and will make the function exit immediately
+- **If a function does not return a value, it is the same as returning `undefined` and thats also equal to returning no value**
+- `return (lines of statements)` -> No `;` at the end => for multiple lined expressions to be returned as for empty or one lined -> `return EXPR. ;`
+
