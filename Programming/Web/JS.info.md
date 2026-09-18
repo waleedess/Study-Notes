@@ -442,4 +442,7 @@
 - Properties (Keys)
 	- Accessed using: `OBJ.KEY`
 	- `delete OBJ.KEY` is used to remove a property
-	- 
+	- Multiword property names (`KEY`), must be quoted => `"KEY"`
+		- Accessed easily if the name contains no spaces, doesn’t start with a digit and doesn’t include special characters (`$` and `_` are allowed)
+		- Or accessed with whatever the components using square brackets:
+		  `OBJ["KE KEY"]`
