@@ -391,3 +391,4 @@
 
 ###### Return 
 
+- `return` can be in any place of the function and the function's execution stops when it reaches it 
