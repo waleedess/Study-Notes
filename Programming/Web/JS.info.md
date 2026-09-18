@@ -377,13 +377,21 @@
 
 `let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **name can be omitted** 
 
-**OR**
-
-
-
 - Creating a new function in the middle of any expression is another syntax for declaring a function and is called **function Expression**
 - Created when execution reaches it and **usable only at that moment**
 - Not used at declaration only but can be used with declared funtions *-Either if it was declared by func. exp. or the standard way-*
+
+**OR**
+
+`let VAR = function (PARList) => { EXPRESSION }`
+
+- Creates a new function that accepts the parameters then evalautes the expression and **returns its result**
+![[Pasted image 20260918115732.png|325]]
+
+- Parentheses **can be omitted** if there is only one parameter. Of there isnt any parameter parentheses are **left empty but present**
+- Accepts multiline statements as long as the `{}` are there
+	- But now the **return must be stated**
+
 
 ###### Function Call
 
