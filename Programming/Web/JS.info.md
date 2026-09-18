@@ -393,6 +393,8 @@
 		- That is default value will not be assigned or used except if the parameter is not passed
 - **Functions can be passed as parameters as they are values** and they will be named: Callback functions
 	- Callback functions can be declared in the main function call -> Passed in the parameter list as local callback and it will not be accessible outside the main function
+- **USING STRICT**: 
+	- Function Declaration is only visible inside the code block in which it resides, so if it was declared inside a loop it cannot be used outside
 
 ###### Function Body 
 
