@@ -439,4 +439,5 @@
 
 - The are the only non-primitive data type as it can contain more than a single thing
 - Can be declared using `let / const / var` no restrictions
+- Can be accessed or called using: `OBJ.KEY`
 - 
