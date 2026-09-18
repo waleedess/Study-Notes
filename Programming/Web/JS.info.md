@@ -438,4 +438,5 @@
 `let OBJ = {KEY1 = VALUE , KEY2 = VALUE}`
 
 - The are the only non-primitive data type as it can contain more than a single thing
-- Can be declared using `ler`
+- Can be declared using `let / const / var` no restrictions
+- 
