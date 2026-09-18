@@ -365,11 +365,11 @@
 
 ###### Function Declaration
 
-`function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside
+`function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside & **must be named**
 
 **OR**
 
-`let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **no name** 
+`let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **name can be omitted** 
 
 - Creating a new function in the middle of any expression is another syntax for declaring a function and is called **function Expression**
 - 
