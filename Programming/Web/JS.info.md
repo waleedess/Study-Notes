@@ -395,4 +395,7 @@
 - Can be used without a value and will make the function exit immediately even if it was inside a loop
 - **If a function does not return a value, it is the same as returning `undefined` and thats also equal to returning no value**
 - `return (lines of statements)` -> No `;` at the end => for multiple lined expressions to be returned as for empty or one lined -> `return EXPR. ;`
+- To use `return` with conditional ternary operator `?`
+	`return CONDTION ? TOBERETURNEDIFTRUE : TOBERETURNEDIFFALSE` 
+	- To be returned here can be whatever and supporting expressions
 
