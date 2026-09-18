@@ -392,7 +392,7 @@
 ###### Return 
 
 - Can be in any place of the function and the function's execution stops when it reaches it 
-- Can be used without a value and will make the function exit immediately
+- Can be used without a value and will make the function exit immediately even if it was inside a loop
 - **If a function does not return a value, it is the same as returning `undefined` and thats also equal to returning no value**
 - `return (lines of statements)` -> No `;` at the end => for multiple lined expressions to be returned as for empty or one lined -> `return EXPR. ;`
 
