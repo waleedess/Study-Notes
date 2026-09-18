@@ -363,6 +363,10 @@
 
 ### Functions 
 
+- Regular values like strings or numbers represent the _data_.
+- A function can be perceived as an _action_.
+- We can pass it between variables and run when we want.
+
 ###### Function Declaration
 
 `function FUNCTIONNAME (PAR1, PAR2, PARn) {function body;}` -> **No `;`** outside & **must be named**
@@ -372,6 +376,7 @@
 `let VAR = function(PAR1, PAR2, PARn) {function body;};`-> **There is** `;` outside. But, **name can be omitted** 
 
 - Creating a new function in the middle of any expression is another syntax for declaring a function and is called **function Expression**
+- Created when execution reaches it and **usable only at that moment**
 - Not used at declaration only but can be used with declared funtions *-Either if it was declared by func. exp. or the standard way-*
 
 ###### Function Call
