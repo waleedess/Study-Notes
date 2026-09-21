@@ -56,16 +56,24 @@ Has 2 forms
 ---
 # Syntax wise
 
-- Statements are terminated by `;` 
+### Basic Info
 
- **Arrays**:
+- Statements are terminated by `;` 
+- Java **filename must match the class name** 
+- Can be **compiled** using `javac CLASSNAME.java` and **run** using `java CLASSNAME` and those are not needed while using and IDE
+
+---
+### Arrays
+ 
 - Array size decalaration
 		1. `<datatype>[] <arrname> = new <datatype>[5];`
 		2. `<datatype>[] <arrname> = new <datatype>[]{1,2,3,4,5};`
 - Array unassigned elements set as zeros
 - Arrays have `arrname.length` to be used as a call to array size or the size hardcoded
 
-**Loops**
+---
+### Loops
+
 - Basic for loop is just the same as C++
 - **foreach** loop:
 	- `for(<datatype> <item> : <arrname>){.
