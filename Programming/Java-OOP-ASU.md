@@ -1,10 +1,32 @@
 
+# Properties of Java
+
+- Object-oriented: like C#, not like C++ which i can run anything thats in the main function
+- Interpreted: Java is compiled line by line 
+- Portable: Any device that has JVM - Java VM, can use Java
+- Secure & robust: No memory leaks -*theortically*- due to garbage collector
+- Multi-threaded: Can run multiple proccess
+- Garbage collected: Like C# & unlike C++ & C; no need to delete the pointer manually as memory is allocated dynamically
+- ==No== support for multiple inheritance
+
+---
+# Object Oriented Thinking
+
+- Each object contains data, in the form of fields often known as attributes; and actions to work on that data, in the form of procedures, often known as methods
+- Objects constitute the building blocks of the program
+- Objects interact with each other and exchange data
+- Classes can form a hierarchy
+
+
+---
+
 # Principles of OOP
 
 1. Encapsulation
 2. Abstraction 
 3. Inheritance
 4. Polymorphism
+
 ---
 ##### 1. Encapsulation
 
