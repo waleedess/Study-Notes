@@ -7,8 +7,8 @@
 - Secure & robust: No memory leaks -*theortically*- due to garbage collector
 - Multi-threaded: Can run multiple proccess
 - Garbage collected: Like C# & unlike C++ & C; no need to delete the pointer manually as memory is allocated dynamically
-- ==No== support for multiple inheritance
-
+- **No** support for multiple inheritance
+  
 ---
 # Object Oriented Thinking
 
@@ -16,7 +16,6 @@
 - Objects constitute the building blocks of the program
 - Objects interact with each other and exchange data
 - Classes can form a hierarchy
-
 
 ---
 
@@ -30,14 +29,16 @@
 ---
 ##### 1. Encapsulation
 
-The process of ==combining data and methods== into a single unit called a ==class==
+The process of **combining data and methods** into a single unit called a **class**
 - Keeps data safe as it exposes only necessary data
-- Can be controlled via ==access modifiers==; `private`, `protected` and `public`
+- Can be controlled via **access modifiers**; `private`, `protected` and `public`
+  
 ---
 ##### 2. Abstraction
 
 Hides unnecessary details from the user to decrease complexity
 - Achieved by using classes
+  
 ---
 ##### 3. Inheritance 
 
@@ -66,7 +67,7 @@ Has 2 forms
 
 **Loops**
 - Basic for loop is just the same as C++
-- ==foreach== loop:
+- **foreach** loop:
 	- `for(<datatype> <item> : <arrname>){.
 		  `System.out.println(<item>)`
 	  `.}`
