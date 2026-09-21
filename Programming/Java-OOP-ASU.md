@@ -56,7 +56,7 @@ Has 2 forms
 ---
 # Syntax wise
 
-- Terminated by `;` 
+- Statements are terminated by `;` 
 
  **Arrays**:
 - Array size decalaration
