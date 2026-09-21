@@ -61,6 +61,12 @@ Has 2 forms
 - Statements are terminated by `;` 
 - Java **filename must match the class name** 
 - Can be **compiled** using `javac CLASSNAME.java` and **run** using `java CLASSNAME` and those are not needed while using and IDE
+- **Packages:**
+	- A group of related classes used to guarantee the uniqueness of class names in the package 
+	- Packages can be nested
+	- Sandard Java packages are `java.*` & `javax.*`
+	- 
+
 
 ---
 ### Arrays
