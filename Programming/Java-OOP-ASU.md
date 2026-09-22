@@ -74,7 +74,8 @@ Has 2 forms
 - Array size decalaration
 		1. `<datatype>[] <arrname> = new <datatype>[5];`
 		2. `<datatype>[] <arrname> = new <datatype>[]{1,2,3,4,5};`
-- Array unassigned elements set as zeros
+- Holds references only, **no actual values**
+- Array **unassigned** elements set as **Null**
 - Arrays have `arrname.length` to be used as a call to array size or the size hardcoded
 
 ---
