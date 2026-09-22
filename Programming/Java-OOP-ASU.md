@@ -94,4 +94,14 @@ Has 2 forms
 
 ### Classes & Objects 
 
-- 
+1. Class 
+	- Constitutes the blueprint of a specific type
+		- **Do not reserve memory**
+	- Contains data members/fields and methods to work on them
+		- Have various levels of hiding to protect its own fields and methods
+	- Can contain inner classes and used to create hierarchy
+2. Object
+	- An instance of a specific class
+	- **Reserves memory** in the system
+	- Can be instantiated using the keyword: `new`
+		- If created but not instantiated => **Null**
