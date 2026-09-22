@@ -72,8 +72,8 @@ Has 2 forms
 ### Arrays
  
 - Array size decalaration
-		1. `<datatype>[] <arrname> = new <datatype>[5];`
-		2. `<datatype>[] <arrname> = new <datatype>[]{1,2,3,4,5};`
+		1. `<datatype>[] <arrname> = new <datatype>[5];` => **Non**-initialized
+		2. `<datatype>[] <arrname> = new <datatype>[]{1,2,3,4,5};` => **Intialized** 
 - Holds references only, **no actual values**
 - Array **unassigned** elements set as **Null**
 - Arrays have `arrname.length` to be used as a call to array size or the size hardcoded
@@ -89,3 +89,9 @@ Has 2 forms
 	- Think of `item` as `i` in basic for loops
 - `break` -> Ends the whole loop
 - `continue` -> Ends the current iteration and start a new one keeping the loop going
+
+---
+
+### Classes & Objects 
+
+- 
