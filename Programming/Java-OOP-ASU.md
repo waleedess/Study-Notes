@@ -114,3 +114,8 @@ Has 2 forms
 `AMod CLASSNAME(PARList){}` -> Constructors: special method that runs automatically and only when you create a new object with `new`. Its job is to initialize the object's fields and only accepts access modifiers. Can make more than one object but should be different, But each class should has at least one, If not the compiler will make a default one. Constructors do not have a return type
 `AMod NAMod RETURNTYPE METHOD1(PARList){}` -> Basic method
 `AMod NAMod RETURNTYPE METHODn(PARList){}`
+
+
+###### New Object
+
+`CLASSNAME OBJName = new CLASSNAME(PARList)`;
