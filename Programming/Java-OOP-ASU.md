@@ -109,13 +109,16 @@ Has 2 forms
 ###### Class Syntax
 
 `AMod NAMod DATATYPE CLASSNAME{`
-`AMod NAMod DATATYPE FIELD1;` -> Fields: variables that represent data that each obj hold
+`AMod NAMod DATATYPE FIELD1;` -> **Fields**: variables that represent data that each obj hold
 `AMod NAMod DATATYPE FIELDn;`
-`AMod CLASSNAME(PARList){}` -> Constructors: special method that runs automatically and only when you create a new object with `new`. Its job is to initialize the object's fields and only accepts access modifiers. Can make more than one object but should be different, But each class should has at least one, If not the compiler will make a default one. Constructors do not have a return type
+`AMod CLASSNAME(PARList){}` -> **Constructors**: special method that runs **automatically** and only when you create a new object with `new`. Its job is to **initialize the object's fields** and **only accepts access modifiers**. Can make more than one object but should be different, But each class should has at least one, If not the compiler will make a default one. Constructors **do not have a return type**
 `AMod NAMod RETURNTYPE METHOD1(PARList){}` -> Basic method
 `AMod NAMod RETURNTYPE METHODn(PARList){}`
 
 
-###### New Object
+###### New Object Instantiation
 
-`CLASSNAME OBJName = new CLASSNAME(PARList)`;
+1. **Lone Objects**
+	`CLASSNAME OBJName = new CLASSNAME(PARList)`;
+2. **Array of Objects**
+	``
