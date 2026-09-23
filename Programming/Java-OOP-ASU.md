@@ -109,4 +109,5 @@ Has 2 forms
 ###### Class Syntax
 
 `AMod NAMod DATATYPE CLASSNAME{`
-`AMod NAMod DATATYPE `
+`AMod NAMod DATATYPE FIELD` -> Fields: variables that represent data that each obj hold
+``
