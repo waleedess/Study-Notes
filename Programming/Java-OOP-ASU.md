@@ -110,5 +110,5 @@ Has 2 forms
 
 `AMod NAMod DATATYPE CLASSNAME{`
 `AMod NAMod DATATYPE FIELD1;` -> Fields: variables that represent data that each obj hold
-`AMod NAMod DATATYPE FIELDN;`
+`AMod NAMod DATATYPE FIELDn;`
 `AMod NAMod `
