@@ -122,6 +122,6 @@ Has 2 forms
 	`CLASSNAME OBJName = new CLASSNAME(PARList)`;
 2. **Array of Objects**
 	`DATATYPE[] VARName = new DATATYPE[SIZE];` => Declares the array, 10 empty (Null) slots
-	`for (int i=0; i<SIZE; i++) {`
+	`for (int i=0; i<SIZE; i++) {` => Instantiates each array member
 	`VARName[i] = new DATATYPE();`
 	`}`
