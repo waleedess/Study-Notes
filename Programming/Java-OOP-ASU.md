@@ -105,3 +105,8 @@ Has 2 forms
 	- **Reserves memory** in the system
 	- Can be instantiated using the keyword: `new`
 		- If created but not instantiated => **Null**
+
+###### Class Syntax
+
+`AMod NAMod DATATYPE CLASSNAME{`
+`AMod NAMod DATATYPE `
