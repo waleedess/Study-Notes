@@ -111,4 +111,6 @@ Has 2 forms
 `AMod NAMod DATATYPE CLASSNAME{`
 `AMod NAMod DATATYPE FIELD1;` -> Fields: variables that represent data that each obj hold
 `AMod NAMod DATATYPE FIELDn;`
-`AMod NAMod `
+`AMod CLASSNAME(PARList){}` -> Constructors: special method that runs automatically when you create a new object with `new`. Its job is to initialize the object's fields and only accepts access modifiers
+`AMod NAMod RETURNTYPE METHOD1(PARList){}` -> Basic method
+`AMod NAMod RETURNTYPE METHODn(PARList){}`
