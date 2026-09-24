@@ -148,6 +148,7 @@ Has 2 forms
 	2. `Private`: accessible only within the same 
 	3. `Protected`: accessible within the same package + subclasses
 	4. Default/NoKeyword: accessible only within the same package (Package-local)
+	![[Pasted image 20260924032926.png]]
 
 ###### Non-Access Modifiers
 
