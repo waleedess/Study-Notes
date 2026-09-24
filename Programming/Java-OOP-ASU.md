@@ -158,4 +158,5 @@ Has 2 forms
 	1. `static`: belongs to the class itself, not specific to individual objects
 		- Accessible using `CLASSNAME.` not only `OBJName.`
 	2. `final`: can not be changed/overriden/extended
+		- Equates `const` of C++
 	3. `abstract`: no full implementation; must be completed by a subclass
