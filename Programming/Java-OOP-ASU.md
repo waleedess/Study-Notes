@@ -137,3 +137,22 @@ Has 2 forms
 	`for (int i=0; i<SIZE; i++) {` => Instantiates each array member
 	`VARName[i] = new DATATYPE();`
 	`}`
+
+### Access Modifiers & Non-Access Modifiers
+
+###### Access Modififers 
+
+- Control who can **see/use**
+- Options:
+	1. `Public`: accessible form anywhere
+	2. `Private`: accessible only within the same 
+	3. `Protected`: accessiblr within the same package + subclasses
+	4. Default/NoKeyword: accessible only within the same package (Package-local)
+
+###### Non-Access Modifiers
+
+- Control **behaviour**, **Not visibility**
+- Options:
+	1. `static`: belongs to the class itself, not individual objects
+	2. `final`: can not be changed/overriden/extended
+	3. `abstract`: no full implementation; must be completed by a subclass
