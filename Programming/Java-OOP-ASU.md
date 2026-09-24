@@ -149,11 +149,12 @@ Has 2 forms
 	3. `Protected`: accessible within the same package + subclasses
 	4. Default/NoKeyword: accessible only within the same package (Package-local)
 	![[Pasted image 20260924032926.png]]
-
+	- Classes must not be `private` or `protected` as they will not be accessible. Can be used with inner classes only
+	- 
 ###### Non-Access Modifiers
 
 - Control **behaviour**, **Not visibility**
 - Options:
-	1. `static`: belongs to the class itself, not individual objects
+	1. `static`: belongs to the class itself, not specific to individual objects
 	2. `final`: can not be changed/overriden/extended
 	3. `abstract`: no full implementation; must be completed by a subclass
