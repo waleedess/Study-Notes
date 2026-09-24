@@ -105,6 +105,18 @@ Has 2 forms
 	- **Reserves memory** in the system
 	- Can be instantiated using the keyword: `new`
 		- If created but not instantiated => **Null**
+3. UML - Unified Modeling Language
+	- Visualises classes, objects and relationships among system classes 
+	- **Class Diagram**: is a rectangular UML divided into 3 sections:![[Pasted image 20260924030457.png|238]]
+		1. Class Name
+		2. Attribures/Fields
+		3. Operations/Methods
+	- UML diagrams mentions access modifiers as shown represented in
+		1. `+` => **Public**
+		2. `#` => **Protected**
+		3. `-` => **Private**
+	- UML Relationships can be inheritance(hierarchial) or association
+		- Represented by arrowheads ![[Pasted image 20260924030850.png|393]]
 
 ###### Class Syntax
 
