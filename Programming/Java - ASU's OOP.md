@@ -18,7 +18,6 @@
 - Classes can form a hierarchy
 
 ---
-
 # Principles of OOP
 
 1. Encapsulation
@@ -91,7 +90,6 @@ Has 2 forms
 - `continue` -> Ends the current iteration and start a new one keeping the loop going
 
 ---
-
 ### Classes & Objects 
 
 1. Class 
@@ -150,7 +148,6 @@ Has 2 forms
 	4. Default/NoKeyword: accessible only within the same package (Package-local)
 	![[Pasted image 20260924032926.png]]
 	- Classes must not be `private` or `protected` as they will not be accessible. Can be used with inner classes only
-	- 
 ###### Non-Access Modifiers
 
 - Control **behaviour**, **Not visibility**
