@@ -177,3 +177,8 @@ Has 2 forms
 			8. n -> 
 		- `System.out.printf("%s=%d","x",x)`=> x=10
 		- `System.out.printf("%.1f",y)` => Rounds the `y` to the first .x
+
+###### Escape Charachters
+
+1. `/n` => New line
+2. `/t`=> Tab / 4 spaces
