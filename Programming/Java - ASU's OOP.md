@@ -60,12 +60,6 @@ Has 2 forms
 - Statements are terminated by `;` 
 - Java **filename must match the class name** 
 - Can be **compiled** using `javac CLASSNAME.java` and **run** using `java CLASSNAME` and those are not needed while using and IDE
-- **Packages:**
-	- A group of related classes used to guarantee the uniqueness of class names in the package 
-	- Packages can be nested
-	- Sandard Java packages are `java.*` & `javax.*`
-	- 
-
 
 ---
 ### Arrays
@@ -157,3 +151,10 @@ Has 2 forms
 	2. `final`: can not be changed/overriden/extended
 		- Equates `const` of C++
 	3. `abstract`: no full implementation; must be completed by a subclass
+
+---
+### Packages
+-  A group of related classes used to guarantee the uniqueness of class names in the package 
+- Packages can be nested
+- Sandard Java packages are `java.*` & `javax.*`
+- A class can use all classes from its own package and all public classes of other packages using the key word `import`
