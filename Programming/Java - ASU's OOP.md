@@ -170,3 +170,8 @@ Has 2 forms
 			1. d -> Decimal
 			2. f -> Float
 			3. c -> Charachter
+			4. s -> String
+			5. b -> Boolean
+			6. o -> Octal integer
+			7. x -> Hexadecimal integer
+			8. n -> 
