@@ -158,3 +158,10 @@ Has 2 forms
 - Packages can be nested
 - Sandard Java packages are `java.*` & `javax.*`
 - A class can use all classes from its own package and all public classes of other packages using the key word `import`
+
+---
+### Displaying outputs
+
+1. `System.out`**`.print`**`("...")` => Shows value passed to it
+2. `System.out`**`.println`**`("...")` => Shows value followed by a new line
+3. `System.out`**`.printtf`**`("...")` => Shows value with a certain format
