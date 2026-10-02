@@ -164,8 +164,8 @@ Has 2 forms
 
 1. `System.out`**`.print`**`("...")` => Shows value passed to it
 2. `System.out`**`.println`**`("...")` => Shows value followed by a new line
-3. `System.out`**`.printtf`**`("...")` => Shows value with a certain format
-	- Syntax: `System.out`**`.printtf`**`("%parameter", "value")`
+3. `System.out`**`.printf`**`("...")` => Shows value with a certain format
+	- Syntax: `System.out`**`.printf`**`("%parameter", "value")`
 		- Paramerters:
 			1. d -> Decimal
 			2. f -> Float
