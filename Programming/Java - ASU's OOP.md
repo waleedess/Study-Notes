@@ -182,3 +182,6 @@ Has 2 forms
 
 1. `/n` => New line
 2. `/t`=> Tab / 4 spaces
+3. `/r` => Carriage return. postions the screen cursor at the beginning of the current line but do not advance to next line (overwrites)
+4. `\\` => Prints 1 backslash
+5. `\"` => Prints double qoutes 
