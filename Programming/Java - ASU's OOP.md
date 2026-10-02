@@ -176,3 +176,4 @@ Has 2 forms
 			7. x -> Hexadecimal integer
 			8. n -> 
 		- `System.out.printf("%s=%d","x",x)`=> x=10
+		- `System.out.printf("%.1f",y)` => Rounds the `y` to the first .x
