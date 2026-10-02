@@ -192,6 +192,7 @@ Has 2 forms
 1. `import java.util.Scanner;` => To import the package that has the class scanner
 2. `Scanner input = new Scanner(System.in)` => To take an object from the scanner class
 3. Use the Scanner suitable method to read the exact next input acc. to its data type: 
-	1. `int x = input.nextInt()`
-	2. `float f = input.nextFloat()`
-	3. `String`
+	1. `int x = input.nextInt();`
+	2. `float f = input.nextFloat();`
+	3. `String s = input.next();`
+	4. `char c = input.next().charAt(0);`
