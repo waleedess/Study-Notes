@@ -438,7 +438,7 @@
 `let OBJ = {KEY1 = VALUE , KEY2 = VALUE}`
 
 - The are the only non-primitive data type as it can contain more than a single thing
-- Can be declared using: `let / const / var` no restrictions
+- Can be declared using: `let / const / var` - no restrictions
 - Properties (Keys)
 	- Accessed using: `OBJ.KEY`
 	- `delete OBJ.KEY` is used to remove a property
