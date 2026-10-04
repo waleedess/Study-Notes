@@ -451,7 +451,7 @@
 
 ### Defining an Object
 
-###### 1. Object Litral 
+###### 1. Object-Litral 
 
 `let OPJ ={`
 `//Properties`
@@ -459,4 +459,8 @@
 `//Methods`
 `FUNC: function (PARList) {} `
 `};`
-``
+
+
+### Calling a Key
+
+###### 1. Dot Notation
