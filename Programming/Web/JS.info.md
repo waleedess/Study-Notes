@@ -448,4 +448,14 @@
 		  `OBJ["KE KEY"]`
 	- To have properties act or be treated as an expression or a variable use the square brackets whether it was a multiword or not: `let key = xxx; OBJ[key]`
 - **Computed Properties**
-	- 
+
+### Defining an Object
+
+###### 1. Object Litral 
+
+`let OPJ ={`
+`//Properties`
+`KEY: "VALUE"`
+`//Methods`
+``
+``
