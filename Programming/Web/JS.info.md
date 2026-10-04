@@ -447,3 +447,5 @@
 		- Or accessed with whatever the components using square brackets:
 		  `OBJ["KE KEY"]`
 	- To have properties act or be treated as an expression or a variable use the square brackets whether it was a multiword or not: `let key = xxx; OBJ[key]`
+- **Computed Properties**
+	- 
