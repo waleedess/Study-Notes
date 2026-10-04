@@ -455,7 +455,8 @@
 
 `let OPJ ={`
 `//Properties`
-`KEY: "VALUE"`
+`KEY1: "VALUE", KEY1: "VALUE", KEYn,`
 `//Methods`
-``
+`FUNC: function (PARList) {} `
+`};`
 ``
