@@ -21,7 +21,7 @@ For XSS the **victim is an other end user** not servers or infrastructure
 ### Search for:
 
 1. Input is not sanitized and special charachters like `<` are not prohibitedد
-	- Can be passed using base64 encoding
+	- Can be passed using base64 encoding as an **Evading technique**
 2. Input is displayed with no encoding
 3. No Encryption between server and website
 
