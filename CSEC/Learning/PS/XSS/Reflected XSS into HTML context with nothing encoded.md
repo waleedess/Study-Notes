@@ -10,7 +10,11 @@
 - Perform any action within the application that the user can perform
 -  View any information that the user is able to view.
 - Modify any information that the user is able to modify.
-- Initiate interactions with other application users, including malicious attacks, that will appear to originate from the initial victim user
+- Initiate interactions with other application users, including malicious attacks like:
+	1. Website Defacement
+	2. Session Hijacking
+	3. Malware Injection that might escape the browser and run on the OS natively
+	4. Redirection to other malicious websites
 
 ### Search for:
 
