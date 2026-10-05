@@ -5,7 +5,19 @@
 - Will be reflected directly as the input is injected to the HTML Document directly
 - Tested at input fields, URL parameter and etc. by using either `alert()` or `print()` functions as a **POC** 
 
+### Impact 
+
+- Perform any action within the application that the user can perform
+-  View any information that the user is able to view.
+- Modify any information that the user is able to modify.
+- Initiate interactions with other application users, including malicious attacks, that will appear to originate from the initial victim user
+
 ### Search for:
 
 1. Input is not sanitized and special charachters like `<` are not prohibited
 2. Input is displayed with no encoding
+
+--- 
+ 
+ The need for an external delivery mechanism for the attack means that the impact of reflected XSS is generally less severe than stored XSS, where a self-contained attack can be delivered within the vulnerable application itself
+ 
