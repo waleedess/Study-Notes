@@ -5,5 +5,5 @@ XSS is the ability to execute a JS command on a site
 
 ### Search for:
 
-1. Input is displayed 
-2. Input is not sanitized and prohibit 
+1. Input is not sanitized and special charachters like `<` are not prohibited
+2. Input is displayed with no encoding
