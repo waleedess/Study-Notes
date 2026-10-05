@@ -1,4 +1,4 @@
-- XSS is the ability to execute a JS command on a site
+- Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript to users
 - Browser treats the code as trusted as it is did run inside the victim site's own origin so **xss defeats the Same Origin Policy - SOP**
 - Severity will be as extreme as the permissions the user have
 - Will be reflected directly as the input is injected to the HTML Document directly
