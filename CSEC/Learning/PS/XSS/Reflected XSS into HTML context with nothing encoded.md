@@ -7,6 +7,8 @@
 
 ### Impact 
 
+For XSS the **victim is an other end user** not servers or infrastructure
+
 - Perform any action within the application that the user can perform
 -  View any information that the user is able to view.
 - Modify any information that the user is able to modify.
