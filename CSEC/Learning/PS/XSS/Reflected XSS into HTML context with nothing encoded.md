@@ -1,7 +1,6 @@
-XSS is the ability to execute a JS command on a site
-
+- XSS is the ability to execute a JS command on a site
 - Severity will be as extreme as the permissions the user have
-- Will be reflected directly
+- Will be reflected directly as the input is injected to the HTML Document directly
 
 ### Search for:
 
