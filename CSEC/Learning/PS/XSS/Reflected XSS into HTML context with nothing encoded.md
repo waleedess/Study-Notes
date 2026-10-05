@@ -1,7 +1,8 @@
 - XSS is the ability to execute a JS command on a site
+- Browser treats the code as trusted as it is did run inside the victim site's own origin so **xss defeats the Same Origin Policy - SOP**
 - Severity will be as extreme as the permissions the user have
 - Will be reflected directly as the input is injected to the HTML Document directly
-- Tes
+- Tested by input fields, URL parameter and etc.
 
 ### Search for:
 
