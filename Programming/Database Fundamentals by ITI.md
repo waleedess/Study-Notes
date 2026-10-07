@@ -210,7 +210,7 @@ Participations
     - Not having a Domain with Null
 - Primary key can be chosen in the shortest Unique Combination is single so it is according to
     - Have less storage ex. (number>Letter)
-- `EntityName (singleAtt.1,singleAtt.2,CompositeAtt.subpart1,CompositeAtt.subpart2)` → Chosen Primary key will have its name underlined as in example
+- EntityName `(singleAtt.1,singleAtt.2,CompositeAtt.subpart1,CompositeAtt.subpart2)` → Chosen Primary key will have its name underlined as in example
 - Multi-Valued Attributes can’t be in the same Map as single as it will result in null Domains → it will be in a other Map with the same Primary key but named as Foreign Key that will reference
 - `EntityName - MultiAtt. (singleAtt.2, MultiAtt.)` → Foreign Key should have an dotted-underline
 - `EntityName - MultiAtt. (singleAtt.2, MultiAtt.)` → Primary key Combination && Foreign key idea
