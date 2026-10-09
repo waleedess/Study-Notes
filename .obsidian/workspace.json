@@ -11,10 +11,14 @@
             "id": "3df002c13016e317",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bug Bounty Bootcamp by Vickie Li"
             }
           }
         ]
@@ -185,11 +189,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3df002c13016e317",
+  "active": "aacfb940db834861",
   "lastOpenFiles": [
-    "CSEC/Skills/Web Pentest/Google Dorking.md",
-    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 5 - Web Hacking Reconnaissance.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
+    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
+    "CSEC/Skills/Web Pentest/Google Dorking.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
     "Untitled.base",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li",
