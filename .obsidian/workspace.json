@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "552829f336158739",
@@ -189,15 +189,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aacfb940db834861",
+  "active": "3df002c13016e317",
   "lastOpenFiles": [
+    "Untitled.base",
+    "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
     "CSEC/Skills/Web Pentest/Recon/Passive",
     "CSEC/Skills/Web Pentest/Recon",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
-    "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
-    "Untitled.base",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li",
     "Books/Cybersecurity",
     "Books",
