@@ -6,5 +6,29 @@
       ],
       "key": "F"
     }
+  ],
+  "spellfix:cycle-suggestion": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "spellfix:restore-original-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "spellfix:add-last-suggestion-to-ignored": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
   ]
 }
