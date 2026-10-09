@@ -1,0 +1,17 @@
+.markdown-rendered hr,
+.cm-line .cm-hr {
+  border: none !important;
+  border-top: 2px dashed var(--text-muted) !important;
+  background: transparent !important;
+  height: 0 !important;
+  margin: 2em 0 !important;
+}
+
+
+.markdown-rendered hr.solid {
+  border: none !important;
+  border-top: 2px solid var(--text-muted) !important;
+  background: transparent !important;
+  height: 0 !important;
+  margin: 2em 0 !important;
+}
