@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Web/JS.Info.md",
+                "file": "CSEC/Skills/Web Pentest/Google Dorking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS.Info"
+              "title": "Google Dorking"
             }
           }
         ]
@@ -189,10 +189,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bdcfcc3512ba068",
+  "active": "aacfb940db834861",
   "lastOpenFiles": [
-    "Programming/Web/CSS.md",
+    "Books/Cybersecurity/Untitled",
+    "Books/Cybersecurity",
+    "Books",
     "Programming/Web/JS.Info.md",
+    "CSEC/Skills/Web Pentest/Google Dorking.md",
+    "CSEC/Skills/Web Pentest",
+    "CSEC/Skills",
+    "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
     "Uni/Web Dev/Labs.md",
     "Uni/Web Dev/Lectures.md",
