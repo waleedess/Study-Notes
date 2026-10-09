@@ -7,7 +7,7 @@
     1. Table/Column Name
     2. Column data types
     3. DB objects sructure
-    4. Constraints
+    4. Constraints wrok
     5. Access Privileges
     6. Usernames & Passwords & User privileges
     7. Log Files of interactions ->
