@@ -89,7 +89,7 @@ First it supported only numbers and characters, then it started to support:
 #### Distributed
 
 Gaining High availability → NO Single Point of Failure
-                                                   But with High Cost
+But with High Cost
 
 - Replication (copy&paste)
     - Partial Replica → 2 Servers installed (one copies only a part of the other)
