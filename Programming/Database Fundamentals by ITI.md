@@ -6,7 +6,7 @@
 - Metadata examples
     1. Table/Column Name
     2. Column data types
-    3. DB objects structure
+    3. DB objects sructure
     4. Constraints
     5. Access Privileges
     6. Usernames & Passwords & User privileges
