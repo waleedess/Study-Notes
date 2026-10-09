@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Web Dev/Labs.md",
+                "file": "Programming/Web/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Labs"
+              "title": "CSS"
             }
           }
         ]
@@ -192,11 +192,12 @@
   },
   "active": "5bdcfcc3512ba068",
   "lastOpenFiles": [
-    "Uni/Web Dev/Lectures.md",
+    "Programming/Web/JS.Info.md",
+    "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
-    "Uni/Web Dev",
     "Uni/Web Dev/Labs.md",
-    "Programming/Web/JS.info.md",
+    "Uni/Web Dev/Lectures.md",
+    "Uni/Web Dev",
     "Programming/Bash Scripting.md",
     "Programming/Java - ASU's OOP.md",
     "Programming/Database Fundamentals by ITI.md"
