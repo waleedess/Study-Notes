@@ -7,7 +7,7 @@
 - Secure & robust: No memory leaks -*theortically*- due to garbage collector
 - Multi-threaded: Can run multiple proccess
 - Garbage collected: Like C# & unlike C++ & C; no need to delete the pointer manually as memory is allocated dynamically
-- **No** support for multiple inheritance oaky 
+- **No** support for multiple inheritance wrok  
   
 ---
 # Object Oriented Thinking

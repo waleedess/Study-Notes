@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java - ASU's OOP.md",
+                "file": "Programming/Database Fundamentals by ITI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java - ASU's OOP"
+              "title": "Database Fundamentals by ITI"
             }
           }
         ]
@@ -191,6 +191,7 @@
   },
   "active": "5bdcfcc3512ba068",
   "lastOpenFiles": [
+    "Programming/Java - ASU's OOP.md",
     "Programming/Database Fundamentals by ITI.md"
   ]
 }

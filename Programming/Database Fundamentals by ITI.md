@@ -10,7 +10,7 @@
     4. Constraints  
     5. Access Privileges
     6. Usernames & Passwords & User privileges
-    7. Log Files of interactions ->
+    7. Log Files of interactions
 
 |  | DBMS Pros | DBMS Cons |
 | --- | --- | --- |
