@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Web/HTML.md",
+                "file": "Uni/Web Dev/Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "Labs"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -191,8 +192,10 @@
   },
   "active": "5bdcfcc3512ba068",
   "lastOpenFiles": [
-    "Programming/Web/Uni/Lectures.md",
-    "Programming/Web/Uni/Labs.md",
+    "Uni/Web Dev/Lectures.md",
+    "Programming/Web/HTML.md",
+    "Uni/Web Dev",
+    "Uni/Web Dev/Labs.md",
     "Programming/Web/JS.info.md",
     "Programming/Bash Scripting.md",
     "Programming/Java - ASU's OOP.md",
