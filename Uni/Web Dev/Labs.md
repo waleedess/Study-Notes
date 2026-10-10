@@ -50,7 +50,7 @@
 
 - `<select>` => Defines a drop-down list
 	`<optgroup label="">` => Defines a group of related options within, label attribute is a must to specify the title of the group
-	`<option> </option>` => Defines an option in a drop-down list
+	`<option value="xxx"> XXX </option>` => Defines an option in a drop-down list
   `</optgroup>`
   `</select>`
   ![[Pasted image 20261010042435.png]]
