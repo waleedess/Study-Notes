@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Web Dev/Lectures.md",
+                "file": "Uni/Web Dev/Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lectures"
+              "title": "Labs"
             }
           }
         ]
@@ -191,9 +191,9 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
+    "Uni/Web Dev/Lectures.md",
     "Uni/Web Dev/Labs.md",
     "Untitled.canvas",
-    "Uni/Web Dev/Lectures.md",
     "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
     "Untitled.base",
     "CSEC/Skills/Web Pentest/Recon/Passive",
