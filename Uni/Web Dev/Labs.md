@@ -7,4 +7,5 @@
 - `<bdi></bdi>` => Isolates a span of text that might be formatted in a different direction (e.g., right-to-left languages like Arabic or Hebrew) from surrounding text formatted left-to-right (or vice versa)
 - `<bdo></bdo>` => Renders text backwards
 - `<blockquote> </blockquote>` => Defines a section or block of text quoted from another source. Browsers typically display blockquotes indented from both margins.
-- 
+- `<cite></cite>` => Defines the title of a creative work, Browsers typically render the content inside `<cite>` in italics
+- ==`<code></code>`== => Snippet of computer code or programming syntax. Browsers typically render code using a fixed-width (monospace) font
