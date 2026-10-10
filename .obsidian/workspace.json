@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
+                "file": "Uni/Web Dev/Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google Dorking"
+              "title": "Labs"
             }
           }
         ]
@@ -191,8 +191,10 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "Untitled.base",
+    "Uni/Web Dev/Lectures.md",
+    "Uni/Web Dev/Labs.md",
     "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
+    "Untitled.base",
     "CSEC/Skills/Web Pentest/Recon/Passive",
     "CSEC/Skills/Web Pentest/Recon",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
@@ -206,8 +208,6 @@
     "CSEC/Skills",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
-    "Uni/Web Dev/Labs.md",
-    "Uni/Web Dev/Lectures.md",
     "Uni/Web Dev",
     "Programming/Bash Scripting.md",
     "Programming/Java - ASU's OOP.md",
