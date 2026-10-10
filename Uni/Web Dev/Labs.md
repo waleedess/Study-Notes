@@ -55,4 +55,8 @@
 	`</select>`
 	![[Pasted image 20261010042435.png]]
 
-- ``
+-  `<input list="browsers" placeholder="Start typing...">`
+   `<datalist>` => Enables an autocomplete or suggestion feature: as the user types into the input field, a drop-down list of matching options appears
+   `<option value="Chrome">` 
+   `</datalist>`
+   ![[Pasted image 20261010043216.png]]
