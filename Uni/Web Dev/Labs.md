@@ -48,7 +48,8 @@
 ![[Pasted image 20261010041828.png]]![[Pasted image 20261010041837.png]]
 - `<textarea rows="x" cols="y" placeholder="default text here"> </textarea>` => Defines a multiline input control (text area), Unlike a standard single-line `<input type="text">`
 
-- `<select>`
-	`<optgroup>`
+- `<select>` => Defines a drop-down list
+	`<optgroup>` => Defines a group of related options within
+	`<option> </option>` => Defines an option in a drop-down list
   `</optgroup>`
   `</select>`
