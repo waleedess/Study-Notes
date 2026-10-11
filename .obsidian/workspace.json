@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
+                "file": "CSEC/Tools/Burp Suite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bug Bounty Bootcamp by Vickie Li"
+              "title": "Burp Suite"
             }
           }
         ]
@@ -189,12 +189,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3df002c13016e317",
+  "active": "aacfb940db834861",
   "lastOpenFiles": [
+    "CSEC/Tools/Web",
+    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
+    "CSEC/Tools/Burp Suite.md",
+    "CSEC/Tools",
+    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "Uni/Web Dev/Labs.md",
     "Uni/Web Dev/Lectures.md",
     "Local Git's Workflow.md",
-    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
     "CSEC/Skills",
     "SS/Pasted image 20261010043216.png",
     "SS/Pasted image 20261010042435.png",
@@ -207,7 +211,6 @@
     "Untitled.base",
     "CSEC/Domains/Web/Recon/Passive",
     "CSEC/Domains/Web/Recon",
-    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li",
@@ -218,7 +221,6 @@
     "CSEC/Domains",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
-    "Uni/Web Dev",
     "Programming/Bash Scripting.md",
     "Programming/Java - ASU's OOP.md",
     "Programming/Database Fundamentals by ITI.md"
