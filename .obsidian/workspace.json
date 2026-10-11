@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Web Dev/Labs.md",
+                "file": "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Labs"
+              "title": "Bug Bounty Bootcamp by Vickie Li"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 322.5
   },
   "right": {
     "id": "552829f336158739",
@@ -189,8 +189,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aacfb940db834861",
+  "active": "3df002c13016e317",
   "lastOpenFiles": [
+    "Uni/Web Dev/Labs.md",
+    "Uni/Web Dev/Lectures.md",
+    "Local Git's Workflow.md",
+    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
+    "CSEC/Skills",
     "SS/Pasted image 20261010043216.png",
     "SS/Pasted image 20261010042435.png",
     "SS/Pasted image 20261010042433.png",
@@ -198,13 +203,10 @@
     "SS/Pasted image 20261010041828.png",
     "SS/Pasted image 20261010035637.png",
     "SS/Pasted image 20261010035257.png",
-    "Uni/Web Dev/Lectures.md",
-    "Uni/Web Dev/Labs.md",
     "Untitled.canvas",
-    "CSEC/Skills/Web Pentest/Recon/Passive/Google Dorking.md",
     "Untitled.base",
-    "CSEC/Skills/Web Pentest/Recon/Passive",
-    "CSEC/Skills/Web Pentest/Recon",
+    "CSEC/Domains/Web/Recon/Passive",
+    "CSEC/Domains/Web/Recon",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
@@ -212,8 +214,8 @@
     "Books/Cybersecurity",
     "Books",
     "Programming/Web/JS.Info.md",
-    "CSEC/Skills/Web Pentest",
-    "CSEC/Skills",
+    "CSEC/Domains/Web",
+    "CSEC/Domains",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
     "Uni/Web Dev",
