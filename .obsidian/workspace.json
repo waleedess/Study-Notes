@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -189,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aacfb940db834861",
+  "active": "3df002c13016e317",
   "lastOpenFiles": [
     "CSEC/Tools/Web",
     "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
