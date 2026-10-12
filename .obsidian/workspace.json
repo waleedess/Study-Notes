@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Tools/Burp Suite.md",
+                "file": "CSEC/Domains/Web/Recon/Passive/WHOIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Suite"
+              "title": "WHOIS"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "552829f336158739",
@@ -192,11 +191,13 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "CSEC/Tools/Web",
     "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
-    "CSEC/Tools/Burp Suite.md",
-    "CSEC/Tools",
+    "CSEC/Domains/Web/Recon/Passive/WHOIS.md",
+    "CSEC/Domains/Web/Recon/Active",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
+    "CSEC/Tools/Burp Suite.md",
+    "CSEC/Tools/Web",
+    "CSEC/Tools",
     "Uni/Web Dev/Labs.md",
     "Uni/Web Dev/Lectures.md",
     "Local Git's Workflow.md",
@@ -218,8 +219,6 @@
     "Books/Cybersecurity",
     "Books",
     "Programming/Web/JS.Info.md",
-    "CSEC/Domains/Web",
-    "CSEC/Domains",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
     "Programming/Bash Scripting.md",
