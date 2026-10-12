@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Domains/Web/Recon/Passive/WHOIS.md",
+                "file": "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WHOIS"
+              "title": "WHOIS & Reverse WHOIS"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -192,7 +193,7 @@
   "active": "3df002c13016e317",
   "lastOpenFiles": [
     "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
-    "CSEC/Domains/Web/Recon/Passive/WHOIS.md",
+    "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
     "CSEC/Domains/Web/Recon/Active",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "CSEC/Tools/Burp Suite.md",
