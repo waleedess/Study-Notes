@@ -28,9 +28,13 @@ Web APIs use:
 > Client → Gateway → Service (web server e.g. users service) → endpoint handler (code function for one method and path e.g. `GET /api/users/{user_id}`) 
 
 Handles these tasks:
-1. **Microservice Routing**: Sends `/api/users/...` to the users service and `/api/orders/...` to the orders service
+1. **Microservice Routing**: Sends `/api/users/...` to the users service and `/api/orders/...` to the orders service 
 2. **Request Filtering, Logging and Monitoring:** blocks and records requests as they pass through
 3. **Authentication:** Checks tokens or keys before a request reaches a backend
 4. **Rate Limiting** 
 5. **SSL/TLS Encryption for transit**
 6. **Load Balancing**
+   
+###### Microservice
+
+> Modular piece of a web application that handles a specific function or set of functions and uses APIs to transfer data & trigger actions
