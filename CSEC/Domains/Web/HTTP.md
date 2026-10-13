@@ -20,12 +20,13 @@
 | `GET`, `HEAD`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`                                                                                                                                                                          | `POST`, `PATCH`, `CONNECT`                          |
 | -> 10 `PUT` requests submitted => 10 overwrites on the same resource<br>-> 2 `DELETE` requests submitted => 1st: returns `200` and deletes the resource, 2nd: returns `404`, but the resource is still deleted ⇒ Idempotent | -> 10 `POST` requests submitted => 10 new resources |
 
----
+
 # Stateless & Stateful HTTP
+---
 
-
-| Statless                                                                                                                                                                                  | Stateful                                                       |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session created between client's web browser and a specific web server               | Server does not keep track of information between the requests |
-| Uses small text files `COOKIES` that are stored client side including site, security preferences, authentication information & etc.<br>Servers also saves some in a cache or in databases | Eliminates the need of server resources to manage sessions     |
-| Requires client to send requests continuously to the web server                                                                                                                           | Each stateless request sent must contain all the               |
+| Statless                                                                                                                                                                                  | Stateful                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session created between client's web browser and a specific web server               | Server does not keep track of information between the requests                                                                                                 |
+| Uses small text files `COOKIES` that are stored client side including site, security preferences, authentication information & etc.<br>Servers also saves some in a cache or in databases | Eliminates the need of server resources to manage sessions                                                                                                     |
+| Requires client to send requests continuously to the web server                                                                                                                           | Each stateless request sent must contain all the authorization information such as a key or a header                                                           |
+|                                                                                                                                                                                           | Can scale without concern of losing information as clients can deal with different servers as the necessary info will be accessible from the backend databases |
