@@ -3,7 +3,7 @@
 ### 1: How Web Applications Work
 ---
 Topics:
-1. [[HTTP Methods & Sessions]]
+1. [HTTP Methods & Sessions](../../CSEC/Domains/Web/HTTP%20Methods%20%26%20Sessions.md)
 
 ### 2: The Anatomy of Web APIs
 ---

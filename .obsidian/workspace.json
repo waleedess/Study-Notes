@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Tools/Burp Suite.md",
+                "file": "Books/Cybersecurity/Hacking APIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Suite"
+              "title": "Hacking APIs"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -189,18 +190,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aacfb940db834861",
+  "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "CSEC/Tools/Tools Map.canvas",
+    "CSEC/Domains/Web/APIs/API Anatomy.md",
+    "Books/Cybersecurity/Hacking APIs.md",
     "CSEC/Tools/Burp Suite.md",
+    "CSEC/Tools/Tools Map.canvas",
     "Programming/Bash Scripting.md",
     "Programming/Database Fundamentals by ITI.md",
     "HTTP.md",
     "CSEC/Domains/Web/HTTP Methods & Sessions.md",
     "CSEC/Domains/Web/APIs/RESTful APIs.md",
     "CSEC/Domains/Web/APIs/GraphQL APIs.md",
-    "CSEC/Domains/Web/APIs/API Anatomy.md",
-    "Books/Cybersecurity/Hacking APIs.md",
     "CSEC/Domains/Web/APIs",
     "CSEC/Domains/Web/APIs.md",
     "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
