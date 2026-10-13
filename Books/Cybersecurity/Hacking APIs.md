@@ -8,6 +8,6 @@ Topics:
 ### 2: The Anatomy of Web APIs
 ---
 Topics:
-1. [[API Anatomy]]
-2. [[RESTful APIs]]
-3. [[GraphQL APIs]] 
+1. [[API Anatomy]](../../CSEC/Domains/Web/APIs/API%20Anatomy.md)
+2. [[RESTful APIs]](../../CSEC/Domains/Web/APIs/RESTful%20APIs.md)
+3. [[GraphQL APIs]](../../CSEC/Domains/Web/APIs/GraphQL%20APIs.md) 

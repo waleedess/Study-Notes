@@ -192,9 +192,9 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "CSEC/Domains/Web/HTTP Methods & Sessions.md",
-    "Books/Cybersecurity/Hacking APIs.md",
     "CSEC/Domains/Web/APIs/API Anatomy.md",
+    "Books/Cybersecurity/Hacking APIs.md",
+    "CSEC/Domains/Web/HTTP Methods & Sessions.md",
     "CSEC/Tools/Burp Suite.md",
     "CSEC/Tools/Tools Map.canvas",
     "Programming/Bash Scripting.md",
