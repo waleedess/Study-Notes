@@ -21,3 +21,15 @@ Web APIs use:
 1. Singleton as `/api/users/{user_id}`
 2. Collection as `/api/users/`
 3. Subcollection as `/api/users/{user_id}/settings` 
+
+# API Gateway
+
+> An API gateway is a single entry point that sits in front of one or more backend services. Clients send all requests to the gateway, and it forwards each one to the right service.
+
+Handles these tasks:
+1. **Microservice Routing**: Sends `/api/users/...` to the users service and `/api/orders/...` to the orders service
+2. **Request Filtering, Logging and Monitoring:** blocks and records requests as they pass through
+3. **Authentication:** Checks tokens or keys before a request reaches a backend
+4. **Rate Limiting** 
+5. **SSL/TLS Encryption for transit**
+6. **Load Balancing**
