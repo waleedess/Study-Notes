@@ -24,7 +24,8 @@
 # Stateless & Stateful HTTP
 
 
-| Statless                                                                                                                                                                                  | Stateful |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session created between client's web browser and a specific web server               |          |
-| Uses small text files `COOKIES` that are stored client side including site, security preferences, authentication information & etc.<br>Servers also saves some in a cache or in databases |          |
+| Statless                                                                                                                                                                                  | Stateful                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session created between client's web browser and a specific web server               | Server does not keep track of information between the requests |
+| Uses small text files `COOKIES` that are stored client side including site, security preferences, authentication information & etc.<br>Servers also saves some in a cache or in databases | Eliminates the need of server resources to manage sessions     |
+| Requires client to send requests continuously to the web server                                                                                                                           | Each stateless request sent must contain all the               |
