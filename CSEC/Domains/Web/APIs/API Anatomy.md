@@ -18,4 +18,6 @@ Web APIs use:
 # API Resource Types
 ---
 
-1.Singleton: `` 
+1. Singleton as `/api/users/{user_id}`
+2. Collection as `/api/profiles/users/`
+3. Subcollection as `/api/users/{user_id}/settings`
