@@ -37,4 +37,12 @@ Handles these tasks:
    
 ###### Microservice
 
-> Modular piece of a web application that handles a specific function or set of functions and uses APIs to transfer data & trigger actions
+> A small, independently deployed service that handles one specific function (e.g., users or orders). Microservices communicate with each other and with clients through APIs to transfer data and trigger actions. Each service can be updated, scaled, or restarted without affecting the others.
+> Clients usually don’t call microservices directly. An API gateway routes each request to the right service, for example `/api/users/` to the users service and `/api/orders/` to the orders service.
+
+**Example**: Web app with payment page can do the job using either ways
+
+| Several Different Microservices                             | Monolith |
+| ----------------------------------------------------------- | -------- |
+| One for each of billing, logging user info, emails reciepts |          |
+
