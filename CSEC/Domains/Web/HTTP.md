@@ -19,3 +19,5 @@
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | `GET`, `HEAD`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`                                                                                                                                                                          | `POST`, `PATCH`, `CONNECT`                          |
 | -> 10 `PUT` requests submitted => 10 overwrites on the same resource<br>-> 2 `DELETE` requests submitted => 1st: returns `200` and deletes the resource, 2nd: returns `404`, but the resource is still deleted ⇒ Idempotent | -> 10 `POST` requests submitted => 10 new resources |
+
+---
