@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "WHOIS & Reverse WHOIS"
             }
+          },
+          {
+            "id": "3c25068be41af69d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Cybersecurity/Hacking APIs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hacking APIs"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "552829f336158739",
@@ -190,12 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3df002c13016e317",
+  "active": "3c25068be41af69d",
   "lastOpenFiles": [
-    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
+    "Books/Cybersecurity/Bug Bounty Bootcamp.md",
+    "Books/Cybersecurity/Hacking APIs.md",
     "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
+    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
     "CSEC/Domains/Web/Recon/Active",
-    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li.md",
     "CSEC/Tools/Burp Suite.md",
     "CSEC/Tools/Web",
     "CSEC/Tools",
