@@ -10,6 +10,6 @@ Reconnaissance is knowing:
 2. How does it work => ==To test logic==
    
 **Topics**:
-- [[Google Dorking]]
+- [[Google Dorking]](../../CSEC/Domains/Web/Recon/Passive/Google%20Dorking.md)
 - 
 

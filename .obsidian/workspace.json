@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Cybersecurity/Hacking APIs.md",
+                "file": "CSEC/Domains/Web/APIs/RESTful APIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hacking APIs"
+              "title": "RESTful APIs"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
+    "width": 291.5,
     "collapsed": true
   },
   "right": {
@@ -192,8 +192,11 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "CSEC/Domains/Web/APIs/API Anatomy.md",
     "Books/Cybersecurity/Hacking APIs.md",
+    "Books/Cybersecurity/Bug Bounty Bootcamp.md",
+    "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
+    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
+    "CSEC/Domains/Web/APIs/API Anatomy.md",
     "CSEC/Domains/Web/HTTP Methods & Sessions.md",
     "CSEC/Tools/Burp Suite.md",
     "CSEC/Tools/Tools Map.canvas",
@@ -204,9 +207,6 @@
     "CSEC/Domains/Web/APIs/GraphQL APIs.md",
     "CSEC/Domains/Web/APIs",
     "CSEC/Domains/Web/APIs.md",
-    "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
-    "Books/Cybersecurity/Bug Bounty Bootcamp.md",
-    "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
     "CSEC/Domains/Web/Recon/Active",
     "CSEC/Tools/Web",
     "CSEC/Tools",
