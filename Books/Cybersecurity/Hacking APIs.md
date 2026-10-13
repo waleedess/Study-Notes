@@ -9,4 +9,4 @@ Topics:
 
 1. [[API Anatomy]]
 2. [[RESTful APIs]]
-3. [[GraphQL APIs]]
+3. [[GraphQL APIs]] 
