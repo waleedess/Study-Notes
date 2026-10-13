@@ -24,7 +24,7 @@
 # Stateless & Stateful HTTP
 
 
-| Statless                                                                                                     | Stateful |
-| ------------------------------------------------------------------------------------------------------------ | -------- |
-| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session |          |
-| Uses small text files `COOKIES` that are stored client side including site & security prefrences             |          |
+| Statless                                                                                                                                                                                  | Stateful |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Server Keeps Track of clients action, profile, images, preferences & etc. to remember about the HTTP session created between                                                              |          |
+| Uses small text files `COOKIES` that are stored client side including site, security preferences, authentication information & etc.<br>Servers also saves some in a cache or in databases |          |
