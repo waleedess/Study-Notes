@@ -25,7 +25,7 @@ Web APIs use:
 # API Gateway
 
 > An API gateway is a single entry point that sits in front of one or more backend services. Clients send all requests to the gateway, and it forwards each one to the right service.
-> Client → Gateway → Service (web server e.g. users service) → endpoint handler (code function or one method and path e.g. `GET /api/users/{user_id}`) 
+> Client → Gateway → Service (web server e.g. users service) → endpoint handler (code function for one method and path e.g. `GET /api/users/{user_id}`) 
 
 Handles these tasks:
 1. **Microservice Routing**: Sends `/api/users/...` to the users service and `/api/orders/...` to the orders service
