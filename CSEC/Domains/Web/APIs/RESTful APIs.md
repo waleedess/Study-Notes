@@ -23,9 +23,10 @@
    `X-Powered-By` -> Additional info about backend services like the framework or technology serving the request
    `X-Rate-Limit`
    `X-RateLimit-Remaining` 
-   `X-API-Key` -> Can be used as an authorization header
+   
+   `X-API-Key` -> A custom header that carries an API key for authentication. It isn’t the standard `Authorization` header, but it serves the same purpose
    `X-Forwarded-For` -> Lists Clients IP & Proxies request went through
-   `X-Forwarded-Proto` -> Shows whether the client used `HTTP/S` before proxy
+   `X-Forwarded-Proto` -> Shows whether the client used `HTTP/S` before a proxy handled it
 
 
 # Other Characteristics
