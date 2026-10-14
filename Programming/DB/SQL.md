@@ -9,7 +9,7 @@
 # Relational Model
 ---
 
-> what a database is in this model, and the ideas of relation, tuple (row), attribute (column), and domain. Schema builds directly on these terms
+> what a database is in this model, and the ideas of relation, tuple (row: representing single record), attribute (column: representing property that every tuple has), and domain (set of allowed values for an attribute). Schema builds directly on these terms
 
 # Relation Schema
 ---
