@@ -18,9 +18,9 @@
 2. **Content & Accept:** Tells the server the format of the request body & which response format the client wants respectively
    => Such as `application/(json, XML, x-www-form-urlencoded)`
 3. **Middleware (x):** Custom headers added or read by proxies, load balancers, and gateways as requests pass through
-   => Format: `x-<anything>`, Such as:
+   => Format: `x-<anything>`, such as:
    `X-Response-Time` -> How long a response took to process
-   `X-Powered-By` -> Additional info about backend services like
+   `X-Powered-By` -> Additional info about backend services like the framework or technology serving the request
    `X-Rate-Limit`
    `X-RateLimit-Remaining` 
    `X-API-Key` -> Can be used as an authorization header
