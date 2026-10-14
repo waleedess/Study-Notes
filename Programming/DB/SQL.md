@@ -46,3 +46,20 @@
 4. `CHECK`: the value must satisfy a condition
 5. `DEFAULT`: the value used when an insert doesn’t provide one
 6. `FOREIGN KEY`: the value must match an existing primary key value in the referenced table, which keeps references valid (referential integrity)
+
+# DDL In Practice
+---
+1. **`CREATE`:** Builds a new object most often a table
+
+=> `CREATE TABLE <TABLENAME> ( );`
+
+2. **`ALTER`:** Changes an existing table. The most common uses are adding, dropping, or renaming columns, and adding or dropping constraints
+   
+=> `ALTER TABLE Student ADD Age INT;`
+`ALTER TABLE Student ADD CONSTRAINT chk_age CHECK (Age >= 16);`
+`ALTER TABLE Student DROP COLUMN Age;`
+`ALTER TABLE Student DROP CONSTRAINT chk_age;`
+
+2. **`DROP`:** Deletes an object completely, including all of its data
+   
+=> `DROP TABLE <TABLENAME>`
