@@ -2,7 +2,8 @@
 ---
 > REST (Representational State Transfer) is an architectural style for designing web APIs. It isn’t a protocol or a standard. Most REST APIs run over HTTP using methods (`GET`, `POST`, `PUT` & `DELETE`) to accomplish CRUD (Create, Read, Update & DELETE), REST APIs follow:
 
-1. **Uniform Interface**: All resources are accessed the same way as each resource has a URL. Clients works with representation which is usually JSON, messages are self-descriptive (include the method & content type), meaning each message includes enough information to be understood on its own
+1. **Uniform Interface:** All resources are accessed the same way. Clients work with representations, usually JSON, and messages are self-descriptive (they include the method and content type).
+	- **HATEOAS** (Hypermedia as the Engine of Application State): Responses include links to related actions, so clients can navigate the API without hardcoding URLs.
 2. **Client-Server** 
 3. **Stateless:** Each request contains everything the server needs to process it. The server doesn’t store session context between requests
 4. **Cacheable:** Responses must declare whether they can be cached, so clients and intermediaries can reuse them and reduce load
