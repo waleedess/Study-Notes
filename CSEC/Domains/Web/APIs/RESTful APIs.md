@@ -16,8 +16,9 @@
 1. **Authorization:** Carries credentials so the server can identify the client
    => Format: `<type> <token/credentials>`
 2. **Content & Accept:** Tells the server the format of the request body & which response format the client wants respectively
-   => Such as `application/(json, XML, x-www-from-urlencoded)`
-3. **Middleware (x):** 
+   => Such as `application/(json, XML, x-www-form-urlencoded)`
+3. **Middleware (x):** Custom headers added or read by proxies, load balancers, and gateways as requests pass through
+   => `X-Forwarded-For` -> Lists Clients IP & Pro
 
 
 # Other Characteristics
