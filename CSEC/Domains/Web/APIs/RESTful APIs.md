@@ -10,6 +10,12 @@
 5. **Layered System:** The client can’t tell whether it’s talking directly to the server or to something in between, such as a load balancer, gateway, or cache. This is why an API gateway can sit in front of services
 6. **Code on demand (optional):** The server can send executable code, such as JavaScript, to the client. This is the only optional constraint
 
+# RESTful APIs Headers
+---
+
+1. **Authorization:** `<type> <token/credentials>`
+2. **Content:** 
+
 
 # Other Characteristics
 ---

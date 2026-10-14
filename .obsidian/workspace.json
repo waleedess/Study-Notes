@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/DB/SQL.md",
+                "file": "CSEC/Domains/Web/APIs/RESTful APIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "RESTful APIs"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -191,14 +192,14 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
-    "Programming/Scripting/Bash.md",
+    "Books/Cybersecurity/Hacking APIs.md",
     "Programming/DB/SQL.md",
+    "Programming/Scripting/Bash.md",
     "Programming/SWE",
     "Programming/Scripting",
     "Programming/Web/Untitled",
     "CSEC/Domains/Web/APIs/RESTful APIs.md",
     "Programming/DB",
-    "Books/Cybersecurity/Hacking APIs.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp.md",
     "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
     "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
