@@ -15,19 +15,20 @@
 
 1. **Authorization:** Carries credentials so the server can identify the client
    => Format: `<type> <token/credentials>`
+   
 2. **Content & Accept:** Tells the server the format of the request body & which response format the client wants respectively
    => Such as `application/(json, XML, x-www-form-urlencoded)`
+   
 3. **Middleware (x):** Custom headers added or read by proxies, load balancers, and gateways as requests pass through
    => Format: `x-<anything>`, such as:
    `X-Response-Time` -> How long a response took to process
    `X-Powered-By` -> Additional info about backend services like the framework or technology serving the request
    `X-Rate-Limit`
    `X-RateLimit-Remaining` 
-   
+   `X-Request-ID` -> A unique ID attached to each request, used to trace it across services and logs
    `X-API-Key` -> A custom header that carries an API key for authentication. It isn’t the standard `Authorization` header, but it serves the same purpose
    `X-Forwarded-For` -> Lists Clients IP & Proxies request went through
    `X-Forwarded-Proto` -> Shows whether the client used `HTTP/S` before a proxy handled it
-
 
 # Other Characteristics
 ---
