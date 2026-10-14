@@ -9,8 +9,12 @@
 # Relational Model
 ---
 
+> what a database is in this model, and the ideas of relation, tuple (row), attribute (column), and domain. Schema builds directly on these terms
 
-   
+# Relation Schema
+---
+
+> A **relation schema** describes the structure of a table: its name, its attributes (columns), and the domain (allowed data type and values) of each attribute. It describes _what the table looks like_, not the data inside it
    
    
    
