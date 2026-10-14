@@ -16,5 +16,8 @@
 
 > A **relation schema** describes the structure of a table: its name, its attributes (columns), and the domain (allowed data type and values) of each attribute. It describes _what the table looks like_, not the data inside it
    
-   
-   
+- The schema is fixed once the table is designed
+	- The instance is the set of rows (tuples) present at a given moment, and it changes every time rows are inserted, updated, or deleted
+
+- **Degree** is the number of attributes (Columns)
+- **Cardinality** is the number of tuples (rows)
