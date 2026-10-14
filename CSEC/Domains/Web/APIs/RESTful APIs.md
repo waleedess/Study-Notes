@@ -18,10 +18,12 @@
 2. **Content & Accept:** Tells the server the format of the request body & which response format the client wants respectively
    => Such as `application/(json, XML, x-www-form-urlencoded)`
 3. **Middleware (x):** Custom headers added or read by proxies, load balancers, and gateways as requests pass through
-   => `X-Response-Time` -> How long a response took to process
+   => Format: `x-<anything>` 
+   `X-Response-Time` -> How long a response took to process
    `X-Powered-By` -> Additional info about backend services
    `X-Rate-Limit`
-   `X-RateLimit-Re`
+   `X-RateLimit-Remaining` 
+   `X-API-Key` -> Can be used as an authorization header
    `X-Forwarded-For` -> Lists Clients IP & Proxies request went through
    `X-Forwarded-Proto` -> Shows whether the client used `HTTP/S` before proxy
 
