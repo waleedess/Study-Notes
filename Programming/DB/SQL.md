@@ -35,3 +35,14 @@
 5. **`Composite key`:** a key made of two or more attributes together. It can be a `superkey`, `candidate key`, or `primary key`
 
 6. **`Foreign key`:** an attribute that refers to the `primary key` of another relation, enforcing referential integrity
+
+# Constraints 
+
+> Constraints are rules the database enforces on the data in a table. Any insert or update that breaks a rule is rejected, so bad data never gets stored. They’re declared inside `CREATE TABLE`, either next to a column or as a separate line
+
+1. `NOT NULL`
+2. `UNIQUE`
+3. `PRIMARY KEY`: combines `NOT NULL` and `UNIQUE`, and each table has only one
+4. `CHECK`: the value must satisfy a condition
+5. `DEFAULT`: the value used when an insert doesn’t provide one
+6. `FOREIGN KEY`: the value must match an existing primary key value in the referenced table, which keeps references valid (referential integrity)
