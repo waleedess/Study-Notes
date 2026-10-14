@@ -19,7 +19,10 @@
    => Such as `application/(json, XML, x-www-form-urlencoded)`
 3. **Middleware (x):** Custom headers added or read by proxies, load balancers, and gateways as requests pass through
    => `X-Response-Time` -> How long a response took to process
-  `X-Forwarded-For` -> Lists Clients IP & Proxies request went through
+   `X-Powered-By` -> Additional info about backend services
+   `X-Rate-Limit`
+   `X-RateLimit-Re`
+   `X-Forwarded-For` -> Lists Clients IP & Proxies request went through
    `X-Forwarded-Proto` -> Shows whether the client used `HTTP/S` before proxy
 
 
