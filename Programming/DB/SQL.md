@@ -21,3 +21,7 @@
 
 - **Degree** is the number of attributes (Columns)
 - **Cardinality** is the number of tuples (rows)
+
+# Keys 
+---
+1. **Primary Key:** The candidate key chosen to identify rows. It is unique and cannot contain `NULL`
