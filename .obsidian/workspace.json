@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/DB/SQL.md",
+                "file": "Programming/Scripting/Bash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Bash"
             }
           }
         ]
@@ -189,10 +189,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3df002c13016e317",
+  "active": "aacfb940db834861",
   "lastOpenFiles": [
-    "CSEC/Domains/Web/APIs/RESTful APIs.md",
     "Programming/DB/SQL.md",
+    "Programming/SWE",
+    "Programming/Scripting",
+    "Programming/Web/Untitled",
+    "CSEC/Domains/Web/APIs/RESTful APIs.md",
     "Programming/DB",
     "Books/Cybersecurity/Hacking APIs.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp.md",
@@ -202,7 +205,7 @@
     "CSEC/Domains/Web/HTTP Methods & Sessions.md",
     "CSEC/Tools/Burp Suite.md",
     "CSEC/Tools/Tools Map.canvas",
-    "Programming/Bash Scripting.md",
+    "Programming/Scripting/Bash.md",
     "Programming/Database Fundamentals by ITI.md",
     "HTTP.md",
     "CSEC/Domains/Web/APIs/GraphQL APIs.md",
@@ -224,14 +227,11 @@
     "SS/Pasted image 20261010035257.png",
     "Untitled.canvas",
     "Untitled.base",
-    "CSEC/Domains/Web/Recon/Passive",
-    "CSEC/Domains/Web/Recon",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
-    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li",
     "Programming/Web/JS.Info.md",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
-    "Programming/Java - ASU's OOP.md"
+    "Programming/SWE/Java - ASU's OOP.md"
   ]
 }
