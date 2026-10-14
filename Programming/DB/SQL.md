@@ -24,4 +24,14 @@
 
 # Keys 
 ---
-1. **Primary Key:** The candidate key chosen to identify rows. It is unique and cannot contain `NULL`
+1. **`Primary Key`:** The `candidate key` chosen to identify rows. It is unique and cannot contain `NULL`
+   
+2. **`Candidate key`:** a minimal `superkey`. One of them becomes the `primary key`
+   
+3. **`Alternate Key`**: candidate key that was not chosen as the `primary key`. It still uniquely identifies rows
+
+4. **`SuperKey`:** any set of attributes that uniquely identifies a tuple. It may include extra attributes that aren’t needed for uniqueness. Can be the full row
+
+5. **`Composite key`:** a key made of two or more attributes together. It can be a `superkey`, `candidate key`, or `primary key`
+
+6. **`Foreign key`:** an attribute that refers to the `primary key` of another relation, enforcing referential integrity
