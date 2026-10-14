@@ -13,8 +13,11 @@
 # RESTful APIs Headers
 ---
 
-1. **Authorization:** `<type> <token/credentials>`
-2. **Content:** 
+1. **Authorization:** Carries credentials so the server can identify the client
+   => Format: `<type> <token/credentials>`
+2. **Content & Accept:** Tells the server the format of the request body & which response format the client wants respectively
+   => Such as `application/(json, XML, x-www-from-urlencoded)`
+3. 
 
 
 # Other Characteristics
