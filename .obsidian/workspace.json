@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Domains/Web/APIs/RESTful APIs.md",
+                "file": "Programming/DB/SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESTful APIs"
+              "title": "SQL"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "right": {
     "id": "552829f336158739",
@@ -192,6 +191,9 @@
   },
   "active": "3df002c13016e317",
   "lastOpenFiles": [
+    "CSEC/Domains/Web/APIs/RESTful APIs.md",
+    "Programming/DB/SQL.md",
+    "Programming/DB",
     "Books/Cybersecurity/Hacking APIs.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp.md",
     "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
@@ -203,7 +205,6 @@
     "Programming/Bash Scripting.md",
     "Programming/Database Fundamentals by ITI.md",
     "HTTP.md",
-    "CSEC/Domains/Web/APIs/RESTful APIs.md",
     "CSEC/Domains/Web/APIs/GraphQL APIs.md",
     "CSEC/Domains/Web/APIs",
     "CSEC/Domains/Web/APIs.md",
@@ -228,7 +229,6 @@
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li",
-    "Books/Cybersecurity",
     "Programming/Web/JS.Info.md",
     "Programming/Web/CSS.md",
     "Programming/Web/HTML.md",
