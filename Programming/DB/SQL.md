@@ -51,7 +51,7 @@
 ---
 1. **`CREATE`:** Builds a new object most often a table
 
-=> `CREATE TABLE <TABLENAME> ( );`
+	=> `CREATE TABLE <TABLENAME> ( );`
 
 2. **`ALTER`:** Changes an existing table. The most common uses are adding, dropping, or renaming columns, and adding or dropping constraints
    
@@ -60,6 +60,24 @@
 `ALTER TABLE Student DROP COLUMN Age;`
 `ALTER TABLE Student DROP CONSTRAINT chk_age;`
 
-2. **`DROP`:** Deletes an object completely, including all of its data
+3. **`DROP`:** Deletes an object completely, including all of its data
    
 => `DROP TABLE <TABLENAME>`
+
+# DML IN Practice
+---
+1. `INSERT`: Adds new rows to a table. Listing the columns explicitly is the safer habit  
+   
+⟹ `INSERT INTO <TABLENAME> (col1, col2) VALUES (val1, val2);`  
+ `INSERT INTO Department (ID, Name) VALUES ('D01', 'Computer Science');`  
+ `INSERT INTO Student (ID, Name, Email, DeptID) VALUES ('S01', 'Sara', 'sara@example.com', 'D01');`
+
+2. `UPDATE`: Changes existing rows. Always include a `WHERE` clause, otherwise every row is changed 
+ 
+ ⟹ `UPDATE <TABLENAME> SET col = value`**`WHERE`**`condition;`  
+ `UPDATE Student SET Email = 'sara.new@example.com' WHERE ID = 'S01';`
+
+3. `DELETE`: Removes rows but keeps the table. Like `UPDATE`, it needs a `WHERE` clause  
+   
+ ⟹ `DELETE FROM <TABLENAME> WHERE condition;`  
+`DELETE FROM Student WHERE ID = 'S01';`
