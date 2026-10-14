@@ -11,3 +11,4 @@ Topics:
 1. [[API Anatomy]](../../CSEC/Domains/Web/APIs/API%20Anatomy.md)
 2. [[RESTful APIs]](../../CSEC/Domains/Web/APIs/RESTful%20APIs.md)
 3. [[GraphQL APIs]](../../CSEC/Domains/Web/APIs/GraphQL%20APIs.md) 
+4. [[SOAP APIs]](../../CSEC/Domains/Web/APIs/SOAP%20APIs.md)
