@@ -6,3 +6,7 @@
 - **`mut`** changes the value in the same variable. The type stays the same, and the variable must have been declared with `let mut VAR`
 ###### Shadowing
 - Shadowing means declaring a new variable with the same name using `let` it creates a new binding, The old one is gone from that point on, so the type can change, Unlike `mut` 
+
+###### Unused
+- Rust treats an unused variable as a likely mistake so the compiler will give a warning and there is 2 fixes for this warnings:
+	1. 
