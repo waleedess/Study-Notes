@@ -1,6 +1,5 @@
 # 3.1 Variables
 ---
-
 ###### Mutability
 - Rust's variables are immutable by default meaning that they cannot be changed once assigned
 - **`mut`** changes the value in the same variable. The type stays the same, and the variable must have been declared with `let mut VAR`
@@ -15,8 +14,7 @@
 
 # 4.1 Numbers
 ---
-
-### Integers `i/u`
+###### Integers `i/u`
 
 - **`i`: Signed integer** can represent both positive and negative integers
 - **`u`: Unsigned integer** represents positives only
@@ -30,14 +28,14 @@
 | 128-bit                                          | `i128`              | `u128`   |
 | arch - architecture dependent (32-bit or 64-bit) | `isize`             | `usize`  |
 
-### Floating Point `f`
+###### Floating Point `f`
 
 | Length | Float               |
 | ------ | ------------------- |
 | 32-bit | `f32`               |
 | 64-bit | `f64` - **Default** |
 
-### Converting Numeric Types
+###### Converting Numeric Types
 
  `as`: explicit type conversion 
 > 	`as` converts a value to another type. Rust doesn’t do this implicitly, so you write it yourself. If the value doesn’t fit the new type, it wraps or truncates
@@ -49,16 +47,19 @@
 	4. **Char->Integer**: `let letter = 'A' as u32;` => 65
 	5. **Float->Integer**: `let pi_int = 3.9_f64 as i32;` => ==🔴truncates== to 3
 
-### Ranges
+###### Ranges
  
 - `a..b`: Includes `a` but excludes `b` (equates `Range{ start: a, end: b }`)
 - `a..=b`: Includes both `a` and `b` (equates `RangeInclusive::new(a, b)`)
 
-### Bitwise Operators
+###### Bitwise Operators
 
 1. `&` AND
 2. `|` OR
 3. `^` XOR (exclusive OR), Alike => 0, Diff => 1
 4. `!` NOT (flips every bit)
-5. `value << amount` left Bitshift
-6. `value >> amount` right Bitshift
+5. `value << amount` left Bit-shift
+6. `value >> amount` right Bit-shift
+====
+
+# 4.2 Char, Bool & Unit
