@@ -16,7 +16,6 @@
 # 4.1 Numbers
 ---
 
-
 ###### Integers `i/u`
 
 - **`i`: Signed integer** can represent both positive and negative integers
