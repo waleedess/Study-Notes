@@ -50,6 +50,6 @@
 	5. **Float->Integer**: `let pi_int = 3.9_f64 as i32;` => ==🔴truncates== to 3
 
 ### Ranges
-
-- `a..b`: Includes `a` but excludes `b`
-- `a..=b`: Includes both `a` and `b`
+ 
+- `a..b`: Includes `a` but excludes `b` (equates `Range{ start: a, end: b }`)
+- `a..=b`: Includes both `a` and `b` (equates `RangeInclusive::new(a, b)`)
