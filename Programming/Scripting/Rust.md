@@ -27,5 +27,5 @@
 | 32-bit                                           | `i32`   | `u32`    |
 | 64-bit                                           | `i64`   | `u64`    |
 | 128-bit                                          | `i128`  | `u128`   |
-| arch - architecture dependant (32-bit or 64-bit) | `isize` | `usize`  |
+| arch - architecture dependent (32-bit or 64-bit) | `isize` | `usize`  |
 
