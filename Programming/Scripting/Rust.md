@@ -60,5 +60,5 @@
 2. `|` OR
 3. `^` XOR (exclusive OR), Alike => 0, Diff => 1
 4. `!` NOT (flips every bit)
-5. `<<` left shift
-6. `>>` right shift
+5. `value << amount` left Bitshift
+6. `value >> amount` right Bitshift
