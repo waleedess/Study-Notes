@@ -38,3 +38,12 @@
 | 64-bit | `f64` - **Default** |
 
 ### Converting Numeric Types
+
+ `as`: explicit type conversion 
+> 	`as` converts a value to another type. Rust doesn’t do this implicitly, so you write it yourself. If the value doesn’t fit the new type, it wraps or truncates
+
+- Possibilities:
+	1. **Widening**: `let small = 38_u8 as u16;` => ==🟢Safe==
+	2. **Narrowing**: `let big = 300_u16 as u8;` => ==🔴wraps around, gives 44==
+	3. Bool->Integer: `let flag = true as i32;` => 1
+	4. Char->Integer: `let letter = 'A' as u32;` => 65
