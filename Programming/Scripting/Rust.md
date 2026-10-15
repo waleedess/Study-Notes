@@ -44,7 +44,7 @@
 
 - Possibilities:
 	1. **Widening**: `let small = 38_u8 as u16;` => ==🟢Safe==
-	2. **Narrowing**: `let big = 300_u16 as u8;` => ==🔴wraps around, gives 44==
+	2. **Narrowing**: `let big = 300_u16 as u8;` => ==🔴wraps around==, gives 44
 	3. Bool->Integer: `let flag = true as i32;` => 1
 	4. Char->Integer: `let letter = 'A' as u32;` => 65
-	5. Float->Integer: `let pi_int = 3.9_f64 as i32;` => ==🔴truncates to 3
+	5. Float->Integer: `let pi_int = 3.9_f64 as i32;` => ==🔴truncates== to 3
