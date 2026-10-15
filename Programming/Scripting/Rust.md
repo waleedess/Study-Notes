@@ -53,3 +53,12 @@
  
 - `a..b`: Includes `a` but excludes `b` (equates `Range{ start: a, end: b }`)
 - `a..=b`: Includes both `a` and `b` (equates `RangeInclusive::new(a, b)`)
+
+### Bitwise Operators
+
+1. `&` AND
+2. `|` OR
+3. `^` XOR (exclusive OR), Alike => 0, Diff => 1
+4. `!` NOT (flips every bit)
+5. `<<` left shift
+6. `>>` right shift
