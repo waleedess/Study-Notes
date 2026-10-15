@@ -21,14 +21,14 @@
 - **`i`: Signed integer** can represent both positive and negative integers
 - **`u`: Unsigned integer** represents positives only
 
-| Length                                           | Signed             | Unsigned |
-| ------------------------------------------------ | ------------------ | -------- |
-| 8-bit                                            | `i8`               | `u8`     |
-| 16-bit                                           | `i16`              | `u16`    |
-| 32-bit                                           | `i32` -**Default** | `u32`    |
-| 64-bit                                           | `i64`              | `u64`    |
-| 128-bit                                          | `i128`             | `u128`   |
-| arch - architecture dependent (32-bit or 64-bit) | `isize`            | `usize`  |
+| Length                                           | Signed              | Unsigned |
+| ------------------------------------------------ | ------------------- | -------- |
+| 8-bit                                            | `i8`                | `u8`     |
+| 16-bit                                           | `i16`               | `u16`    |
+| 32-bit                                           | `i32` - **Default** | `u32`    |
+| 64-bit                                           | `i64`               | `u64`    |
+| 128-bit                                          | `i128`              | `u128`   |
+| arch - architecture dependent (32-bit or 64-bit) | `isize`             | `usize`  |
 
 ### Floating Point `f`
 
