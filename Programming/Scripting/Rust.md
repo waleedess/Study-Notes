@@ -48,3 +48,8 @@
 	3. **Bool->Integer**: `let flag = true as i32;` => 1
 	4. **Char->Integer**: `let letter = 'A' as u32;` => 65
 	5. **Float->Integer**: `let pi_int = 3.9_f64 as i32;` => ==🔴truncates== to 3
+
+### Ranges
+
+- `a..b`: Includes `a` but excludes `b`
+- `a..=b`: Includes both `a` and `b`
