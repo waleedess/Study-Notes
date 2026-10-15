@@ -9,4 +9,5 @@
 
 ###### Unused
 - Rust treats an unused variable as a likely mistake so the compiler will give a warning and there is 2 fixes for this warnings:
-	1. 
+	1. `let _VARNAME`: the underscore tells Rust you meant to leave it unused. This is the usual choice
+	2. `#[allow(unused_variables)]`: silences the warning for the function or item it sits above. This is broader and can hide real bugs, so use it sparingly. It goes on the line above the item, and `#![allow(...)]` with an ==🔴exclamation mark applies it to the whole file== 
