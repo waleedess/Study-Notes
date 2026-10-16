@@ -66,3 +66,4 @@
 
 ### Char
 
+- Double quotes => String, Single quotes => 
