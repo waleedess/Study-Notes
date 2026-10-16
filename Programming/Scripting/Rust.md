@@ -64,9 +64,9 @@
 
 # 4.2 Char, Bool & Unit
 
-### Char `:char`
+### Characters `:char`
 
 - Double quotes => ==🔴String==, Single quotes => ==🟢Char==
 - Always in size of 32-bits
 
-### Boolean 
+### Boolean `:Bool`
