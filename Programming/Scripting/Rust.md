@@ -143,4 +143,4 @@
 	3. **Return**:
 		- The lase expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
-		- 
+- **`const fn`** can be evaluated at compile time
