@@ -100,7 +100,7 @@
 ### Statements
 
 - Performs an action & does not produce a useful value
-- End 2ith `;`
+- End with `;`
 - Examples:
 	1. `let` bindings
 	2. Function calls whose result are not used
@@ -127,4 +127,4 @@
 `let n = 7;`
 `let kind = if n % 2 == 0 { "even" } else { "odd" };  // "odd"`
 
-- Function result is used => ==**If** is an Expression== 
+- If's result is used => ==**If** is an Expression== 
