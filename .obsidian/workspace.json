@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef1678a7bb83ecb3",
+        "id": "00bfc8399d3e36d5",
         "type": "tabs",
         "children": [
           {
-            "id": "3df002c13016e317",
+            "id": "3e3b8e6a3c890667",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "552829f336158739",
@@ -190,10 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3df002c13016e317",
+  "active": "3e3b8e6a3c890667",
   "lastOpenFiles": [
-    "Programming/SWE/Java.md",
     "Programming/Scripting/Rust.md",
+    "Programming/SWE/Java.md",
     "Books/Cybersecurity/Hacking APIs.md",
     "CSEC/Domains/Web/APIs/SOAP APIs.md",
     "CSEC/Domains/Web/APIs/GraphQL APIs.md",
