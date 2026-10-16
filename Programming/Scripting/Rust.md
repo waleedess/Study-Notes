@@ -68,3 +68,5 @@
 
 - Double quotes => ==🔴String==, Single quotes => ==🟢Char==
 - Always in size of 32-bits
+
+### Boolean 
