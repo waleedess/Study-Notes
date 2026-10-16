@@ -128,3 +128,9 @@
 `let kind = if n % 2 == 0 { "even" } else { "odd" };  // "odd"`
 
 - If's result is used => ==**If** is an Expression== 
+====
+
+# 4.4 Functions
+
+- Block of reusable code 
+- Can take arguments and returns results
