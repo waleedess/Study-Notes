@@ -63,3 +63,6 @@
 ====
 
 # 4.2 Char, Bool & Unit
+
+### Char
+
