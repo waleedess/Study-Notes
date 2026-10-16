@@ -130,7 +130,17 @@
 - If's result is used => ==**If** is an Expression== 
 ====
 
-# 4.4 Functions
+# 4.4 Functions `fn`
 
 - Block of reusable code 
-- Can take arguments and returns results
+- Declared with `fn name(param: Type, param2: Type) -> ReturnType { // body }`
+- Can take arguments/parameters, return type and returns results
+	1. **Arguments**:
+		- Must have explicit types 
+	2. **Return Type**:
+		- If `-> RT` is omitted, function returns `()`
+		- Use `-> !` if the function is never-returning
+	3. **Return**:
+		- The lase expression without `;` is returned
+		- `return VALUE;` returns it early, useful in loops/conditions
+		- 
