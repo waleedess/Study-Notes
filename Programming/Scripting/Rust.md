@@ -107,5 +107,24 @@
 
 ### Expressions 
 - Produce a value 
-- Do not end with `;`
-- 
+- Do not end with `;` directly
+	- `let z = { 10 * 2 };` (block) => is still an expression even with the `;`
+  
+### Contrast
+
+###### First
+`fn plus_one(n: i32) -> i32 {
+    `n + 1        // expression: no semicolon, value is returned`
+`}`
+
+`fn plus_one_broken(n: i32) -> i32 {`
+    `n + 1;       // statement: value is discarded, function returns ()`
+`}                // error: expected i32, found ()`
+
+- Semicolon is the key difference as it discarded the value
+###### Second
+
+`let n = 7;`
+`let kind = if n % 2 == 0 { "even" } else { "odd" };  // "odd"`
+
+- Function result is used => ==**If** is an Expression== 
