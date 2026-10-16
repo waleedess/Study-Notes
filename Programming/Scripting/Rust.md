@@ -137,6 +137,7 @@
 - Can take arguments/parameters, return type and returns results
 	1. **Arguments**:
 		- Must have explicit types 
+		- Mention `mut` when using mutability
 	2. **Return Type**:
 		- If `-> RT` is omitted, function returns `()`
 		- Use `-> !` if the function is never-returning
