@@ -140,7 +140,10 @@
 		- Mention `mut` when using mutability
 	2. **Return Type**:
 		- If `-> RT` is omitted, function returns `()`
-		- Use `-> !` if the function is never-returning
+		- Use `-> !` if the function is never-returning (divergent)
+			- `fn never_return_fn() -> ! { panic!() }`
+			- `fn never_return_fn() -> ! { unimplemented() }`
+			- `fn never_return_fn() -> ! { todo() }`
 	3. **Return**:
 		- The lase expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
