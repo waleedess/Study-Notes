@@ -1,12 +1,12 @@
 # 3.1 Variables
 ---
-###### Mutability
+### Mutability
 - Rust's variables are immutable by default meaning that they cannot be changed once assigned
 - **`mut`** changes the value in the same variable. The type stays the same, and the variable must have been declared with `let mut VAR`
-###### Shadowing
+### Shadowing
 - Shadowing means declaring a new variable with the same name using `let` it creates a new binding, The old one is gone from that point on, so the type can change, Unlike `mut` 
 
-###### Unused
+### Unused Variables
 - Rust treats an unused variable as a likely mistake so the compiler will give a warning and there is 2 fixes for this warnings:
 	1. `let _VARNAME`: the underscore tells Rust you meant to leave it unused. This is the usual choice
 	2. `#[allow(unused_variables)]`: silences the warning for the function or item it sits above. This is broader and can hide real bugs, so use it sparingly. It goes on the line above the item, and `#![allow(...)]` with an ==🔴exclamation mark applies it to the whole file== 
@@ -14,7 +14,7 @@
 
 # 4.1 Numbers
 ---
-###### Integers `:i/u`
+### Integers `:i/u`
 
 - **`i`: Signed integer** can represent both positive and negative integers
 - **`u`: Unsigned integer** represents positives only
@@ -28,14 +28,14 @@
 | 128-bit                                          | `i128`              | `u128`   |
 | arch - architecture dependent (32-bit or 64-bit) | `isize`             | `usize`  |
 
-###### Floating Point `:f`
+### Floating Point `:f`
 
 | Length | Float               |
 | ------ | ------------------- |
 | 32-bit | `f32`               |
 | 64-bit | `f64` - **Default** |
 
-###### Converting Numeric Types
+### Converting Numeric Types
 
  `as`: explicit type conversion 
 > 	`as` converts a value to another type. Rust doesn’t do this implicitly, so you write it yourself. If the value doesn’t fit the new type, it wraps or truncates
@@ -63,7 +63,7 @@
 ====
 
 # 4.2 Char, Bool & Unit
-
+---
 ### Characters `:char`
 
 - Double quotes => ==🔴String==, Single quotes => ==🟢Char==
@@ -82,4 +82,30 @@
 
 ### Unit `: ()`
 
+- An ==empty tuple== Symbolizes "No data" and sizes 0-bytes
+  
+- Has 1 value *`bool` has 2, `u8` has 256*
+	- The “never” type `!` has 0 values, because it can never produce a value at all. A function that always panics or loops forever has this return type
+
+- Example: `let v: () = ();`
+
+- **Rust uses it in a few places**: 
+	1. **Functions with no return value.** A function without `->` returns `()` implicitly.
+	2. **Statements ending in `;`.** `5;` evaluates to `()`, not `5`.
+	3. **Results where only success or failure matters**, such as `Result<(), String>`. `Ok(())` means success with no data, and `Err(message)` carries the error.
+====
+
+# 4.3 Statements & Expressions
+
+### Statements
+
+- Performs an action & does not produce a useful value
+- End 2ith `;`
+- Examples:
+	1. `let` bindings
+	2. Function calls whose result are not used
+
+### Expressions 
+- Produce a value 
+- Do not end with `;`
 - 
