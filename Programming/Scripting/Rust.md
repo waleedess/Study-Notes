@@ -77,4 +77,5 @@
 - Can be compared using 2 methods:
 	1. **Bitwise Operators**: `&&`/`&`, `||`/`|`, `!` or `^`
 	2. **Mathematical Operators**: `<`/`>`
-		- 
+		- `True > False` => True
+		- `True > True` / `False > False` / `False > True` => False
