@@ -96,7 +96,7 @@
 ====
 
 # 4.3 Statements & Expressions
-
+---
 ### Statements
 
 - Performs an action & does not produce a useful value
@@ -130,7 +130,8 @@
 - If's result is used => ==**If** is an Expression== 
 ====
 
-# 4.4 Functions `fn`
+# 4.4 Functions `fn
+---
 
 - Block of reusable code 
 - Declared with `fn name(param: Type, param2: Type) -> ReturnType { // body }`
@@ -148,3 +149,6 @@
 		- The lase expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
 - **`const fn`** can be evaluated at compile time
+====
+
+# 5.1 Ownership
