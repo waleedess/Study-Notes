@@ -68,5 +68,13 @@
 
 - Double quotes => ==🔴String==, Single quotes => ==🟢Char==
 - Always in size of 32-bits
+- Holds one Unicode scalar value, so it can represent letters from any language, symbols, and emoji
 
 ### Boolean `:Bool`
+
+- Always in size of 8-bits
+- Default => `False`
+- Can be compared using 2 methods:
+	1. **Bitwise Operators**: `&&`/`&`, `||`/`|`, `!` or `^`
+	2. **Mathematical Operators**: `<`/`>`
+		- 
