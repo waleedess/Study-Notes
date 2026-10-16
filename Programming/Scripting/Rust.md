@@ -14,7 +14,7 @@
 
 # 4.1 Numbers
 ---
-###### Integers `i/u`
+###### Integers `:i/u`
 
 - **`i`: Signed integer** can represent both positive and negative integers
 - **`u`: Unsigned integer** represents positives only
@@ -28,7 +28,7 @@
 | 128-bit                                          | `i128`              | `u128`   |
 | arch - architecture dependent (32-bit or 64-bit) | `isize`             | `usize`  |
 
-###### Floating Point `f`
+###### Floating Point `:f`
 
 | Length | Float               |
 | ------ | ------------------- |
@@ -64,6 +64,6 @@
 
 # 4.2 Char, Bool & Unit
 
-### Char
+### Char `:char`
 
-- Double quotes => String, Single quotes => 
+- Double quotes => ==🔴String==, Single quotes => ==🟢Char==
