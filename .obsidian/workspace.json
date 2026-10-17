@@ -11,14 +11,12 @@
             "id": "3e3b8e6a3c890667",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Programming/Scripting/Rust.md",
-                "mode": "source",
-                "source": false
+                "file": "file:W:/UNI/Probability/Probability and Statistics for Engineers and Scientists 9th Edition by Rorald Walpole.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Rust"
+              "icon": "lucide-file-text",
+              "title": "Probability and Statistics for Engineers and Scientists 9th Edition by Rorald Walpole"
             }
           }
         ]
