@@ -95,9 +95,13 @@
 ---
 
 - `<audio controls src="">` => Control attribute shows the play and audio controlling buttons
-  `TEXT` => Like alt 
-  `<source src="song.mp3" type="audio/mpeg">`
-  `<source src="song.ogg" type="audio/ogg">`
+  `<source src="song.mp3" type="audio/mpeg">` 
+  `<source src="song.ogg" type="audio/ogg">` => lets you offer the same media in several file formats
+  `TEXT` => Like alt
   `</audio>`
   
-- `<>`
+- `<video controls poster="">`
+  `<source src="clip.mp4" type="video/mp4">`
+  `<track kind="subtitles" src="subs-en.vtt" srclang="en" label="English" default> `
+  `TEXT`
+  `</video>`
