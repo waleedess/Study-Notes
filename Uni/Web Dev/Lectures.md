@@ -41,7 +41,7 @@
 - `<var> </var>` => Defines a variable, typically used in mathematical expressions, programming contexts, or scientific formulas. Browsers usually render this in an italic font style
   
 - `<wbr> </wbr>` => Defines a possible line-break. It tells the browser where it is safe to break a long word if it needs to wrap onto the next line
-
+====
 
 ### Forms and Input Tags
 ---
@@ -60,3 +60,9 @@
    `<option value="Chrome">` 
    `</datalist>`
    ![[Pasted image 20261010043216.png]]
+====
+   
+### Image Tags
+---
+
+- 

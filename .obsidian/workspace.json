@@ -191,8 +191,9 @@
   },
   "active": "89c2298eb0529f42",
   "lastOpenFiles": [
-    "Uni/Web Dev/Labs.md",
+    "Programming/Web/HTML.md",
     "Uni/Web Dev/Lectures.md",
+    "Uni/Web Dev/Labs.md",
     "file:W:/UNI/Probability/Probability and Statistics for Engineers and Scientists 9th Edition by Rorald Walpole.pdf",
     "Programming/Scripting/Rust.md",
     "Programming/SWE/Java.md",
@@ -233,7 +234,6 @@
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
     "Programming/Web/JS.Info.md",
-    "Programming/Web/CSS.md",
-    "Programming/Web/HTML.md"
+    "Programming/Web/CSS.md"
   ]
 }
