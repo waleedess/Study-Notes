@@ -71,4 +71,6 @@
   `</area>` => defines one clickable region inside the map
   `</map>`
 
-- `canvas`
+- `<canvas> </canvas>` => Used to draw graphics via JavaSript
+
+- 
