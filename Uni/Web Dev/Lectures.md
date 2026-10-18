@@ -155,4 +155,6 @@
 
 - `<aside> </aside>` => holds content related to the content but not essential to it such as sidebar or related links
 
-- `<details> </details>` => Creates a box that 
+- `<details> </details>` => ==Creates a box that user can open or close for extra info==
+
+- `<dialog> </dialog>`
