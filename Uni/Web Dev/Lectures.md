@@ -89,3 +89,15 @@
   `<rect />`
   `<line />`
   `</svg>`
+====
+  
+### Audio & Video Tags
+---
+
+- `<audio controls src="">` => Control attribute shows the play and audio controlling buttons
+  `TEXT` => Like alt 
+  `<source src="song.mp3" type="audio/mpeg">`
+  `<source src="song.ogg" type="audio/ogg">`
+  `</audio>`
+  
+- `<>`
