@@ -148,3 +148,9 @@
 - `<section> </section>` => groups related content, usually under its own heading
 
 - `<search> </search>` => wraps search forms or features
+
+![[Pasted image 20261019024534.png]]
+
+- `<article> </article>` => holds self-contained piece of content that could stand on its own such as a blog post or news story
+
+- 
