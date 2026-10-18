@@ -153,4 +153,6 @@
 
 - `<article> </article>` => holds self-contained piece of content that could stand on its own such as a blog post or news story
 
-- 
+- `<aside> </aside>` => holds content related to the content but not essential to it such as sidebar or related links
+
+- `<details> </details>` => Creates a box that 
