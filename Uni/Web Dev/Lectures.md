@@ -134,3 +134,17 @@
 ### Style & Semantic Tags
 ---
 ![[Pasted image 20261019023626.png]]
+
+- `<div> </div>` => groups content into a block-level section, usually for layout. it starts on a ==new line and takes up the full width available==
+
+- `<span> </span>` => groups a small part of a line of text, so you can style just those words. Inline element, so it sits within the current line of text and ==only takes up as much width as its content==
+
+- `<header> </header>` => holds introductory content for a page or section such as title or logo
+
+- `<hgroup> </hgroup>` => groups heading e.g. `<h1>` with its subtitle e.g. `<p>`
+
+- `<footer> </footer>` => groups closing content for a page or section such as contact or copyright details
+
+- `<section> </section>` => groups related content, usually under its own heading
+
+- `<search> </search>` => wraps search forms or features
