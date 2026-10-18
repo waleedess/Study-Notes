@@ -155,8 +155,8 @@
 
 - `<aside> </aside>` => holds content related to the content but not essential to it such as sidebar or related links
 
-- `<details> </details>` => ==Creates a box that user can open or close for extra info==
+- `<details>` => ==Creates a box that user can open or close for extra info==
+  `<summary> </summary>` => gives visible heading
+  `</details>` 
 
 - `<dialog> </dialog>` => defines a dialog box or popup window and it is hidden until opened with JavaScript using `showmodal()` or `show()`
-
-- `<summary> </summary>` => 
