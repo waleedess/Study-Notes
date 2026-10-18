@@ -78,4 +78,9 @@
   `<figcaption> TEXT <figcaption>` => gives that content a caption
   `</figure>`
 
-- 
+- `<picture>` => is a container that lets you offer several versions of the same image and lets the browser pick the best one for the current screen. It doesn’t display anything by itself
+  `source media="(min-width: XXXpx) srcset="LargeImage.jpg"` => elements list the alternatives, each with a condition such as a screen width
+  `source media="(min-width: XXXpx) srcset="MediumImage.jpg"`
+  `<img src="SmallImage.jpg"` => Acts as the fallback
+  `</picture>`
+
