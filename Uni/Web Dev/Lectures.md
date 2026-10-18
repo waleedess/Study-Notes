@@ -71,9 +71,11 @@
   `</area>` => defines one clickable region inside the map
   `</map>`
 
-- `<canvas> </canvas>` => Used to draw graphics via JavaSript
+- `<canvas> </canvas>` => Used to draw graphics via JavaScript
 
-- `<figure>`
+- `<figure>` => Groups images, chart, code samples or diagram
   `<img src="">`
-  `<figcaption> TEXT <figcaption>`
+  `<figcaption> TEXT <figcaption>` => gives that content a caption
   `</figure>`
+
+- 
