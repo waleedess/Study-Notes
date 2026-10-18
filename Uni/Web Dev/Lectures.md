@@ -161,4 +161,4 @@
 
 - `<dialog> </dialog>` => defines a dialog box or popup window and it is hidden until opened with JavaScript using `showmodal()` or `show()`
 
-- `<data value=@@> </data>` => links human-readable value to a machine-readable one
+- `<data value="MACHINE"> HUMAN </data>` => links human-readable value to a machine-readable one
