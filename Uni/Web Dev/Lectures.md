@@ -65,6 +65,10 @@
 ### Image Tags
 ---
 
-- `<map>`
-  `<area> </area`
+- `<img src="" usemap="#MAPNAME" alt="">`
+  `<map name="MAPNAME">` => is the container. Its `name` attribute gives it an identifier that the `img` tag connects to
+  `<area shape="" coords="" href="" alt="">`
+  `</area>` => defines one clickable region inside the map
   `</map>`
+
+- `canvas`
