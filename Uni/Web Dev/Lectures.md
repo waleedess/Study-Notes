@@ -129,3 +129,7 @@
 ### Table Tags
 ---
 ![[Pasted image 20261018234606.png]]
+====
+
+### Style & Semantic Tags
+---
