@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -191,6 +192,7 @@
   },
   "active": "89c2298eb0529f42",
   "lastOpenFiles": [
+    "Pasted image 20261019023626.png",
     "Pasted image 20261018234606.png",
     "SS/Pasted image 20261018234409.png",
     "Programming/Web/HTML.md",

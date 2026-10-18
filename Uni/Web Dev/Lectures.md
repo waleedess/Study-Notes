@@ -133,3 +133,4 @@
 
 ### Style & Semantic Tags
 ---
+![[Pasted image 20261019023626.png]]
