@@ -84,3 +84,8 @@
   `<img src="SmallImage.jpg"` => Acts as the fallback
   `</picture>`
 
+- `<svg>`
+  `<circle />`
+  `<rect />`
+  `<line />`
+  `</svg>`
