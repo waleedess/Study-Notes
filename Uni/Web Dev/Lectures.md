@@ -84,8 +84,8 @@
   `<img src="SmallImage.jpg"` => Acts as the fallback
   `</picture>`
 
-- `<svg>`
-  `<circle />`
+- `<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">` => is a container for vector graphics: shapes drawn with code instead of a bitmap image. Its contents are described with coordinates, so the graphic stays sharp at any size and can be styled with CSS or animated with JavaScript
+  `<circle cx="60" cy="60" r="50" fill="tomato" />`
   `<rect />`
   `<line />`
   `</svg>`
