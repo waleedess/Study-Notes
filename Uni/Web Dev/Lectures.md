@@ -124,4 +124,8 @@
 
 ### List Tags 
 ---
-![[Pasted image 20261018234409.png]]
+![[Pasted image 20261018234409.png]]====
+
+### Table Tags
+---
+![[Pasted image 20261018234606.png]]
