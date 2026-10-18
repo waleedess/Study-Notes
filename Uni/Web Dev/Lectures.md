@@ -73,4 +73,7 @@
 
 - `<canvas> </canvas>` => Used to draw graphics via JavaSript
 
-- 
+- `<figure>`
+  `<img src="">`
+  `<figcaption> TEXT <figcaption>`
+  `</figure>`
