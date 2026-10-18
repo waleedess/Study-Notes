@@ -65,4 +65,6 @@
 ### Image Tags
 ---
 
-- 
+- `<map>`
+  `<area> </area`
+  `</map>`
