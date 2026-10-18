@@ -114,4 +114,14 @@
 
 - `<link rel="stylesheet or icon" href="">` => Connects the document to an external resource under `<head>` tag and does not display anything and the `rel` att. says what the linked file is
 
-- 
+- `<nav>` => marks a section of the page that holds the main navigation links, like a menu.
+  `<ul>`
+  `<li><a href="index.html">Home</a></li>`
+  `<li><a href="about.html">About</a></li>`
+  `</ul>`
+  `</nav>`
+====
+
+### List Tags 
+---
+![[Pasted image 20261018234409.png]]
