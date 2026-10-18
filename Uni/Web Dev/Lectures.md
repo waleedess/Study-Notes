@@ -157,4 +157,6 @@
 
 - `<details> </details>` => ==Creates a box that user can open or close for extra info==
 
-- `<dialog> </dialog>`
+- `<dialog> </dialog>` => defines a dialog box or popup window and it is hidden until opened with JavaScript using `showmodal()` or `show()`
+
+- `<summary> </summary>` => 
