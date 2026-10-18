@@ -102,6 +102,16 @@
   
 - `<video controls poster="">`
   `<source src="clip.mp4" type="video/mp4">`
-  `<track kind="subtitles" src="subs-en.vtt" srclang="en" label="English" default> `
+  `<track kind="subtitles" src="subs-en.vtt" srclang="en" label="English" default>` => adds text to a video or audio element, most often subtitles or captions
   `TEXT`
   `</video>`
+====
+
+### Link Tags
+---
+
+- `<a href="" target="_blank">` `TEXT` `</a>` => `target="_blank"` opens the links in a new tab
+
+- `<link rel="stylesheet or icon" href="">` => Connects the document to an external resource under `<head>` tag and does not display anything and the `rel` att. says what the linked file is
+
+- 
