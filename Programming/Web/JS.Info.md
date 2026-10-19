@@ -237,8 +237,10 @@
 1. `>/<` : Greater/less than
 2. `>=/<=` : Greater/less than or equal
 3. `==` : Equals, `=` means assignment 
-4. `!=` : Not equal
-5. **`===`** : **Strict equality operator**; checks the equality withot type conversion 
+4. **`===`** : **Strict equality operator**; checks the equality without type conversion 
+5. `!=` : Not equal
+6. `!==` : Not equal in value and type
+
 
 ###### Boolean 
 
