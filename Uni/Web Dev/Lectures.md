@@ -202,16 +202,22 @@
 
 3. **`onekeyup/down`** => `onekeydown` occurs when user is pressing or holding a key, while `onekeyup` occurs when the key is released and only applies to text-inputed fields
 
-4. `onsubmit` => Occurs when submit button in a form is clicked
+4. **`onsubmit`** => Occurs when submit button in a form is clicked
 
-5. `onreset` => Occurs when reset button in a form is clicked
+5. **`onreset`** => Occurs when reset button in a form is clicked
 
-6. `onmouseover` => Occurs when user mouse over an element
+6. **`onmouseover`** => Occurs when user mouse over an element
 
-7. `onmouseout` => Occurs when user moves the mouse pointer out of element
+7. **`onmouseout`** => Occurs when user moves the mouse pointer out of element
 
-8. `onmouseup` => Occurs when user releases a mouse button over an element
+8. **`onmouseup`** => Occurs when user releases a mouse button over an element
 
-9. `onclink` => Occurs when user clicks a mouse button over an element
+9. **`onclink`** => Occurs when user clicks a mouse button over an element
 
-10. `onselect` => Occurs after some text has been selected in an element
+10. **`onselect`** => Occurs after some text has been selected in an element
+
+11. **`onfocus`** => Occurs when an element gets focus
+
+12. **`onblur`** => Occurs when an object loses focus
+
+13. 
