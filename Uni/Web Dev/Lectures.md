@@ -174,7 +174,8 @@
 
 - Document is an object also tables, images, forms, etc. are objects
 - These objects got properties to access one use this notation `OBJName.PROPName`
-  
+====
+ 
 ### Document Object
 ---
 
@@ -190,3 +191,13 @@
 - Some Document methods:
 	- `write()` => Writes one or more HTML expressions to a document in the specified window
 	- `getElementById` => Gets HTML element by its id
+====
+
+### JS Events
+---
+
+1. **`onload`** => Used to call the execution of JS after page loads as `<body onload="alert('')">`
+
+2. **`onchange`** => Specifies script code to run when data in text-inputed field changes
+
+3. **``**
