@@ -230,9 +230,12 @@
 - JS does not have a string data type, so using methods is the only way to work with them
 - To create a string object use `stringOBJName = new String(string)`
 - **Methods:**![[Pasted image 20261019212555.png]]
-
+====
 
 #### 2. Date 
 
 - JS does not have a date data type, so using methods is the only way 
-- Have a large number of methods
+- Have a large number of methods for setting, getting & manipulating dates, but do not have any properties
+====
+
+
