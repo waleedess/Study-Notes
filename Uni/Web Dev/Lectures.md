@@ -223,3 +223,9 @@
 
 ### Most-used Objects
 ---
+
+##### String
+
+- Has one property only which is `lenght`
+
+
