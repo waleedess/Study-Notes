@@ -237,8 +237,13 @@
 - JS does not have a date data type, so using methods is the only way 
 - Have a large number of **methods** for setting, getting & manipulating dates: ![[Pasted image 20261019212949.png]] 
 - Do not have any properties
-- To create a new one use `date OBJName = new Date (PARList)`
+- To create a new one use `date OBJName = new Date (PARList)`, PAR examples:
+	1. **Nothing** => Creates today's date and time
+	2. **String** in the form of `M, D, Y Hr:Min:Sec` any omitted will be set 0
+	3. Set of **integers** in form of `Y,M,D,Hr,Min,Sec`
 
 ====
 
-#### 
+#### 3. Array
+
+- 
