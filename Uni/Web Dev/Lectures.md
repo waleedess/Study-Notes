@@ -227,9 +227,12 @@
 #### 1. String
 
 - Has one property only which is `length`
-- JS does not have a string data type, so using String's methods is the only way to work with them
+- JS does not have a string data type, so using methods is the only way to work with them
 - To create a string object use `stringOBJName = new String(string)`
 - **Methods:**![[Pasted image 20261019212555.png]]
 
 
-#### 2. Dat
+#### 2. Date 
+
+- JS does not have a date data type, so using methods is the only way 
+- Have a large number of methods
