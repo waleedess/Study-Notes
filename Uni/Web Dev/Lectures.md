@@ -162,3 +162,14 @@
 - `<dialog> </dialog>` => defines a dialog box or popup window and it is hidden until opened with JavaScript using `showmodal()` or `show()`
 
 - `<data value="MACHINE"> HUMAN </data>` => links human-readable value to a machine-readable one
+====
+====
+====
+
+# JS
+
+### JS Hierarchy
+![[Pasted image 20261019205022.png]]
+
+- Document is an object also tables, images, forms, etc. are objects
+- These objects got properties to access one use this notation `OBJName.PROPName`

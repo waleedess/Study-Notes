@@ -35,8 +35,7 @@
               "title": "JS.Info"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,8 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ccbbb4262072959",
+  "active": "89c2298eb0529f42",
   "lastOpenFiles": [
+    "Pasted image 20261019205022.png",
+    "Programming/Web/JS.Info.md",
     "Uni/Web Dev/Lectures.md",
     "Pasted image 20261019024534.png",
     "Pasted image 20261019023626.png",
@@ -252,7 +253,6 @@
     "Untitled.canvas",
     "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
     "CSEC/Learning/Attacking Web Applications with Ffuf.md",
-    "Programming/Web/JS.Info.md",
     "Programming/Web/CSS.md"
   ]
 }
