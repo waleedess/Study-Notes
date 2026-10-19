@@ -226,6 +226,6 @@
 
 ##### String
 
-- Has one property only which is `lenght`
-
-
+- Has one property only which is `length`
+- JS does not have a string data type, so using String's methods is the only way to work with them
+- 
