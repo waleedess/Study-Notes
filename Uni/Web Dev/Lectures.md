@@ -235,7 +235,7 @@
 #### 2. Date 
 
 - JS does not have a date data type, so using methods is the only way 
-- Have a large number of **methods** for setting, getting & manipulating dates: ![[Pasted image 20261019212949.png]] 
+- Have **methods** for setting, getting & manipulating dates: ![[Pasted image 20261019212949.png]] 
 - Do not have any properties
 - To create a new one use `date OBJName = new Date (PARList)`, PAR examples:
 	1. **Nothing** => Creates today's date and time
@@ -246,4 +246,7 @@
 
 #### 3. Array
 
-- 
+- Have **methods** for joining, reversing & sorting arrays as 
+	1. `join`
+	2. `reverse`
+	3. `sort`
