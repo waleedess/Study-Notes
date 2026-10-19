@@ -248,5 +248,5 @@
 
 - Have **methods** for joining, reversing & sorting arrays as 
 	1. `join`
-	2. `reverse`
+	2. `reverse` => transposes the elements of an array: the first array element becomes the last and the last becomes the first
 	3. `sort`
