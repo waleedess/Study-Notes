@@ -237,6 +237,8 @@
 - JS does not have a date data type, so using methods is the only way 
 - Have a large number of **methods** for setting, getting & manipulating dates: ![[Pasted image 20261019212949.png]] 
 - Do not have any properties
+- To create a new one use `date OBJName = new Date (PARList)`
+
 ====
 
 #### 
