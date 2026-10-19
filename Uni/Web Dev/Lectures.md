@@ -228,4 +228,6 @@
 
 - Has one property only which is `length`
 - JS does not have a string data type, so using String's methods is the only way to work with them
-- 
+- To create a string object use `stringOBJName = new String(string)`
+
+- Methods:**![[Pasted image 20261019212555.png]]
