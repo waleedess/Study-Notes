@@ -169,7 +169,24 @@
 # JS
 
 ### JS Hierarchy
+---
 ![[Pasted image 20261019205022.png]]
 
 - Document is an object also tables, images, forms, etc. are objects
 - These objects got properties to access one use this notation `OBJName.PROPName`
+  
+### Document Object
+---
+
+- Contains info on the current document providing methods for displaying HTML output 
+  
+- Some Document properties:
+	- `forms[]` => **Array** of form objects
+	- `images[]` => **Array** of image objects
+	- `links[]` => **Array** of link objects
+	- `lastmodified` => **String** that specifies the last modification date for the document
+	- `title` => **String** that specifies the contents of `<title>` tag
+
+- Some Document methods:
+	- `write()` => Writes one or more HTML expressions to a document in the specified window
+	- `getElementById` => Gets HTML element by its id
