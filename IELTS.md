@@ -5,4 +5,4 @@
 # Present Continuous 
 
 # Past Simple 
-![[Pasted image 20261022135925.png]]
+![[Pasted image 20261022135925.png]]![[Pasted image 20261022141424.png]]![[Pasted image 20261022141432.png]]
