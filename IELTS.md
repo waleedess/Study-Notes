@@ -7,4 +7,4 @@
 # Past Simple 
 ![[Pasted image 20261022135925.png]]![[Pasted image 20261022141424.png]]![[Pasted image 20261022141432.png]]
 # Past Continuous 
-![[Pasted image 20261022144337.png]]![[Pasted image 20261022203715.png]]
+![[Pasted image 20261022144337.png]]![[Pasted image 20261022203715.png]]![[Pasted image 20261022204118.png]]
