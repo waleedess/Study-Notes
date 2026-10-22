@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "552829f336158739",
@@ -220,6 +221,7 @@
   },
   "active": "5a03cb9bf7db8976",
   "lastOpenFiles": [
+    "Pasted image 20261022135925.png",
     "Pasted image 20261021155852.png",
     "Pasted image 20261021155846.png",
     "Pasted image 20261021155705.png",
@@ -233,7 +235,6 @@
     "Uni/Web Dev/Lectures.md",
     "Pasted image 20261019212949.png",
     "Pasted image 20261019212555.png",
-    "Pasted image 20261019205022.png",
     "Programming/Web/HTML.md",
     "Uni/Web Dev/Labs.md",
     "file:W:/UNI/Probability/Probability and Statistics for Engineers and Scientists 9th Edition by Rorald Walpole.pdf",
