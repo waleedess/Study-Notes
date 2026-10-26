@@ -146,7 +146,7 @@
 			- `fn never_return_fn() -> ! { unimplemented() }`
 			- `fn never_return_fn() -> ! { todo() }`
 	3. **Return**:
-		- The lase expression without `;` is returned
+		- The last expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
 - **`const fn`** can be evaluated at compile time
 ====
