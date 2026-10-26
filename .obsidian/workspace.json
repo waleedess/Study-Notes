@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS.md",
+                "file": "Programming/Scripting/Rust.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IELTS"
+              "title": "Rust"
             }
           }
         ]
@@ -192,6 +192,7 @@
   },
   "active": "5a03cb9bf7db8976",
   "lastOpenFiles": [
+    "IELTS.md",
     "Pasted image 20261022204118.png",
     "Pasted image 20261022203715.png",
     "Pasted image 20261022144337.png",
@@ -199,12 +200,10 @@
     "Pasted image 20261022141424.png",
     "Pasted image 20261022135925.png",
     "Pasted image 20261021155852.png",
-    "Pasted image 20261021155846.png",
+    "SS/Pasted image 20261021155846.png",
     "Pasted image 20261021155705.png",
     "Pasted image 20261021155606.png",
-    "Pasted image 20261021155408.png",
     "Programming/Web/JS.Info.md",
-    "IELTS.md",
     "Uni/Web Dev/Lectures.md",
     "Programming/Web/HTML.md",
     "Uni/Web Dev/Labs.md",
