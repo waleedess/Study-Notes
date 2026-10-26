@@ -146,6 +146,7 @@
 			- `fn never_return_fn() -> ! { panic!() }`
 			- `fn never_return_fn() -> ! { unimplemented() }`
 			- `fn never_return_fn() -> ! { todo() }`
+		- 
 	3. **Return**:
 		- The last expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
