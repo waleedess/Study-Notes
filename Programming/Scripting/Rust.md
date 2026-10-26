@@ -119,7 +119,7 @@
 
 `fn plus_one_broken(n: i32) -> i32 {`
     `n + 1;       // statement: value is discarded, function returns ()`
-`}                // error: expected i32, found ()`
+`}                // error: expected i32, returns ()`
 
 - Semicolon is the key difference as it discarded the value
 ###### Second
