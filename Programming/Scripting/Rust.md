@@ -146,7 +146,8 @@
 			- `fn never_return_fn() -> ! { panic!() }`
 			- `fn never_return_fn() -> ! { unimplemented() }`
 			- `fn never_return_fn() -> ! { todo() }`
-		- Use `-> Option<TYPE>` when a function may or may not return a value  
+		- Use `-> Option<TYPE>` when a function may or may not return a value
+			- `fn find_even(n: i32) -> Option<i32> { if n % 2 == 0 { Some(n) } else { None } }`
 	3. **Return**:
 		- The last expression without `;` is returned
 		- `return VALUE;` returns it early, useful in loops/conditions
