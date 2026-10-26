@@ -141,7 +141,7 @@
 		- Add `mut` to a parameter if the function uses mutability
 	2. **Return Type**:
 		- If `-> RT` is omitted, function returns `()`
-		- `-> ()` function returns ==🟢normally== with the single unit value `()` 
+		- `-> ()` function returns ==🟢normally== with the single unit value `()` that means nothing useful to return, but it is not null. Close to `void` in C++ & Java
 		- Use `-> !` if the function is ==🔴never-returning== (divergent), it panics, loops for ever or exits
 			- `fn never_return_fn() -> ! { panic!() }`
 			- `fn never_return_fn() -> ! { unimplemented() }`
