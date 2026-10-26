@@ -141,7 +141,8 @@
 		- Add `mut` to a parameter if the function uses mutability
 	2. **Return Type**:
 		- If `-> RT` is omitted, function returns `()`
-		- Use `-> !` if the function is never-returning (divergent)
+		- `-> ()` function returns ==🟢normally== with the single unit value `()` 
+		- Use `-> !` if the function is ==🔴never-returning== (divergent), it panics, loops for ever or exits
 			- `fn never_return_fn() -> ! { panic!() }`
 			- `fn never_return_fn() -> ! { unimplemented() }`
 			- `fn never_return_fn() -> ! { todo() }`
