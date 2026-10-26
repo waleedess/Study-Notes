@@ -135,10 +135,10 @@
 
 - Block of reusable code 
 - Declared with `fn name(param: Type, param2: Type) -> ReturnType { // body }`
-- Can take arguments/parameters, return type and returns results
+- Can take arguments/parameters, return type and returns values
 	1. **Arguments**:
 		- Must have explicit types 
-		- Mention `mut` when using mutability
+		- Add `mut` to a parameter if the function uses mutability
 	2. **Return Type**:
 		- If `-> RT` is omitted, function returns `()`
 		- Use `-> !` if the function is never-returning (divergent)
