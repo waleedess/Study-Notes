@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSEC/Tools/Burp Suite.md",
+                "file": "Books/Life/The Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Suite"
+              "title": "The Tools"
             }
           }
         ]
@@ -191,6 +191,9 @@
   },
   "active": "5a03cb9bf7db8976",
   "lastOpenFiles": [
+    "Books/Life",
+    "CSEC/Tools/Burp Suite.md",
+    "Books/Life/The Tools.md",
     "CSEC/Domains/Web/HTTP Methods & Sessions.md",
     "Books/Cybersecurity/Bug Bounty Bootcamp.md",
     "Books/Cybersecurity/Hacking APIs.md",
@@ -224,7 +227,6 @@
     "CSEC/Domains/Web/Recon/Passive/WHOIS & Reverse WHOIS.md",
     "CSEC/Domains/Web/Recon/Passive/Google Dorking.md",
     "CSEC/Domains/Web/APIs/API Anatomy.md",
-    "CSEC/Tools/Burp Suite.md",
     "CSEC/Tools/Tools Map.canvas",
     "Programming/Database Fundamentals by ITI.md",
     "HTTP.md",
@@ -236,7 +238,6 @@
     "Local Git's Workflow.md",
     "CSEC/Skills",
     "Untitled.canvas",
-    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md",
-    "CSEC/Learning/Attacking Web Applications with Ffuf.md"
+    "Books/Cybersecurity/Bug Bounty Bootcamp by Vickie Li/Chapter 4 - Environmental Setup & Traffic Interception.md"
   ]
 }
