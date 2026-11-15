@@ -504,3 +504,8 @@
 	2. Identifier is computed `[""+i]`
 	3. Identifier is stored in a variable
 - For nested objects: `obj["nestedObj"]["property"]`
+  
+
+### Delete 
+
+- We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
