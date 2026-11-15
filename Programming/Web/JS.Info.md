@@ -513,3 +513,4 @@
 
 - We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
 - Freezed objects' properties cannot be deleted
+- `configurable: false` properties cannot be deleted
