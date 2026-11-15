@@ -469,6 +469,11 @@
 
 ### Calling a Key
 
-###### 1. Dot Notation
+##### 1. Dot Notation
+ > Searches for property with exact name 
+
+- Better & Faster if allowed
+
+##### Bracket Notation 
+> 
  
- ``
