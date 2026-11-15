@@ -505,7 +505,11 @@
 	3. Identifier is stored in a variable
 - For nested objects: `obj["nestedObj"]["property"]`
   
+### Freeze
+
+- Freezing objects make them deny any additions or removals using `Object.freeze(`
 
 ### Delete 
 
 - We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
+  
