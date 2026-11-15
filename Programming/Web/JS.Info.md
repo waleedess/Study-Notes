@@ -456,11 +456,15 @@
 ###### 1. Object-Literal 
 
 `let OPJ ={`
-`//Properties`
-`KEY1: "VALUE", KEY1: "VALUE", KEYn,`
-`//Methods`
-`FUNC: function (PARList) {} `
-`};`
+**`//Properties`**
+`KEY1: "VALUE",`
+`KEY2: "VALUE",` 
+`KEYn,`
+**`//Methods`**
+`FUNC1: function (PARList) {},`
+`FUNC2: function (PARList) {},`
+`FUNCn: function (PARList) {},` =>Even the last terminates with `,`
+`};` => `;` only terminates the whole object
 
 
 ### Calling a Key
