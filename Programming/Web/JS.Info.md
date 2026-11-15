@@ -458,22 +458,21 @@
 `let OPJ ={`
 **`//Properties`**
 `KEY1: "VALUE",`
-`KEY2: "VALUE",` 
-`KEYn,`
+`KEYn: "VALUE",`
 **`//Methods`**
 `FUNC1: function (PARList) {},`
-`FUNC2: function (PARList) {},`
 `FUNCn: function (PARList) {},` =>Even the last terminates with `,`
 `};` => `;` only terminates the whole object
 
 ##### 2. New Keyword
-`let OBJ = new Object();`
+
+`let OBJ = new Object();` => no `{}`
 **`//Properties`**
-`OBJ.KEY1;`
-`OBJ.KEY2;`
-`OBJ.KEYn;`
+`OBJ.KEY1 = "VALUE";` => Each prop/method terminated by `;`
+`OBJ.KEYn = "VALUE";`
 **`//Methods`**
-`OBJ.`
+`OBJ.FUNC1 = fucntion (PARList) {};`
+`OBJ.FUNCn = fucntion (PARList) {};` => Even the last uses `;`
 
 ### Calling a Key
 
