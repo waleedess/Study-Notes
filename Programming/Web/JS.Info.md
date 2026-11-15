@@ -480,7 +480,14 @@
 => creates an object from an **already created** object
 ##### 4. `Object.assign()`
 
+`Object.assign(TARGETtopaste, SRC1tocopyfrom, SRCntocopyfrom);`
+=> for predefined source objects
 
+`Object.assign(TARGET, {PROP: "VALUE"});`
+=> for making source ones on the fly
+
+`let OBJ = Object.assign({}, SRC);`
+=> to make target on the fly
 
 ### Calling a Key
 
