@@ -468,9 +468,12 @@
 
 ##### 2. New Keyword
 `let OBJ = new Object();`
+**`//Properties`**
 `OBJ.KEY1;`
 `OBJ.KEY2;`
 `OBJ.KEYn;`
+**`//Methods`**
+`OBJ.`
 
 ### Calling a Key
 
