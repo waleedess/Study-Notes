@@ -475,5 +475,10 @@
 - Better & Faster if allowed
 
 ##### Bracket Notation 
-> 
- 
+> Evaluates Expressions
+
+- Used when:
+	1. Identifier has special character, space or number
+	2. Identifier is computed `[""+i]`
+	3. Identifier is stored in a variable
+- For nested objects: `obj["nestedObj"]["property"]`
