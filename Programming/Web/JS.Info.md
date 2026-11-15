@@ -476,6 +476,9 @@
 
 ##### 3. `Object.create()`
 
+`let OBJ2 = Object.create(OBJ1)`
+=> creates an object from an **already created** object
+##### 4. `Object.assign()`
 
 
 
