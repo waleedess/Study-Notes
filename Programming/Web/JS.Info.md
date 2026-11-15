@@ -453,7 +453,7 @@
 
 ### Defining an Object
 
-###### 1. Object-Literal 
+##### 1. Object-Literal 
 
 `let OPJ ={`
 **`//Properties`**
@@ -465,6 +465,8 @@
 `FUNC2: function (PARList) {},`
 `FUNCn: function (PARList) {},` =>Even the last terminates with `,`
 `};` => `;` only terminates the whole object
+
+##### 2. New Keyword
 
 
 ### Calling a Key
