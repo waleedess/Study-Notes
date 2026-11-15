@@ -467,7 +467,10 @@
 `};` => `;` only terminates the whole object
 
 ##### 2. New Keyword
-
+`let OBJ = new Object();`
+`OBJ.KEY1;`
+`OBJ.KEY2;`
+`OBJ.KEYn;`
 
 ### Calling a Key
 
