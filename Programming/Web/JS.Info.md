@@ -453,7 +453,7 @@
 
 ### Defining an Object
 
-###### 1. Object-Litral 
+###### 1. Object-Literal 
 
 `let OPJ ={`
 `//Properties`
