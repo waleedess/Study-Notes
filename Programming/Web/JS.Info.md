@@ -464,7 +464,7 @@
 `FUNCn: function (PARList) {},` =>Even the last terminates with `,`
 `};` => `;` only terminates the whole object
 
-##### 2. New Keyword
+##### 2. `New`
 
 `let OBJ = new Object();` => no `{}`
 **`//Properties`**
@@ -473,6 +473,11 @@
 **`//Methods`**
 `OBJ.FUNC1 = fucntion (PARList) {};`
 `OBJ.FUNCn = fucntion (PARList) {};` => Even the last uses `;`
+
+##### 3. `Object.create()`
+
+
+
 
 ### Calling a Key
 
