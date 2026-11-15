@@ -2,5 +2,6 @@
   "textFontFamily": "Cascadia Code",
   "cssTheme": "AnuPpuccin",
   "accentColor": "#000000",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }
