@@ -537,7 +537,7 @@
 
 ### Define property
 
-- By default all are `false`
+- By using define but default all are `false`, by not using define all are `true`
 ##### 1. Writeable
 
 ##### 2. Enumerable
