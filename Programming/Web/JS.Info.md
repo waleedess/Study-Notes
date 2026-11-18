@@ -534,3 +534,10 @@
 ### Getters & Setters
 - `get METHOD` + `OBJ.METHOD` => **No () at call**
 - `set METHOD` + `OBJ.METHOD =` => **No () at call and used like a variable to input**
+
+### Define property
+##### 1. Writeable
+
+##### 2. Enumerable
+
+##### 3. Configurable
