@@ -362,6 +362,11 @@
 	`case 5: code; break;`
 - `switch` uses strict equality checks equivalent to `===` so **type matters**
 
+###### For In 
+
+- Loops through the propeties of objects
+
+
 
 ### Functions 
 
