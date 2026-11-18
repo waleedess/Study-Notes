@@ -364,9 +364,8 @@
 
 ###### For In 
 
-- Loops through the propeties of objects
-
-
+`for (let VAR in OBJ){ code to be execurted };`
+- Loops through the properties of objects
 
 ### Functions 
 
@@ -519,3 +518,12 @@
 - We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
 - Freezed objects' properties cannot be deleted
 - `configurable: false` properties cannot be deleted
+
+
+### Constructor 
+
+`function NAME (PARList) {`
+`}`
+`let OBJ = new NAME(PARList);`
+
+-  
