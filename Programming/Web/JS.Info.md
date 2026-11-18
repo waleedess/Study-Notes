@@ -529,3 +529,8 @@
 - If did not use `new` keyword the class will not be instantiated and that object will sit in window object to access it use `window.PROP`. To check use the instantiation:
 	  1. `OBJ instanceof CLASS/CONSTRUCTOR` => True/False
 	  2. `OBJ.constructor === CONSTRUCTOR` => True/Error
+
+
+### Getters & Setters
+- `get METHOD` + `OBJ.METHOD` => **No () at call**
+- 
