@@ -554,5 +554,6 @@
 - Optional chaining sees if that was not `null`/`undefined` => returns the value, if it was => undefined instead of an error using other ways
 - It allows the thing ==🔴before it== to be safely conditioned ==🔴not what is after it== 
 	- The value before it **must** be declared, if not => error
+	- Short-circuiting: When the left side is `null` or `undefined`, the whole rest of the chain is skipped, not just the next property. So `a?.b.c.d` returns `undefined` if `a` is nullish, without erroring on `.c` or `.d`
 - Works with functions and bracket notation also
 - Can be used for ==🟢reading and deleting== but ==🔴not writing==
