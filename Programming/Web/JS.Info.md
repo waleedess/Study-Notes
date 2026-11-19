@@ -546,3 +546,10 @@
 	2. Enumerable
 	
 	3. Configurable
+
+###### Optional Chaining
+
+`OBJ?.inOBJ?.PROP?.`
+
+- Optional chaining sees if that was defined => returns the value, if was not defined (was not created, assigned or whatever) => undefined instead of an error using other ways
+- It allows the thing ==🔴before it== to be safely conditioned ==🔴not what is after it== 
