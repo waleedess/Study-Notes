@@ -455,9 +455,10 @@
 	- To have properties act or be treated as an expression or a variable use the square brackets whether it was a multiword or not: `let key = xxx; OBJ[key]`
 - **Computed Properties**
 
-### Defining an Object
+###### Defining an Object
 
-##### 1. Object-Literal 
+
+1. **Object-Literal** 
 
 `let OPJ ={`
 **`//Properties`**
@@ -468,7 +469,8 @@
 `FUNCn: function (PARList) {},` =>Even the last terminates with `,`
 `};` => `;` only terminates the whole object
 
-##### 2. `New`
+
+2. **`New`**
 
 `let OBJ = new Object();` => no `{}`
 **`//Properties`**
@@ -478,11 +480,14 @@
 `OBJ.FUNC1 = fucntion (PARList) {};`
 `OBJ.FUNCn = fucntion (PARList) {};` => Even the last uses `;`
 
-##### 3. `Object.create()`
+
+3. **`Object.create()`**
 
 `let OBJ2 = Object.create(OBJ1)`
 => creates an object from an **already created** object
-##### 4. `Object.assign()`
+
+
+4. **`Object.assign()`**
 
 `Object.assign(TARGETtopaste, SRC1tocopyfrom, SRCntocopyfrom);`
 => for predefined source objects
@@ -493,14 +498,15 @@
 `let OBJ = Object.assign({}, SRC);`
 => to make target on the fly
 
-### Calling a Key
+###### Calling a Key
 
-##### 1. Dot Notation
+1. **Dot Notation**
  > Searches for property with exact name 
 
 - Better & Faster if allowed
 
-##### Bracket Notation 
+
+2. **Bracket Notation** 
 > Evaluates Expressions
 
 - Used when:
@@ -509,18 +515,18 @@
 	3. Identifier is stored in a variable
 - For nested objects: `obj["nestedObj"]["property"]`
   
-### Freeze
+###### Freeze
 
 - Freezing objects make them deny any additions or removals using `Object.freeze(`
 
-### Delete 
+###### Delete 
 
 - We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
 - Freezed objects' properties cannot be deleted
 - `configurable: false` properties cannot be deleted
 
 
-### Constructor 
+###### Constructor 
 
 `function NAME (PARList) {`
 `}`
@@ -531,15 +537,15 @@
 	  2. `OBJ.constructor === CONSTRUCTOR` => True/Error
 
 
-### Getters & Setters
+###### Getters & Setters
 - `get METHOD` + `OBJ.METHOD` => **No () at call**
 - `set METHOD` + `OBJ.METHOD =` => **No () at call and used like a variable to input**
 
-### Define property
+###### Define property
 
 - By using define but default all are `false`, by not using define all are `true`
-##### 1. Writeable
+1. Writeable
 
-##### 2. Enumerable
+2. Enumerable
 
-##### 3. Configurable
+3. Configurable
