@@ -539,7 +539,6 @@
 - `set METHOD` + `OBJ.METHOD =` => **No () at call and used like a variable to input**
 
 ###### Define property
-
 - By using define but default all are `false`, by not using define all are `true`
 	1. Writeable
 	
