@@ -362,10 +362,15 @@
 	`case 5: code; break;`
 - `switch` uses strict equality checks equivalent to `===` so **type matters**
 
-###### For In 
+###### For in 
 
-`for (let VAR in OBJ){ code to be execurted };`
+`for (let VAR in OBJ){ code to be execurted }`
 - Loops through the properties of objects
+
+###### For of 
+
+`for (let VAR in ARR){ code to be execurted }`
+- Loops through the indexes of arrays
 
 ### Functions 
 
