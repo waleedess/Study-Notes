@@ -548,12 +548,11 @@
 	3. Configurable
 
 ###### Optional Chaining
+> Forms: `OBJ?.PROP`, `OBJ?.[KEY]`, `FUNC?.()`/`OBJ.METHOD?.()
 
-`OBJ?.inOBJ?.PROP?.`
-
-- Optional chaining sees if that was not `null`/`undefined` => returns the value, if it was => undefined instead of an error using other ways
+- Optional chaining sees if that was not `null`/`undefined` => returns the value, if it was => undefined instead of an error
 - It allows checking the value ==🟢on its **left**== safely ==🔴not on its **right**== 
-	- The value before it **must** be declared, if not => error
+	- The value before it **must** be declared, if not => Reference error
 	- Short-circuiting: When the left side is `null` or `undefined`, the whole rest of the chain is skipped, not just the next property. So `a?.b.c.d` returns `undefined` if `a` is nullish, without erroring on `.c` or `.d`
 - Works with functions and bracket notation also
-- Can be used for ==🟢reading and deleting== but ==🔴not writing==
+- Can be used for ==🟢reading and deleting== but ==🔴not writing== => Syntax error
