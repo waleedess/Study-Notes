@@ -459,44 +459,40 @@
 
 
 1. **Object-Literal** 
-
-`let OPJ ={`
-**`//Properties`**
-`KEY1: "VALUE",`
-`KEYn: "VALUE",`
-**`//Methods`**
-`FUNC1: function (PARList) {},`
-`FUNCn: function (PARList) {},` =>Even the last terminates with `,`
-`};` => `;` only terminates the whole object
+	`let OPJ ={`
+	**`//Properties`**
+	`KEY1: "VALUE",`
+	`KEYn: "VALUE",`
+	**`//Methods`**
+	`FUNC1: function (PARList) {},`
+	`FUNCn: function (PARList) {},` =>Even the last terminates with `,`
+	`};` => `;` only terminates the whole object
 
 
 2. **`New`**
-
-`let OBJ = new Object();` => no `{}`
-**`//Properties`**
-`OBJ.KEY1 = "VALUE";` => Each prop/method terminated by `;`
-`OBJ.KEYn = "VALUE";`
-**`//Methods`**
-`OBJ.FUNC1 = fucntion (PARList) {};`
-`OBJ.FUNCn = fucntion (PARList) {};` => Even the last uses `;`
+	`let OBJ = new Object();` => no `{}`
+	**`//Properties`**
+	`OBJ.KEY1 = "VALUE";` => Each prop/method terminated by `;`
+	`OBJ.KEYn = "VALUE";`
+	**`//Methods`**
+	`OBJ.FUNC1 = fucntion (PARList) {};`
+	`OBJ.FUNCn = fucntion (PARList) {};` => Even the last uses `;`
 
 
 3. **`Object.create()`**
-
-`let OBJ2 = Object.create(OBJ1)`
-=> creates an object from an **already created** object
+	`let OBJ2 = Object.create(OBJ1)`
+	=> creates an object from an **already created** object
 
 
 4. **`Object.assign()`**
-
-`Object.assign(TARGETtopaste, SRC1tocopyfrom, SRCntocopyfrom);`
-=> for predefined source objects
-
-`Object.assign(TARGET, {PROP: "VALUE"});`
-=> for making source ones on the fly
-
-`let OBJ = Object.assign({}, SRC);`
-=> to make target on the fly
+	`Object.assign(TARGETtopaste, SRC1tocopyfrom, SRCntocopyfrom);`
+	=> for predefined source objects
+	
+	`Object.assign(TARGET, {PROP: "VALUE"});`
+	=> for making source ones on the fly
+	
+	`let OBJ = Object.assign({}, SRC);`
+	=> to make target on the fly
 
 ###### Calling a Key
 
@@ -522,8 +518,8 @@
 ###### Delete 
 
 - We can delete a property using `delete OBJ./[PROP]` but cannot delete the whole object
-- Freezed objects' properties cannot be deleted
-- `configurable: false` properties cannot be deleted
+	- Freezed objects' properties cannot be deleted
+	- `configurable: false` properties cannot be deleted
 
 
 ###### Constructor 
@@ -538,14 +534,15 @@
 
 
 ###### Getters & Setters
+
 - `get METHOD` + `OBJ.METHOD` => **No () at call**
 - `set METHOD` + `OBJ.METHOD =` => **No () at call and used like a variable to input**
 
 ###### Define property
 
 - By using define but default all are `false`, by not using define all are `true`
-1. Writeable
-
-2. Enumerable
-
-3. Configurable
+	1. Writeable
+	
+	2. Enumerable
+	
+	3. Configurable
