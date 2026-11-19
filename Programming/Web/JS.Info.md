@@ -371,6 +371,8 @@
 
 `for (let VAR in ARR){ code to be execurted }`
 - Loops through the indexes of arrays
+- Example: `for (let i of fruitsarray) {console.log(i); // Apple, Orange, Pear}`
+	- we can use `(let i in fruitsarray)` as arrays are just "ordered objects with -preferably- numeric properties" but `for in` iterates over all properties, not only numeric ones. which will make the loop 10-100x slower than `for of` for an array
 
 ### Functions 
 
