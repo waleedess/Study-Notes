@@ -555,3 +555,4 @@
 - It allows the thing ==🔴before it== to be safely conditioned ==🔴not what is after it== 
 	- The value before it **must** be declared, if not => error
 - Works with functions and bracket notation also
+- Can be used for ==🟢reading and deleting== but ==🔴not writing==
