@@ -562,3 +562,8 @@
 	- Short-circuiting: When the left side is `null` or `undefined`, the whole rest of the chain is skipped, not just the next property. So `a?.b.c.d` returns `undefined` if `a` is nullish, without erroring on `.c` or `.d`
 - Works with functions and bracket notation also
 - Can be used for ==🟢reading and deleting== but ==🔴not writing== => Syntax error
+  
+  
+### JSON
+> `JSON.stringify` to convert object to JSON
+> `JSON.parse` to convert JSON to object
