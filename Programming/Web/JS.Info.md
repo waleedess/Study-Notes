@@ -584,5 +584,5 @@ JSON supports following data types:
 - Symbolic keys and values
 	- **Symbol** is a unique, primitive value. You create one with `Symbol()`, and every call returns a value that is different from every other symbol, even with the same description
 - Properties storing undefined
-- Circular references
--![[Pasted image 20261120145210.png]]
+- Circular references![[Pasted image 20261120145210.png]]
+- 
