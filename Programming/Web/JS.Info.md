@@ -567,3 +567,14 @@
 ### JSON
 > `JSON.stringify` to convert object to JSON
 > `JSON.parse` to convert JSON to object
+
+JSON supports following data types:
+
+- Objects `{ ... }`
+- Arrays `[ ... ]`
+- Primitives:
+    - strings (Double quoted)
+    - numbers
+    - boolean values `true/false`
+    - `null`
+
