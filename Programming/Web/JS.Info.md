@@ -578,7 +578,7 @@ JSON supports following data types:
     - boolean values `true/false`
     - `null`
 
-`JSON.stringify` iignores:
+`JSON.stringify` ignores:
 
 - Methods
 - Symbolic keys and values
