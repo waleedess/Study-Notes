@@ -554,7 +554,7 @@
 	3. Configurable
 
 ###### Optional Chaining
-> Forms: `OBJ?.PROP`, `OBJ?.[KEY]`, `FUNC?.()`/`OBJ.METHOD?.()
+> **Forms**: `OBJ?.PROP`, `OBJ?.[KEY]`, `FUNC?.()`/`OBJ.METHOD?.()
 
 - Optional chaining sees if that was not `null`/`undefined` => returns the value, if it was => undefined instead of an error
 - It allows checking the value ==🟢on its **left**== safely ==🔴not on its **right**== 
