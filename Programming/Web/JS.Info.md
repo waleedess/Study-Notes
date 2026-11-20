@@ -578,9 +578,10 @@ JSON supports following data types:
     - boolean values `true/false`
     - `null`
 
-`JSON.stringify` skips properties like
+`JSON.stringify` iignores:
 
 - Methods
 - Symbolic keys and values
 	- **Symbol** is a unique, primitive value. You create one with `Symbol()`, and every call returns a value that is different from every other symbol, even with the same description
 - Properties storing undefined
+- Circular references
