@@ -565,24 +565,25 @@
   
   
 ### JSON
-> `JSON.stringify` to convert object to JSON
-> `JSON.parse` to convert JSON to object
+> `JSON.stringify(value, replacer, space)` to convert object to JSON
 
-JSON supports following data types:
+1. `JSON.stringify` supports:
+	- Objects `{ ... }` & Nested Objects
+	- Arrays `[ ... ]`
+	- Primitives:
+	    - strings (Double quoted)
+	    - numbers
+	    - boolean values `true/false`
+	    - `null`
 
-- Objects `{ ... }` & Nested Objects
-- Arrays `[ ... ]`
-- Primitives:
-    - strings (Double quoted)
-    - numbers
-    - boolean values `true/false`
-    - `null`
+2. `JSON.stringify` ignores:
+	- Methods
+	- Symbolic keys and values
+		- **Symbol** is a unique, primitive value. You create one with `Symbol()`, and every call returns a value that is different from every other symbol, even with the same description
+	- Properties storing undefined
+	- Circular references![[Pasted image 20261120145210.png]]
 
-`JSON.stringify` ignores:
+> `JSON.parse(STRING, reviver)` to convert JSON to object
 
-- Methods
-- Symbolic keys and values
-	- **Symbol** is a unique, primitive value. You create one with `Symbol()`, and every call returns a value that is different from every other symbol, even with the same description
-- Properties storing undefined
-- Circular references![[Pasted image 20261120145210.png]]
+
 - 
