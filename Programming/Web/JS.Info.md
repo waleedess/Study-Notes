@@ -578,3 +578,8 @@ JSON supports following data types:
     - boolean values `true/false`
     - `null`
 
+`JSON.stringify` skips properties like
+
+- Methods
+- Symbolic keys and values
+- Properties storing undefined
