@@ -48,6 +48,7 @@
 - Keys can be int or string only, while value can be of any type
 - The key is optional. if not specified will be indexed by incrementing form 0 as usual
 	- It is possible to specify keys for some elements and leave others
+	- If negative integer key was used will be incremented as usual also
 - Additionally the following key casts will occur:
 	- Strings containing valid decimal [int](https://www.php.net/manual/en/language.types.integer.php)s, unless the number is preceded by a `+` sign, will be cast to the int type. E.g. the key `"8"` will actually be stored under `8`. On the other hand `"08"` will not be cast, as it isn't a valid decimal integer.
 	- Floats are also cast to [int](https://www.php.net/manual/en/language.types.integer.php)s, which means that the fractional part will be truncated. E.g. the key `8.7` will actually be stored under `8`.
