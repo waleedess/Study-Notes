@@ -6,7 +6,7 @@
 
 - Variables do not have a type, values have: string, int, float, boolean, null, array, object, resource
 
-### Decalaration
+### Declaration
 
 `$NAME = VALUE;`
 
