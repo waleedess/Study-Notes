@@ -9,3 +9,9 @@
 ### Decalaration
 
 `$NAME = VALUE;`
+
+### Call
+
+`$NAME`
+
+- to get them with their type => 
