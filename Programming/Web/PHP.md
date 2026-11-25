@@ -32,4 +32,9 @@
 
 `NAME` => Without `$`
 
+### Arrays
 
+`NAME(
+    `KEY1  => VALUE1,
+    `KEYn => VALUEn,
+`)`
