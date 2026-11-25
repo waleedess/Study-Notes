@@ -46,3 +46,9 @@
 
 
 - Keys can be int or string only, while value can be of any type
+- Additionally the following key casts will occur:
+	- Strings containing valid decimal [int](https://www.php.net/manual/en/language.types.integer.php)s, unless the number is preceded by a `+` sign, will be cast to the int type. E.g. the key `"8"` will actually be stored under `8`. On the other hand `"08"` will not be cast, as it isn't a valid decimal integer.
+	- Floats are also cast to [int](https://www.php.net/manual/en/language.types.integer.php)s, which means that the fractional part will be truncated. E.g. the key `8.7` will actually be stored under `8`.
+	- Bools are cast to ints, too, i.e. the key `true` will actually be stored under `1` and the key `false` under `0`.
+	- Null will be cast to the empty string, i.e. the key `null` will actually be stored under `""`.
+	- Arrays and objects _can not_ be used as keys. Doing so will result in a warning: `Illegal offset type`.
