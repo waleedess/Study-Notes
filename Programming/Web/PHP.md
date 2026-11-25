@@ -5,7 +5,7 @@
 # Variables
 ---
 - Variables do not have a type, values have: string, int, float, boolean, null, array, object, resource
-- `isset(VAR)` method used to check if the variable is defined or not in an bool input 
+- `isset(VAR)` method used to check if the variable is defined or not in an bool output 
 	- `null` definied => false
 
 ##### Declaration
@@ -21,7 +21,7 @@
 # Constants
 ---
 - Immutable cannot be changes 
-- ``
+- `defined(VAR)` method is used to check if a constant is defined or not in a bool output
 
 ###### Declaration
 
