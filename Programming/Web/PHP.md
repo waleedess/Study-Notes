@@ -34,7 +34,15 @@
 
 ### Arrays
 
-`NAME(
-    `KEY1  => VALUE1,
-    `KEYn => VALUEn,
-`)`
+`$NAME = [`
+    `KEY1  => VALUE1,`
+    `KEYn => VALUEn,`
+`];`
+**OR**
+`$NAME = array(`
+    `KEY1  => VALUE1,`
+    `KEYn => VALUEn,`
+`);`
+
+
+- Keys can be int or string only, while value can be of any type
