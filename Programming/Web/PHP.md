@@ -7,6 +7,7 @@
 - Variables do not have a type, values have: string, int, float, boolean, null, array, object, resource
 - `isset(VAR)` method used to check if the variable is defined or not in an bool output 
 	- `null` definied => false
+	- `undefined`, `unset()` => null
 
 ##### Declaration
 
