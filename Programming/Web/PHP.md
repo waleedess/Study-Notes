@@ -32,8 +32,8 @@
 
 `NAME` => Without `$`
 
-### Arrays
-
+# Arrays
+---
 `$NAME = [`
     `KEY1  => VALUE1,`
     `KEYn => VALUEn,`
@@ -55,3 +55,7 @@
 	- Bools are cast to ints, too, i.e. the key `true` will actually be stored under `1` and the key `false` under `0`.
 	- Null will be cast to the empty string, i.e. the key `null` will actually be stored under `""`.
 	- Arrays and objects _can not_ be used as keys. Doing so will result in a warning: `Illegal offset type`.
+
+
+# Loops
+---
