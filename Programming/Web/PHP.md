@@ -57,5 +57,5 @@
 	- Arrays and objects _can not_ be used as keys. Doing so will result in a warning: `Illegal offset type`.
 
 
-# Loops
+# Dates
 ---
